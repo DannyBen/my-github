@@ -8,8 +8,17 @@ def tags
   @tags ||= YAML.load_file 'src/tags.yml'
 end
 
+def user_content_prefix
+  ENV['DEV'] ? 'user-content-' : ''
+end
+
 def tag_title(tag)
-  tags[tag] || tag
+  if tags[tag]
+    tags[tag]
+  else
+    $stderr.puts "Warning: no title for #{tag}"
+    tag
+  end
 end
 
 def repos_by_tag
@@ -28,6 +37,10 @@ end
 
 class String
   def tag_to_link
-    "[#{self}](##{self})"
+    "[#{self}](##{user_content_prefix}#{slug})"
+  end
+
+  def slug
+    tag_title(self).downcase.gsub(' ', '-')
   end
 end

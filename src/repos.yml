@@ -14,7 +14,7 @@ audio_addict:
   name: AudioAddict
   summary: AudioAddict Command Line for Voting and Playlist Management
   lang: Ruby
-  tags: [ruby, gem, cli]
+  tags: [ruby, gem, cli, audio-tools]
 
 bobkit:
   name: Bobkit
@@ -128,116 +128,139 @@ eclipse:
   name: Eclipse
   summary: Encrypt / decrypt any text with a simple hotkey
   lang: AutoHotkey
+  tags: [autohotkey, encryption]
 
 enforce:
   name: Enforce
   summary: DSL for verifying file/folder content
   lang: Ruby
+  tags: [ruby, gem]
 
 filecache:
   name: Filecache
   summary: File caching library for Go
   lang: Go
+  tags: [go, cache]
 
 FlicFlac:
   name: FlicFlac
   summary: Tiny portable audio converter for Windows 
   lang: AutoHotkey
+  tags: [autohotkey, audio-tools]
 
 fredric:
   name: Fredric
   summary: FRED API library and command line interface
   lang: Ruby
+  tags: [ruby, gem, api, cli, api-wrapper, data-service]
 
 getcomments:
   name: GetComments
   summary: Extract comments from Ruby code
   lang: Ruby
+  tags: [ruby, gem, developer-utilities]
 
 gondl:
   name: Gondl
   summary: Command line console for Quandl
   lang: Go
+  tags: [go, cli, api, api-wrapper, data-service]
 
 Gridy:
   name: Gridy
   summary: Snap windows to grid
   lang: AutoHotkey
+  tags: [autohotkey]
 
 intrinio:
   name: Intrinio
   summary: Library and command line interface for Intrinio data API
   lang: Ruby
+  tags: [ruby, gem, cli, api, api-wrapper, data-service]
 
 ismine:
   name: IsMine
   summary: Ruby command line domain checker with wildcards
   lang: Ruby
+  tags: [ruby, gem, name-utilities, domain-utilities]
 
 jekyll-theme-proxima:
   name: Jekyll Theme Proxima
   summary: Theme for GitHub Pages, with GitHub-like styling
   lang: HTML
+  tags: [html, jekyll]
 
 jobly:
   name: Jobly
   summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
   lang: Ruby
+  tags: [ruby, gem, cli, background-jobs, api, web-server]
 
 jossh:
   name: Jossh
   summary: Run local scripts remotely by SSH
   lang: Ruby
+  tags: [ruby, gem, ssh, devops]
 
 kojo:
   name: Kojo
   summary: Command line utility for generating config files from templates and definition files
   lang: Ruby
+  tags: [ruby, gem, templating, configuration-tools, cli]
 
 lightly:
   name: Lightly
   summary: Ruby file cache for performing heavy tasks lightly
   lang: Ruby
+  tags: [ruby, gem, cache]
 
 loadrunner:
   name: LoadRunner
   summary: GitHub webhook server and event simulator
   lang: Ruby
+  tags: [ruby, gem, web-server, github, devops]
 
 lp:
   name: Lovely Print
   summary: Print any object in YAML format
   lang: Ruby
+  tags: [ruby, gem, developer-utilities]
 
 madman:
   name: Madman
   summary: The markdown swiss army knife
   lang: Ruby
+  tags: [ruby, gem, markdown]
 
 madness:
   name: Madness
   summary: Instant markdown server
   lang: Ruby
+  tags: [ruby, gem, markdown, documentation-server]
 
 menu_commander:
   name: Menu Commander
   summary: Create menus for any command line tool using simple YAML configuration
   lang: Ruby
+  tags: [ruby, gem, cli, shell-productivity]
 
 mister_bin:
   name: Mister Bin
   summary: Build modular command line tools
   lang: Ruby
+  tags: [ruby, gem, developer-utilities, cli-tools]
 
 opcode: 
   name: Opcode
   summary: Local command shortcuts
-  lang: Bash  
+  lang: Bash
+  tags: [bash, alias-management, shell-productivity]
 
 php-quandl:
   name: PHP Quandl
   summary: Easy access to the Quandl Data API using PHP
   lang: PHP
+  tags: [php, api, api-wrapper, data-service]
 
 pobject:
   name: Persistent Object

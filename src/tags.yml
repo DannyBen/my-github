@@ -2,20 +2,33 @@ alias-management: Shell Alias Management
 alpine: Alpine Linux
 api-wrapper: API Wrapper
 api: API
+audio-tools: Audio Tools
+autohotkey: AutoHotkey
 background-jobs: Background Jobs
 bash: Bash
+cache: Cache
 ci: Continuous Integration
 cli-tools: CLI Utilities
 cli: CLI
+configuration-tools: Configuration Tools
 cucumber: Cucumber
 data-processing: Data Processing
+data-service: Data Service
+developer-utilities: Developer Utilities
 devops: DevOps
 docker-compose: Docker Compose
 docker: Docker
 documentation-server: Documentation Server
+domain-utilities: Domain Utilities
+encryption: Encryption
 file-server: File Server
 gem: Ruby Gem
 gherkin: Gherkin
+git: Git
+github: GitHub
+go: Go
+html: HTML
+jekyll: Jekyll
 markdown: Markdown
 mongo: MongoDB
 name-utilities: Name Utilities
@@ -24,7 +37,8 @@ rabbit: RabbitMQ
 ruby: Ruby
 shell-productivity: Shell Productivity
 site-builder: Site Builder
+ssh: SSH
+templating: Templating
 testing-tools: Testing Tools
 ubuntu: Ubuntu
 web-server: Web Server
-
