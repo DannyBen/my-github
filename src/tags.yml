@@ -1,0 +1,30 @@
+alias-management: Shell Alias Management
+alpine: Alpine Linux
+api-wrapper: API Wrapper
+api: API
+background-jobs: Background Jobs
+bash: Bash
+ci: Continuous Integration
+cli-tools: CLI Utilities
+cli: CLI
+cucumber: Cucumber
+data-processing: Data Processing
+devops: DevOps
+docker-compose: Docker Compose
+docker: Docker
+documentation-server: Documentation Server
+file-server: File Server
+gem: Ruby Gem
+gherkin: Gherkin
+markdown: Markdown
+mongo: MongoDB
+name-utilities: Name Utilities
+php: PHP
+rabbit: RabbitMQ
+ruby: Ruby
+shell-productivity: Shell Productivity
+site-builder: Site Builder
+testing-tools: Testing Tools
+ubuntu: Ubuntu
+web-server: Web Server
+
