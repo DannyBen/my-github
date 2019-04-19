@@ -1,3 +1,7 @@
+layout: false
+title: Open Source Projects by @DannyBen
+---
+
 <div align='center'>
 
 <img src='/assets/github.png' width=300>
