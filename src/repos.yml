@@ -302,7 +302,7 @@ quata:
   name: Quata
   summary: Lightweight Quandl API library and command line interface
   lang: Ruby
-  tags: [ruby, api]
+  tags: [ruby, cli, api, data-service]
 
 requires:
   name: Requires

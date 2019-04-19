@@ -12,13 +12,13 @@ title: Open Source Projects by @DannyBen
 - [Background Jobs](#background-jobs) - 2 repositories
 - [Bash](#bash) - 3 repositories
 - [CLI Tools](#cli-tools) - 3 repositories
-- [CLI](#cli) - 11 repositories
+- [CLI](#cli) - 12 repositories
 - [Cache Management](#cache-management) - 4 repositories
 - [Configuration Tools](#configuration-tools) - 1 repositories
 - [Continuous Integration](#continuous-integration) - 1 repositories
 - [Cucumber](#cucumber) - 1 repositories
 - [Data Processing](#data-processing) - 1 repositories
-- [Data Service](#data-service) - 4 repositories
+- [Data Service](#data-service) - 5 repositories
 - [DevOps](#devops) - 5 repositories
 - [Developer Utilities](#developer-utilities) - 8 repositories
 - [Docker](#docker) - 14 repositories
@@ -91,7 +91,7 @@ title: Open Source Projects by @DannyBen
 | [Persistent Object](https://github.com/DannyBen/pobject) <br> Automatically persist objects to disk as YAML files | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Pretty Trace](https://github.com/DannyBen/pretty_trace) <br> Make your Ruby backtrace pretty again | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Pundit Extra](https://github.com/DannyBen/pundit_extra) <br> Extensions and helpers for Pundit authorization library | [Authorization](#authorization) &nbsp;&nbsp;&nbsp; [Rails](#rails) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Requires](https://github.com/DannyBen/requires) <br> Ruby's missing function to require all files and directories | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Rig It](https://github.com/DannyBen/rigit) <br> Build project templates easily without writing code | [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Scaffolding](#scaffolding) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
 | [RSpec Fixtures](https://github.com/DannyBen/rspec_fixtures) <br> Interactive fixture approvals for RSpec | [RSpec](#rspec) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Testing Tools](#testing-tools) |
@@ -128,7 +128,7 @@ title: Open Source Projects by @DannyBen
 
 
 ## CLI
-11 repositories
+12 repositories
 
 | Repository  | Tags |
 |-------------|------|
@@ -140,6 +140,7 @@ title: Open Source Projects by @DannyBen
 | [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configuration-tools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
 | [Menu Commander](https://github.com/DannyBen/menu_commander) <br> Create menus for any command line tool using simple YAML configuration | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
+| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Runfile](https://github.com/DannyBen/runfile) <br> Build command line applications per project with ease | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
 | [Site Link Analyzer](https://github.com/DannyBen/sla) <br> Find broken links in your website | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
 | [Snapcrawl](https://github.com/DannyBen/snapcrawl) <br> Crawl a website and take screenshots | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
@@ -157,7 +158,7 @@ title: Open Source Projects by @DannyBen
 | [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [PHP Quandl](https://github.com/DannyBen/php-quandl) <br> Easy access to the Quandl Data API using PHP | [API](#api) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [PHP](#php) |
 | [Quandl](https://github.com/DannyBen/quandl) <br> Go library for accessing Quandl API | [API](#api) &nbsp;&nbsp;&nbsp; [Go](#go) |
-| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
 ## Developer Utilities
@@ -173,6 +174,18 @@ title: Open Source Projects by @DannyBen
 | [Sting](https://github.com/DannyBen/sting) <br> Minimal, lightweight, multi-YAML settings library | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Webcache](https://github.com/DannyBen/webcache) <br> Hassle-free caching for HTTP download with ruby | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [YAMLCon](https://github.com/DannyBen/yamlcon) <br> YAML configuration file loader with dot notation support | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+
+
+## Data Service
+5 repositories
+
+| Repository  | Tags |
+|-------------|------|
+| [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Gondl](https://github.com/DannyBen/gondl) <br> Command line console for Quandl | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Go](#go) |
+| [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [PHP Quandl](https://github.com/DannyBen/php-quandl) <br> Easy access to the Quandl Data API using PHP | [API](#api) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [PHP](#php) |
+| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
 ## DevOps
@@ -230,17 +243,6 @@ title: Open Source Projects by @DannyBen
 | [Lightly](https://github.com/DannyBen/lightly) <br> Ruby file cache for performing heavy tasks lightly | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Persistent Object](https://github.com/DannyBen/pobject) <br> Automatically persist objects to disk as YAML files | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Webcache](https://github.com/DannyBen/webcache) <br> Hassle-free caching for HTTP download with ruby | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-
-
-## Data Service
-4 repositories
-
-| Repository  | Tags |
-|-------------|------|
-| [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Gondl](https://github.com/DannyBen/gondl) <br> Command line console for Quandl | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Go](#go) |
-| [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [PHP Quandl](https://github.com/DannyBen/php-quandl) <br> Easy access to the Quandl Data API using PHP | [API](#api) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [PHP](#php) |
 
 
 ## Web Server
