@@ -11,7 +11,7 @@ title: Open Source Projects by @DannyBen
 - [AutoHotkey](#autohotkey) - 4 repositories
 - [Background Jobs](#backgroundjobs) - 2 repositories
 - [Bash](#bash) - 3 repositories
-- [CI/CD](#cicd) - 2 repositories
+- [CI/CD](#cicd) - 3 repositories
 - [CLI Tools](#clitools) - 3 repositories
 - [CLI](#cli) - 12 repositories
 - [Cache Management](#cachemanagement) - 4 repositories
@@ -70,7 +70,7 @@ title: Open Source Projects by @DannyBen
 | [Docker Alpine ADSF](https://github.com/DannyBen/docker-alpine-adsf) <br> Ruby ADSF file server on Alpine linux | [Alpine Linux](#alpinelinux) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [File Server](#fileserver) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Alpine Ruby](https://github.com/DannyBen/docker-alpine-ruby) <br> Minimal Ruby docker image with native extensions support | [Alpine Linux](#alpinelinux) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Alpine Ruby Mongo](https://github.com/DannyBen/docker-alpine-ruby-mongo) <br> Docker image with ruby and mongo tools based on Alpine | [Alpine Linux](#alpinelinux) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [MongoDB](#mongodb) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Snapcrawl](https://github.com/DannyBen/docker-snapcrawl) <br> Crawl a website and take screenshots (Docker version) | [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#siteanalyzers) |
 | [Enforce](https://github.com/DannyBen/enforce) <br> DSL for verifying file/folder content | [Ruby](#ruby) |
 | [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
@@ -119,7 +119,7 @@ title: Open Source Projects by @DannyBen
 | [Docker Fallback](https://github.com/DannyBen/docker-fallback) <br> Default ingress backend | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 | [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
 | [Docker Gotty](https://github.com/DannyBen/docker-gotty) <br> Docker image with browser based linux terminal | [Docker](#docker) |
-| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Madness](https://github.com/DannyBen/docker-madness) <br> Madness instant markdown server | [Docker](#docker) &nbsp;&nbsp;&nbsp; [Documentation Server](#documentationserver) &nbsp;&nbsp;&nbsp; [Markdown](#markdown) |
 | [Docker Rabbit](https://github.com/DannyBen/docker-rabbit) <br> RabbitMQ image with extras | [Docker](#docker) &nbsp;&nbsp;&nbsp; [RabbitMQ](#rabbitmq) |
 | [Docker Redirector](https://github.com/DannyBen/docker-redirector) <br> Docker image to handle domain redirects | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
@@ -266,6 +266,16 @@ title: Open Source Projects by @DannyBen
 | [Rush](https://github.com/DannyBen/rush-command) <br> Bootstrap Linux workstations by running GitHub hosted bash scripts | [Bash](#bash) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Package Management](#packagemanagement) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shellproductivity) |
 
 
+## CI/CD
+3 repositories
+
+| Repository  | Tags |
+|-------------|------|
+| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
+| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+
+
 ## CLI Tools
 3 repositories
 
@@ -339,17 +349,8 @@ title: Open Source Projects by @DannyBen
 
 | Repository  | Tags |
 |-------------|------|
-| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
-
-
-## CI/CD
-2 repositories
-
-| Repository  | Tags |
-|-------------|------|
-| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
-| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 
 
 ## Documentation Server

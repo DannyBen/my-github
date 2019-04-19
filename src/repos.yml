@@ -98,7 +98,7 @@ docker-jobly:
   name: Docker Jobly
   summary: Docker image with the Jobly job server
   lang: Dockerfile
-  tags: [docker, background-jobs, ruby]
+  tags: [docker, background-jobs, ruby, cicd]
 
 docker-madness:
   name: Docker Madness
