@@ -1,3 +1,13 @@
+<div align='center'>
+
+<img src='/assets/github.png' width=300>
+
+## Open Source Projects by <a href="https://github.com/dannyben">@DannyBen</a>
+
+</div>
+
+
+
 <%- repos_by_tag.each do |tag, repo_keys| -%>
 
 ## <%= tag_title tag %>

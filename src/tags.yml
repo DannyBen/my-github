@@ -3,12 +3,13 @@ alpine: Alpine Linux
 api-wrapper: API Wrapper
 api: API
 audio-tools: Audio Tools
+authorization: Authorization
 autohotkey: AutoHotkey
 background-jobs: Background Jobs
 bash: Bash
-cache: Cache
+cache: Cache Management
 ci: Continuous Integration
-cli-tools: CLI Utilities
+cli-tools: CLI Tools
 cli: CLI
 configuration-tools: Configuration Tools
 cucumber: Cucumber
@@ -32,12 +33,18 @@ jekyll: Jekyll
 markdown: Markdown
 mongo: MongoDB
 name-utilities: Name Utilities
+package-management: Package Management
 php: PHP
 rabbit: RabbitMQ
+rails: Rails
+rspec: RSpec
 ruby: Ruby
+scaffolding: Scaffolding
 shell-productivity: Shell Productivity
+site-analyzers: Site Analyzers
 site-builder: Site Builder
 ssh: SSH
+svg: SVG
 templating: Templating
 testing-tools: Testing Tools
 ubuntu: Ubuntu
