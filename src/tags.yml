@@ -42,7 +42,7 @@ ruby: Ruby
 scaffolding: Scaffolding
 shell-productivity: Shell Productivity
 site-analyzers: Site Analyzers
-site-builder: Site Builder
+site-building: Site Building Tools
 ssh: SSH
 svg: SVG
 templating: Templating

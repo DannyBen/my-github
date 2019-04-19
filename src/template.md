@@ -6,7 +6,13 @@
 
 </div>
 
+## Index
 
+<%- toc.each do |item| -%>
+- <%= item[:link] %> - <%= item[:count] %> repositories
+<%- end -%>
+
+---
 
 <%- repos_by_tag.each do |tag, repo_keys| -%>
 
@@ -19,7 +25,7 @@
 |-------------|------|
 <%- repo_keys.each do |repo_key| -%>
 <%- repo = repos[repo_key] -%>
-| [<%= repo['name'] %>](https://github.com/DannyBen/<%= repo_key %>) <br> <%= repo['summary'] -%> | <%= repo['tags'].sort.map(&:tag_to_link).join ' &nbsp;&nbsp;&nbsp; ' -%> |
+| [<%= repo['name'] %>](https://github.com/DannyBen/<%= repo_key %>) <br> <%= repo['summary'] -%> | <%= repo['tags'].sort.map { |tag| tag_to_link(tag) }.join ' &nbsp;&nbsp;&nbsp; ' -%> |
 <%- end -%>
 
 <%- end -%>

@@ -20,7 +20,7 @@ bobkit:
   name: Bobkit
   summary: Site generation toolkit with Slim, SCSS, CoffeeScript and Markdown
   lang: Ruby
-  tags: [ruby, site-builder]
+  tags: [ruby, site-building]
 
 clicumber:
   name: Clicumber
@@ -194,7 +194,7 @@ jekyll-theme-proxima:
   name: Jekyll Theme Proxima
   summary: Theme for GitHub Pages, with GitHub-like styling
   lang: HTML
-  tags: [html, jekyll]
+  tags: [html, jekyll, site-building]
 
 jobly:
   name: Jobly
