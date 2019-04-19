@@ -19,7 +19,7 @@ def toc!
     { key: tag, link: link,  count: repos.count }
   end
 
-  result.sort_by { |a| a[:title] }
+  result.sort_by { |a| a[:link] }
 end
 
 def user_content_prefix

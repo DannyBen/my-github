@@ -76,6 +76,12 @@ docker-alpine-ruby-mongo:
   lang: Dockerfile
   tags: [docker, alpine, ruby, mongo]
 
+docker-fallback:
+  name: Docker Fallback
+  summary: Default ingress backend
+  lang: Dockerfile
+  tags: [docker, web-server, devops]
+
 docker-git-compose:
   name: Docker Git Compose
   summary: Docker image with docker, git and docker-compose
@@ -112,11 +118,11 @@ docker-redirector:
   lang: Dockerfile
   tags: [docker, web-server, devops]
 
-docker-fallback:
-  name: Docker Fallback
-  summary: Default ingress backend
+docker-snapcrawl:
+  name: Docker Snapcrawl
+  summary: Crawl a website and take screenshots (Docker version)
   lang: Dockerfile
-  tags: [docker, web-server, devops]
+  tags: [ruby, docker, site-analyzers]
 
 docker-ubuntu:
   name: Docker Ubuntu
