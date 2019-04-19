@@ -1,7 +1,3 @@
----
-title: Open Source Projects by @DannyBen
----
-
 ## Index
 
 <%- toc.each do |item| -%>
