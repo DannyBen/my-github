@@ -5,7 +5,7 @@ title: Open Source Projects by @DannyBen
 ## Index
 
 <%- toc.each do |item| -%>
-- <%= item[:link] %> - <%= item[:count] %> repositories
+- <%= item[:link] %> - <%= item[:count] > 1 ? "#{item[:count]} repositories" : "1 repository" %> 
 <%- end -%>
 
 ---
@@ -25,4 +25,3 @@ title: Open Source Projects by @DannyBen
 <%- end -%>
 
 <%- end -%>
-
