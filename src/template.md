@@ -1,14 +1,6 @@
-layout: false
+---
 title: Open Source Projects by @DannyBen
 ---
-
-<div align='center'>
-
-<img src='/assets/github.png' width=300>
-
-## Open Source Projects by <a href="https://github.com/dannyben">@DannyBen</a>
-
-</div>
 
 ## Index
 
