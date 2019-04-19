@@ -206,7 +206,7 @@ jobly:
   name: Jobly
   summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
   lang: Ruby
-  tags: [ruby, cli, background-jobs, api, web-server]
+  tags: [ruby, cli, background-jobs, api, web-server, cicd]
 
 jossh:
   name: Jossh

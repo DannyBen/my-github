@@ -11,7 +11,7 @@ title: Open Source Projects by @DannyBen
 - [AutoHotkey](#autohotkey) - 4 repositories
 - [Background Jobs](#backgroundjobs) - 2 repositories
 - [Bash](#bash) - 3 repositories
-- [CI/CD](#cicd) - 3 repositories
+- [CI/CD](#cicd) - 4 repositories
 - [CLI Tools](#clitools) - 3 repositories
 - [CLI](#cli) - 12 repositories
 - [Cache Management](#cachemanagement) - 4 repositories
@@ -78,7 +78,7 @@ title: Open Source Projects by @DannyBen
 | [Icodi](https://github.com/DannyBen/icodi) <br> Deterministic Random SVG Icon Generator | [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SVG](#svg) |
 | [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [Domain Utilities](#domainutilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#nameutilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 | [Jossh](https://github.com/DannyBen/jossh) <br> Run local scripts remotely by SSH | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SSH](#ssh) |
 | [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configurationtools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
 | [Lightly](https://github.com/DannyBen/lightly) <br> Ruby file cache for performing heavy tasks lightly | [Cache Management](#cachemanagement) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
@@ -137,7 +137,7 @@ title: Open Source Projects by @DannyBen
 | [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Gondl](https://github.com/DannyBen/gondl) <br> Command line console for Quandl | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Go](#go) |
 | [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 | [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configurationtools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
 | [Menu Commander](https://github.com/DannyBen/menu_commander) <br> Create menus for any command line tool using simple YAML configuration | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shellproductivity) |
 | [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
@@ -155,7 +155,7 @@ title: Open Source Projects by @DannyBen
 | [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Gondl](https://github.com/DannyBen/gondl) <br> Command line console for Quandl | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Go](#go) |
 | [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 | [PHP Quandl](https://github.com/DannyBen/php-quandl) <br> Easy access to the Quandl Data API using PHP | [API](#api) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [PHP](#php) |
 | [Quandl](https://github.com/DannyBen/quandl) <br> Go library for accessing Quandl API | [API](#api) &nbsp;&nbsp;&nbsp; [Go](#go) |
 | [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#dataservice) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
@@ -245,6 +245,17 @@ title: Open Source Projects by @DannyBen
 | [Webcache](https://github.com/DannyBen/webcache) <br> Hassle-free caching for HTTP download with ruby | [Cache Management](#cachemanagement) &nbsp;&nbsp;&nbsp; [Developer Utilities](#developerutilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
+## CI/CD
+4 repositories
+
+| Repository  | Tags |
+|-------------|------|
+| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
+| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+
+
 ## Web Server
 4 repositories
 
@@ -252,7 +263,7 @@ title: Open Source Projects by @DannyBen
 |-------------|------|
 | [Docker Fallback](https://github.com/DannyBen/docker-fallback) <br> Default ingress backend | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 | [Docker Redirector](https://github.com/DannyBen/docker-redirector) <br> Docker image to handle domain redirects | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
-| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 | [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 
 
@@ -264,16 +275,6 @@ title: Open Source Projects by @DannyBen
 | [Alf](https://github.com/DannyBen/alf) <br> Alias manager for Bash | [Shell Alias Management](#shellaliasmanagement) &nbsp;&nbsp;&nbsp; [Bash](#bash) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shellproductivity) |
 | [Opcode](https://github.com/DannyBen/opcode) <br> Local command shortcuts | [Shell Alias Management](#shellaliasmanagement) &nbsp;&nbsp;&nbsp; [Bash](#bash) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shellproductivity) |
 | [Rush](https://github.com/DannyBen/rush-command) <br> Bootstrap Linux workstations by running GitHub hosted bash scripts | [Bash](#bash) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Package Management](#packagemanagement) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shellproductivity) |
-
-
-## CI/CD
-3 repositories
-
-| Repository  | Tags |
-|-------------|------|
-| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
-| [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 
 
 ## CLI Tools
@@ -350,7 +351,7 @@ title: Open Source Projects by @DannyBen
 | Repository  | Tags |
 |-------------|------|
 | [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#backgroundjobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#webserver) |
 
 
 ## Documentation Server
