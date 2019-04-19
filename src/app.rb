@@ -49,7 +49,7 @@ def tag_to_link(tag)
 end
 
 def slug(tag)
-  tag_title(tag).downcase.gsub(' ', '-')
+  tag_title(tag).downcase.gsub(/[^\w]/, '-')
 end
 
 def tag_title(tag)

@@ -11,11 +11,11 @@ title: Open Source Projects by @DannyBen
 - [AutoHotkey](#autohotkey) - 4 repositories
 - [Background Jobs](#background-jobs) - 2 repositories
 - [Bash](#bash) - 3 repositories
+- [CI/CD](#ci-cd) - 2 repositories
 - [CLI Tools](#cli-tools) - 3 repositories
 - [CLI](#cli) - 12 repositories
 - [Cache Management](#cache-management) - 4 repositories
 - [Configuration Tools](#configuration-tools) - 1 repositories
-- [Continuous Integration](#continuous-integration) - 1 repositories
 - [Cucumber](#cucumber) - 1 repositories
 - [Data Processing](#data-processing) - 1 repositories
 - [Data Service](#data-service) - 5 repositories
@@ -82,7 +82,7 @@ title: Open Source Projects by @DannyBen
 | [Jossh](https://github.com/DannyBen/jossh) <br> Run local scripts remotely by SSH | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SSH](#ssh) |
 | [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configuration-tools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
 | [Lightly](https://github.com/DannyBen/lightly) <br> Ruby file cache for performing heavy tasks lightly | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Lovely Print](https://github.com/DannyBen/lp) <br> Print any object in YAML format | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Madman](https://github.com/DannyBen/madman) <br> The markdown swiss army knife | [Markdown](#markdown) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Madness](https://github.com/DannyBen/madness) <br> Instant markdown server | [Documentation Server](#documentation-server) &nbsp;&nbsp;&nbsp; [Markdown](#markdown) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
@@ -117,7 +117,7 @@ title: Open Source Projects by @DannyBen
 | [Docker Alpine Ruby](https://github.com/DannyBen/docker-alpine-ruby) <br> Minimal Ruby docker image with native extensions support | [Alpine Linux](#alpine-linux) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Alpine Ruby Mongo](https://github.com/DannyBen/docker-alpine-ruby-mongo) <br> Docker image with ruby and mongo tools based on Alpine | [Alpine Linux](#alpine-linux) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [MongoDB](#mongodb) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Fallback](https://github.com/DannyBen/docker-fallback) <br> Default ingress backend | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
-| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [Continuous Integration](#continuous-integration) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
+| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
 | [Docker Gotty](https://github.com/DannyBen/docker-gotty) <br> Docker image with browser based linux terminal | [Docker](#docker) |
 | [Docker Jobly](https://github.com/DannyBen/docker-jobly) <br> Docker image with the Jobly job server | [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Docker Madness](https://github.com/DannyBen/docker-madness) <br> Madness instant markdown server | [Docker](#docker) &nbsp;&nbsp;&nbsp; [Documentation Server](#documentation-server) &nbsp;&nbsp;&nbsp; [Markdown](#markdown) |
@@ -196,7 +196,7 @@ title: Open Source Projects by @DannyBen
 | [Docker Fallback](https://github.com/DannyBen/docker-fallback) <br> Default ingress backend | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Docker Redirector](https://github.com/DannyBen/docker-redirector) <br> Docker image to handle domain redirects | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Jossh](https://github.com/DannyBen/jossh) <br> Run local scripts remotely by SSH | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SSH](#ssh) |
-| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Rush](https://github.com/DannyBen/rush-command) <br> Bootstrap Linux workstations by running GitHub hosted bash scripts | [Bash](#bash) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Package Management](#package-management) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
 
 
@@ -253,7 +253,7 @@ title: Open Source Projects by @DannyBen
 | [Docker Fallback](https://github.com/DannyBen/docker-fallback) <br> Default ingress backend | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Docker Redirector](https://github.com/DannyBen/docker-redirector) <br> Docker image to handle domain redirects | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
-| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 
 
 ## Bash
@@ -343,6 +343,15 @@ title: Open Source Projects by @DannyBen
 | [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 
 
+## CI/CD
+2 repositories
+
+| Repository  | Tags |
+|-------------|------|
+| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
+
+
 ## Documentation Server
 2 repositories
 
@@ -413,13 +422,6 @@ title: Open Source Projects by @DannyBen
 | [Pundit Extra](https://github.com/DannyBen/pundit_extra) <br> Extensions and helpers for Pundit authorization library | [Authorization](#authorization) &nbsp;&nbsp;&nbsp; [Rails](#rails) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
-## Continuous Integration
-
-| Repository  | Tags |
-|-------------|------|
-| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [Continuous Integration](#continuous-integration) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
-
-
 ## Configuration Tools
 
 | Repository  | Tags |
@@ -473,14 +475,14 @@ title: Open Source Projects by @DannyBen
 
 | Repository  | Tags |
 |-------------|------|
-| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [Continuous Integration](#continuous-integration) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
+| [Docker Git Compose](https://github.com/DannyBen/docker-git-compose) <br> Docker image with docker, git and docker-compose | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Git](#git) |
 
 
 ## GitHub
 
 | Repository  | Tags |
 |-------------|------|
-| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
+| [LoadRunner](https://github.com/DannyBen/loadrunner) <br> GitHub webhook server and event simulator | [CI/CD](#ci-cd) &nbsp;&nbsp;&nbsp; [DevOps](#devops) &nbsp;&nbsp;&nbsp; [GitHub](#github) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 
 
 ## HTML

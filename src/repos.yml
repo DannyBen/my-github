@@ -86,7 +86,7 @@ docker-git-compose:
   name: Docker Git Compose
   summary: Docker image with docker, git and docker-compose
   lang: Dockerfile
-  tags: [docker, git, ci]
+  tags: [docker, git, cicd]
 
 docker-gotty:
   name: Docker Gotty
@@ -230,7 +230,7 @@ loadrunner:
   name: LoadRunner
   summary: GitHub webhook server and event simulator
   lang: Ruby
-  tags: [ruby, web-server, github, devops]
+  tags: [ruby, web-server, github, devops, cicd]
 
 lp:
   name: Lovely Print

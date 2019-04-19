@@ -8,7 +8,7 @@ autohotkey: AutoHotkey
 background-jobs: Background Jobs
 bash: Bash
 cache: Cache Management
-ci: Continuous Integration
+cicd: CI/CD
 cli-tools: CLI Tools
 cli: CLI
 configuration-tools: Configuration Tools
