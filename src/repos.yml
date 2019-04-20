@@ -194,7 +194,7 @@ ismine:
   name: IsMine
   summary: Ruby command line domain checker with wildcards
   lang: Ruby
-  tags: [ruby, name-utilities, domain-utilities]
+  tags: [ruby, name-utilities, domain-utilities, cli]
 
 jekyll-theme-proxima:
   name: Jekyll Theme Proxima
@@ -380,7 +380,7 @@ wordscan:
   name: Wordscan
   summary: Dictionary and thesaurus regular expression search
   lang: Ruby
-  tags: [ruby, name-utilities]
+  tags: [ruby, name-utilities, cli]
 
 yamlcon:
   name: YAMLCon

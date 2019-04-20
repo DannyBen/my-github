@@ -13,7 +13,7 @@ title: Open Source Projects by @DannyBen
 - [Bash](#bash) - 3 repositories 
 - [CI/CD](#cicd) - 4 repositories 
 - [CLI Tools](#cli-tools) - 3 repositories 
-- [CLI](#cli) - 12 repositories 
+- [CLI](#cli) - 14 repositories 
 - [Cache Management](#cache-management) - 4 repositories 
 - [Configuration Tools](#configuration-tools) - 1 repository 
 - [Cucumber](#cucumber) - 1 repository 
@@ -77,7 +77,7 @@ title: Open Source Projects by @DannyBen
 | [GetComments](https://github.com/DannyBen/getcomments) <br> Extract comments from Ruby code | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Icodi](https://github.com/DannyBen/icodi) <br> Deterministic Random SVG Icon Generator | [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SVG](#svg) |
 | [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Jossh](https://github.com/DannyBen/jossh) <br> Run local scripts remotely by SSH | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SSH](#ssh) |
 | [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configuration-tools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
@@ -102,8 +102,29 @@ title: Open Source Projects by @DannyBen
 | [Super Docopt](https://github.com/DannyBen/super_docopt) <br> docopt-based command line utility builder | [CLI Tools](#cli-tools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [Victor](https://github.com/DannyBen/victor) <br> Genearte SVG images by writing Ruby code | [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [SVG](#svg) |
 | [Webcache](https://github.com/DannyBen/webcache) <br> Hassle-free caching for HTTP download with ruby | [Cache Management](#cache-management) &nbsp;&nbsp;&nbsp; [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Wordscan](https://github.com/DannyBen/wordscan) <br> Dictionary and thesaurus regular expression search | [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Wordscan](https://github.com/DannyBen/wordscan) <br> Dictionary and thesaurus regular expression search | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 | [YAMLCon](https://github.com/DannyBen/yamlcon) <br> YAML configuration file loader with dot notation support | [Developer Utilities](#developer-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+
+
+## CLI
+14 repositories
+
+| Repository  | Tags |
+|-------------|------|
+| [Alf](https://github.com/DannyBen/alf) <br> Alias manager for Bash | [Shell Alias Management](#shell-alias-management) &nbsp;&nbsp;&nbsp; [Bash](#bash) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
+| [AudioAddict](https://github.com/DannyBen/audio_addict) <br> AudioAddict Command Line for Voting and Playlist Management | [Audio Tools](#audio-tools) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Gondl](https://github.com/DannyBen/gondl) <br> Command line console for Quandl | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Go](#go) |
+| [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
+| [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configuration-tools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
+| [Menu Commander](https://github.com/DannyBen/menu_commander) <br> Create menus for any command line tool using simple YAML configuration | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
+| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Runfile](https://github.com/DannyBen/runfile) <br> Build command line applications per project with ease | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
+| [Site Link Analyzer](https://github.com/DannyBen/sla) <br> Find broken links in your website | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
+| [Snapcrawl](https://github.com/DannyBen/snapcrawl) <br> Crawl a website and take screenshots | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
+| [Wordscan](https://github.com/DannyBen/wordscan) <br> Dictionary and thesaurus regular expression search | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
 ## Docker
@@ -125,25 +146,6 @@ title: Open Source Projects by @DannyBen
 | [Docker Redirector](https://github.com/DannyBen/docker-redirector) <br> Docker image to handle domain redirects | [DevOps](#devops) &nbsp;&nbsp;&nbsp; [Docker](#docker) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
 | [Docker Snapcrawl](https://github.com/DannyBen/docker-snapcrawl) <br> Crawl a website and take screenshots (Docker version) | [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
 | [Docker Ubuntu](https://github.com/DannyBen/docker-ubuntu) <br> Ubuntu sandbox with non-root user | [Docker](#docker) &nbsp;&nbsp;&nbsp; [Ubuntu](#ubuntu) |
-
-
-## CLI
-12 repositories
-
-| Repository  | Tags |
-|-------------|------|
-| [Alf](https://github.com/DannyBen/alf) <br> Alias manager for Bash | [Shell Alias Management](#shell-alias-management) &nbsp;&nbsp;&nbsp; [Bash](#bash) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
-| [AudioAddict](https://github.com/DannyBen/audio_addict) <br> AudioAddict Command Line for Voting and Playlist Management | [Audio Tools](#audio-tools) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Fredric](https://github.com/DannyBen/fredric) <br> FRED API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Gondl](https://github.com/DannyBen/gondl) <br> Command line console for Quandl | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Go](#go) |
-| [Intrinio](https://github.com/DannyBen/intrinio) <br> Library and command line interface for Intrinio data API | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Jobly](https://github.com/DannyBen/jobly) <br> Compact job server with API, CLI, Web UI and a Sidekiq heart | [API](#api) &nbsp;&nbsp;&nbsp; [Background Jobs](#background-jobs) &nbsp;&nbsp;&nbsp; [CI/CD](#cicd) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Web Server](#web-server) |
-| [Kojo](https://github.com/DannyBen/kojo) <br> Command line utility for generating config files from templates and definition files | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Configuration Tools](#configuration-tools) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Templating](#templating) |
-| [Menu Commander](https://github.com/DannyBen/menu_commander) <br> Create menus for any command line tool using simple YAML configuration | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
-| [Quata](https://github.com/DannyBen/quata) <br> Lightweight Quandl API library and command line interface | [API](#api) &nbsp;&nbsp;&nbsp; [CLI](#cli) &nbsp;&nbsp;&nbsp; [Data Service](#data-service) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Runfile](https://github.com/DannyBen/runfile) <br> Build command line applications per project with ease | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Shell Productivity](#shell-productivity) |
-| [Site Link Analyzer](https://github.com/DannyBen/sla) <br> Find broken links in your website | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
-| [Snapcrawl](https://github.com/DannyBen/snapcrawl) <br> Crawl a website and take screenshots | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) &nbsp;&nbsp;&nbsp; [Site Analyzers](#site-analyzers) |
 
 
 ## API
@@ -313,8 +315,8 @@ title: Open Source Projects by @DannyBen
 | Repository  | Tags |
 |-------------|------|
 | [Concode](https://github.com/DannyBen/concode) <br> Generate consistent-codenames from any string (Heroku style, aka Haiku). | [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
-| [Wordscan](https://github.com/DannyBen/wordscan) <br> Dictionary and thesaurus regular expression search | [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [Wordscan](https://github.com/DannyBen/wordscan) <br> Dictionary and thesaurus regular expression search | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
 ## Site Analyzers
@@ -449,7 +451,7 @@ title: Open Source Projects by @DannyBen
 
 | Repository  | Tags |
 |-------------|------|
-| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
+| [IsMine](https://github.com/DannyBen/ismine) <br> Ruby command line domain checker with wildcards | [CLI](#cli) &nbsp;&nbsp;&nbsp; [Domain Utilities](#domain-utilities) &nbsp;&nbsp;&nbsp; [Name Utilities](#name-utilities) &nbsp;&nbsp;&nbsp; [Ruby](#ruby) |
 
 
 ## Encryption
