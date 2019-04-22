@@ -1,0 +1,43 @@
+---
+- key: alf
+  name: Alf
+  summary: Alias manager for Bash
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - alias-management
+  - cli
+- key: menu_commander
+  name: Menu Commander
+  summary: Create menus for any command line tool using simple YAML configuration
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - shell-productivity
+- key: opcode
+  name: Opcode
+  summary: Local command shortcuts
+  lang: Bash
+  tags:
+  - bash
+  - alias-management
+  - shell-productivity
+- key: runfile
+  name: Runfile
+  summary: Build command line applications per project with ease
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - shell-productivity
+- key: rush-command
+  name: Rush
+  summary: Bootstrap Linux workstations by running GitHub hosted bash scripts
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - package-management
+  - devops

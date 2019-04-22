@@ -1,0 +1,21 @@
+---
+- key: docker-jobly
+  name: Docker Jobly
+  summary: Docker image with the Jobly job server
+  lang: Dockerfile
+  tags:
+  - docker
+  - background-jobs
+  - ruby
+  - cicd
+- key: jobly
+  name: Jobly
+  summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - background-jobs
+  - api
+  - web-server
+  - cicd

@@ -1,0 +1,16 @@
+---
+- key: bobkit
+  name: Bobkit
+  summary: Site generation toolkit with Slim, SCSS, CoffeeScript and Markdown
+  lang: Ruby
+  tags:
+  - ruby
+  - site-building
+- key: jekyll-theme-proxima
+  name: Jekyll Theme Proxima
+  summary: Theme for GitHub Pages, with GitHub-like styling
+  lang: HTML
+  tags:
+  - html
+  - jekyll
+  - site-building

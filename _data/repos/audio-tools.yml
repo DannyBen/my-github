@@ -1,0 +1,16 @@
+---
+- key: audio_addict
+  name: AudioAddict
+  summary: AudioAddict Command Line for Voting and Playlist Management
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - audio-tools
+- key: FlicFlac
+  name: FlicFlac
+  summary: Tiny portable audio converter for Windows
+  lang: AutoHotkey
+  tags:
+  - autohotkey
+  - audio-tools

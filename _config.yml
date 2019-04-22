@@ -1,0 +1,6 @@
+exclude: 
+- Runfile
+- project.sublime*
+- README.md
+- CNAME
+- Gemfile*

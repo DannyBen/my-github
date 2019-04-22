@@ -1,0 +1,8 @@
+---
+- key: eclipse
+  name: Eclipse
+  summary: Encrypt / decrypt any text with a simple hotkey
+  lang: AutoHotkey
+  tags:
+  - autohotkey
+  - encryption

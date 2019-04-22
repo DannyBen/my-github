@@ -1,0 +1,340 @@
+---
+- key: apicake
+  name: API Cake
+  summary: Build dynamic API wrappers
+  lang: Ruby
+  tags:
+  - ruby
+  - api
+- key: audio_addict
+  name: AudioAddict
+  summary: AudioAddict Command Line for Voting and Playlist Management
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - audio-tools
+- key: bobkit
+  name: Bobkit
+  summary: Site generation toolkit with Slim, SCSS, CoffeeScript and Markdown
+  lang: Ruby
+  tags:
+  - ruby
+  - site-building
+- key: colsole
+  name: Colsole
+  summary: Utility functions for colorful console applications with Ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - cli-tools
+- key: concode
+  name: Concode
+  summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
+  lang: Ruby
+  tags:
+  - ruby
+  - name-utilities
+- key: datamix
+  name: DataMix
+  summary: DSL for manipulating tabular data
+  lang: Ruby
+  tags:
+  - ruby
+  - data-processing
+- key: docker-alpine-adsf
+  name: Docker Alpine ADSF
+  summary: Ruby ADSF file server on Alpine linux
+  lang: Dockerfile
+  tags:
+  - docker
+  - ruby
+  - file-server
+  - alpine
+- key: docker-alpine-ruby
+  name: Docker Alpine Ruby
+  summary: Minimal Ruby docker image with native extensions support
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - ruby
+- key: docker-alpine-ruby-mongo
+  name: Docker Alpine Ruby Mongo
+  summary: Docker image with ruby and mongo tools based on Alpine
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - ruby
+  - mongo
+- key: docker-jobly
+  name: Docker Jobly
+  summary: Docker image with the Jobly job server
+  lang: Dockerfile
+  tags:
+  - docker
+  - background-jobs
+  - ruby
+  - cicd
+- key: docker-snapcrawl
+  name: Docker Snapcrawl
+  summary: Crawl a website and take screenshots (Docker version)
+  lang: Dockerfile
+  tags:
+  - ruby
+  - docker
+  - site-analyzers
+- key: enforce
+  name: Enforce
+  summary: DSL for verifying file/folder content
+  lang: Ruby
+  tags:
+  - ruby
+- key: fredric
+  name: Fredric
+  summary: FRED API library and command line interface
+  lang: Ruby
+  tags:
+  - ruby
+  - api
+  - cli
+  - data-service
+- key: getcomments
+  name: GetComments
+  summary: Extract comments from Ruby code
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+- key: icodi
+  name: Icodi
+  summary: Deterministic Random SVG Icon Generator
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
+- key: intrinio
+  name: Intrinio
+  summary: Library and command line interface for Intrinio data API
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - api
+  - data-service
+- key: ismine
+  name: IsMine
+  summary: Ruby command line domain checker with wildcards
+  lang: Ruby
+  tags:
+  - ruby
+  - name-utilities
+  - domain-utilities
+  - cli
+- key: jobly
+  name: Jobly
+  summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - background-jobs
+  - api
+  - web-server
+  - cicd
+- key: jossh
+  name: Jossh
+  summary: Run local scripts remotely by SSH
+  lang: Ruby
+  tags:
+  - ruby
+  - ssh
+  - devops
+- key: kojo
+  name: Kojo
+  summary: Command line utility for generating config files from templates and definition
+    files
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
+  - configuration-tools
+  - cli
+- key: lightly
+  name: Lightly
+  summary: Ruby file cache for performing heavy tasks lightly
+  lang: Ruby
+  tags:
+  - ruby
+  - cache
+- key: loadrunner
+  name: LoadRunner
+  summary: GitHub webhook server and event simulator
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
+  - github
+  - devops
+  - cicd
+- key: lp
+  name: Lovely Print
+  summary: Print any object in YAML format
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+- key: madman
+  name: Madman
+  summary: The markdown swiss army knife
+  lang: Ruby
+  tags:
+  - ruby
+  - markdown
+- key: madness
+  name: Madness
+  summary: Instant markdown server
+  lang: Ruby
+  tags:
+  - ruby
+  - markdown
+  - documentation-server
+- key: menu_commander
+  name: Menu Commander
+  summary: Create menus for any command line tool using simple YAML configuration
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - shell-productivity
+- key: mister_bin
+  name: Mister Bin
+  summary: Build modular command line tools
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+  - cli-tools
+- key: pobject
+  name: Persistent Object
+  summary: Automatically persist objects to disk as YAML files
+  lang: Ruby
+  tags:
+  - ruby
+  - cache
+- key: pretty_trace
+  name: Pretty Trace
+  summary: Make your Ruby backtrace pretty again
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+- key: pundit_extra
+  name: Pundit Extra
+  summary: Extensions and helpers for Pundit authorization library
+  lang: Ruby
+  tags:
+  - ruby
+  - rails
+  - authorization
+- key: quata
+  name: Quata
+  summary: Lightweight Quandl API library and command line interface
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - api
+  - data-service
+- key: requires
+  name: Requires
+  summary: Ruby's missing function to require all files and directories
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+- key: rigit
+  name: Rig It
+  summary: Build project templates easily without writing code
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
+  - scaffolding
+- key: rspec_fixtures
+  name: RSpec Fixtures
+  summary: Interactive fixture approvals for RSpec
+  lang: Ruby
+  tags:
+  - ruby
+  - testing-tools
+  - rspec
+- key: runfile
+  name: Runfile
+  summary: Build command line applications per project with ease
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - shell-productivity
+- key: sla
+  name: Site Link Analyzer
+  summary: Find broken links in your website
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - site-analyzers
+- key: snapcrawl
+  name: Snapcrawl
+  summary: Crawl a website and take screenshots
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - site-analyzers
+- key: sting
+  name: Sting
+  summary: Minimal, lightweight, multi-YAML settings library
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+- key: super_docopt
+  name: Super Docopt
+  summary: docopt-based command line utility builder
+  lang: Ruby
+  tags:
+  - ruby
+  - cli-tools
+- key: victor
+  name: Victor
+  summary: Genearte SVG images by writing Ruby code
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
+- key: webcache
+  name: Webcache
+  summary: Hassle-free caching for HTTP download with ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - cache
+  - developer-utilities
+- key: wordscan
+  name: Wordscan
+  summary: Dictionary and thesaurus regular expression search
+  lang: Ruby
+  tags:
+  - ruby
+  - name-utilities
+  - cli
+- key: yamlcon
+  name: YAMLCon
+  summary: YAML configuration file loader with dot notation support
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities

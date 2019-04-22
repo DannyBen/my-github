@@ -2,11 +2,11 @@ require 'yaml'
 require 'byebug'
 
 def repos
-  @repos ||= YAML.load_file 'src/repos.yml'
+  @repos ||= YAML.load_file '_src/repos.yml'
 end
 
 def tags
-  @tags ||= YAML.load_file 'src/tags.yml'
+  @tags ||= YAML.load_file '_src/tags.yml'
 end
 
 def toc
@@ -37,7 +37,8 @@ def repos_by_tag!
     next unless data['tags']
     data['tags'].each do |tag|
       result[tag] ||= []
-      result[tag] << key
+      payload = { 'key' => key }.merge repos[key]
+      result[tag] << payload
     end
   end
 

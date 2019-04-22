@@ -1,0 +1,25 @@
+---
+- key: concode
+  name: Concode
+  summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
+  lang: Ruby
+  tags:
+  - ruby
+  - name-utilities
+- key: ismine
+  name: IsMine
+  summary: Ruby command line domain checker with wildcards
+  lang: Ruby
+  tags:
+  - ruby
+  - name-utilities
+  - domain-utilities
+  - cli
+- key: wordscan
+  name: Wordscan
+  summary: Dictionary and thesaurus regular expression search
+  lang: Ruby
+  tags:
+  - ruby
+  - name-utilities
+  - cli

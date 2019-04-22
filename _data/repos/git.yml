@@ -1,0 +1,9 @@
+---
+- key: docker-git-compose
+  name: Docker Git Compose
+  summary: Docker image with docker, git and docker-compose
+  lang: Dockerfile
+  tags:
+  - docker
+  - git
+  - cicd

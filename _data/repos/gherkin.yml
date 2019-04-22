@@ -1,0 +1,9 @@
+---
+- key: clicumber
+  name: Clicumber
+  summary: Cucumber step definitions for testing command line applications
+  lang: Gherkin
+  tags:
+  - gherkin
+  - cucumber
+  - testing-tools

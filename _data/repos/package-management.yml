@@ -1,0 +1,10 @@
+---
+- key: rush-command
+  name: Rush
+  summary: Bootstrap Linux workstations by running GitHub hosted bash scripts
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - package-management
+  - devops

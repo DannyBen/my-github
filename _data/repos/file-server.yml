@@ -1,0 +1,10 @@
+---
+- key: docker-alpine-adsf
+  name: Docker Alpine ADSF
+  summary: Ruby ADSF file server on Alpine linux
+  lang: Dockerfile
+  tags:
+  - docker
+  - ruby
+  - file-server
+  - alpine

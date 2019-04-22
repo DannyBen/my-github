@@ -1,0 +1,18 @@
+---
+- key: alf
+  name: Alf
+  summary: Alias manager for Bash
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - alias-management
+  - cli
+- key: opcode
+  name: Opcode
+  summary: Local command shortcuts
+  lang: Bash
+  tags:
+  - bash
+  - alias-management
+  - shell-productivity

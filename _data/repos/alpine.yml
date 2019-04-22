@@ -1,0 +1,35 @@
+---
+- key: docker-alpine-adsf
+  name: Docker Alpine ADSF
+  summary: Ruby ADSF file server on Alpine linux
+  lang: Dockerfile
+  tags:
+  - docker
+  - ruby
+  - file-server
+  - alpine
+- key: docker-alpine-mongo
+  name: Docker Alpine Mongo
+  summary: MongoDB on Alpine linux
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - mongo
+- key: docker-alpine-ruby
+  name: Docker Alpine Ruby
+  summary: Minimal Ruby docker image with native extensions support
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - ruby
+- key: docker-alpine-ruby-mongo
+  name: Docker Alpine Ruby Mongo
+  summary: Docker image with ruby and mongo tools based on Alpine
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - ruby
+  - mongo

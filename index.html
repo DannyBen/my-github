@@ -1,0 +1,18 @@
+---
+title: 
+layout: default
+---
+
+<div class="container-lg gutter-condensed clearfix">
+  {% for item in site.data.index %}
+    <div class="col-sm-12 col-md-4 float-left mb-3">
+      <div class='border pt-3 pl-3 pr-3 rounded-2'>
+        <a class='f2-light' href="/{{ item.tag }}">
+          {{ item.tag_name }}
+        </a>
+        <p>{{ item.count }} repositories</p>
+      </div>
+    </div>
+    {% cycle '', '', "<div class='clearfix'></div>" %}
+  {% endfor %}
+</div>

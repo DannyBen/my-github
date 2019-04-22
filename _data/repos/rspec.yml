@@ -1,0 +1,9 @@
+---
+- key: rspec_fixtures
+  name: RSpec Fixtures
+  summary: Interactive fixture approvals for RSpec
+  lang: Ruby
+  tags:
+  - ruby
+  - testing-tools
+  - rspec

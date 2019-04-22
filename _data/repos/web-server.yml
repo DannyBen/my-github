@@ -1,0 +1,38 @@
+---
+- key: docker-fallback
+  name: Docker Fallback
+  summary: Default ingress backend
+  lang: Dockerfile
+  tags:
+  - docker
+  - web-server
+  - devops
+- key: docker-redirector
+  name: Docker Redirector
+  summary: Docker image to handle domain redirects
+  lang: Dockerfile
+  tags:
+  - docker
+  - web-server
+  - devops
+- key: jobly
+  name: Jobly
+  summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - background-jobs
+  - api
+  - web-server
+  - cicd
+- key: loadrunner
+  name: LoadRunner
+  summary: GitHub webhook server and event simulator
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
+  - github
+  - devops
+  - cicd

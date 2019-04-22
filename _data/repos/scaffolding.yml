@@ -1,0 +1,9 @@
+---
+- key: rigit
+  name: Rig It
+  summary: Build project templates easily without writing code
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
+  - scaffolding

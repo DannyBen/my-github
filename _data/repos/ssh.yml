@@ -1,0 +1,9 @@
+---
+- key: jossh
+  name: Jossh
+  summary: Run local scripts remotely by SSH
+  lang: Ruby
+  tags:
+  - ruby
+  - ssh
+  - devops

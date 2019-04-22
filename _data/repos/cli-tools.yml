@@ -1,0 +1,23 @@
+---
+- key: colsole
+  name: Colsole
+  summary: Utility functions for colorful console applications with Ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - cli-tools
+- key: mister_bin
+  name: Mister Bin
+  summary: Build modular command line tools
+  lang: Ruby
+  tags:
+  - ruby
+  - developer-utilities
+  - cli-tools
+- key: super_docopt
+  name: Super Docopt
+  summary: docopt-based command line utility builder
+  lang: Ruby
+  tags:
+  - ruby
+  - cli-tools

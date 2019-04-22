@@ -1,0 +1,44 @@
+---
+- key: docker-fallback
+  name: Docker Fallback
+  summary: Default ingress backend
+  lang: Dockerfile
+  tags:
+  - docker
+  - web-server
+  - devops
+- key: docker-redirector
+  name: Docker Redirector
+  summary: Docker image to handle domain redirects
+  lang: Dockerfile
+  tags:
+  - docker
+  - web-server
+  - devops
+- key: jossh
+  name: Jossh
+  summary: Run local scripts remotely by SSH
+  lang: Ruby
+  tags:
+  - ruby
+  - ssh
+  - devops
+- key: loadrunner
+  name: LoadRunner
+  summary: GitHub webhook server and event simulator
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
+  - github
+  - devops
+  - cicd
+- key: rush-command
+  name: Rush
+  summary: Bootstrap Linux workstations by running GitHub hosted bash scripts
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - package-management
+  - devops

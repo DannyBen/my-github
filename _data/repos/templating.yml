@@ -1,0 +1,19 @@
+---
+- key: kojo
+  name: Kojo
+  summary: Command line utility for generating config files from templates and definition
+    files
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
+  - configuration-tools
+  - cli
+- key: rigit
+  name: Rig It
+  summary: Build project templates easily without writing code
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
+  - scaffolding

@@ -1,0 +1,70 @@
+---
+- key: apicake
+  name: API Cake
+  summary: Build dynamic API wrappers
+  lang: Ruby
+  tags:
+  - ruby
+  - api
+- key: fredric
+  name: Fredric
+  summary: FRED API library and command line interface
+  lang: Ruby
+  tags:
+  - ruby
+  - api
+  - cli
+  - data-service
+- key: gondl
+  name: Gondl
+  summary: Command line console for Quandl
+  lang: Go
+  tags:
+  - go
+  - cli
+  - api
+  - data-service
+- key: intrinio
+  name: Intrinio
+  summary: Library and command line interface for Intrinio data API
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - api
+  - data-service
+- key: jobly
+  name: Jobly
+  summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - background-jobs
+  - api
+  - web-server
+  - cicd
+- key: php-quandl
+  name: PHP Quandl
+  summary: Easy access to the Quandl Data API using PHP
+  lang: PHP
+  tags:
+  - php
+  - api
+  - data-service
+- key: quandl
+  name: Quandl
+  summary: Go library for accessing Quandl API
+  lang: Go
+  tags:
+  - go
+  - api
+- key: quata
+  name: Quata
+  summary: Lightweight Quandl API library and command line interface
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - api
+  - data-service

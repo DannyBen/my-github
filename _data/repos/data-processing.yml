@@ -1,0 +1,8 @@
+---
+- key: datamix
+  name: DataMix
+  summary: DSL for manipulating tabular data
+  lang: Ruby
+  tags:
+  - ruby
+  - data-processing

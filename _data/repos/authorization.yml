@@ -1,0 +1,9 @@
+---
+- key: pundit_extra
+  name: Pundit Extra
+  summary: Extensions and helpers for Pundit authorization library
+  lang: Ruby
+  tags:
+  - ruby
+  - rails
+  - authorization

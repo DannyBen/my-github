@@ -1,0 +1,27 @@
+---
+- key: alf
+  name: Alf
+  summary: Alias manager for Bash
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - alias-management
+  - cli
+- key: opcode
+  name: Opcode
+  summary: Local command shortcuts
+  lang: Bash
+  tags:
+  - bash
+  - alias-management
+  - shell-productivity
+- key: rush-command
+  name: Rush
+  summary: Bootstrap Linux workstations by running GitHub hosted bash scripts
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - package-management
+  - devops

@@ -1,0 +1,15 @@
+---
+- key: icodi
+  name: Icodi
+  summary: Deterministic Random SVG Icon Generator
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
+- key: victor
+  name: Victor
+  summary: Genearte SVG images by writing Ruby code
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
