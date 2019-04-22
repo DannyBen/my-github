@@ -6,14 +6,15 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - templating
   - configuration-tools
-  - cli
 - key: rigit
   name: Rig It
   summary: Build project templates easily without writing code
   lang: Ruby
   tags:
   - ruby
-  - templating
+  - cli
   - scaffolding
+  - templating

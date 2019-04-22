@@ -5,8 +5,8 @@
   lang: Ruby
   tags:
   - ruby
-  - api
   - cli
+  - api
   - data-service
 - key: gondl
   name: Gondl

@@ -5,6 +5,7 @@
   lang: Dockerfile
   tags:
   - docker
+  - alpine
   - php
 - key: php-quandl
   name: PHP Quandl

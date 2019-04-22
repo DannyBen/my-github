@@ -5,9 +5,9 @@
   lang: Bash
   tags:
   - bash
-  - shell-productivity
-  - alias-management
   - cli
+  - alias-management
+  - shell-productivity
 - key: audio_addict
   name: AudioAddict
   summary: AudioAddict Command Line for Voting and Playlist Management
@@ -16,14 +16,29 @@
   - ruby
   - cli
   - audio-tools
+- key: concode
+  name: Concode
+  summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - name-utilities
+- key: enforce
+  name: Enforce
+  summary: DSL for verifying file/folder content
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
 - key: fredric
   name: Fredric
   summary: FRED API library and command line interface
   lang: Ruby
   tags:
   - ruby
-  - api
   - cli
+  - api
   - data-service
 - key: gondl
   name: Gondl
@@ -49,9 +64,9 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - name-utilities
   - domain-utilities
-  - cli
 - key: jobly
   name: Jobly
   summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
@@ -59,10 +74,19 @@
   tags:
   - ruby
   - cli
-  - background-jobs
   - api
+  - background-jobs
   - web-server
   - cicd
+- key: jossh
+  name: Jossh
+  summary: Run local scripts remotely by SSH
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - ssh
+  - devops
 - key: kojo
   name: Kojo
   summary: Command line utility for generating config files from templates and definition
@@ -70,9 +94,37 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - templating
   - configuration-tools
+- key: loadrunner
+  name: LoadRunner
+  summary: GitHub webhook server and event simulator
+  lang: Ruby
+  tags:
+  - ruby
   - cli
+  - web-server
+  - github
+  - devops
+  - cicd
+- key: madman
+  name: Madman
+  summary: The markdown swiss army knife
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - markdown
+- key: madness
+  name: Madness
+  summary: Instant markdown server
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - markdown
+  - documentation-server
 - key: menu_commander
   name: Menu Commander
   summary: Create menus for any command line tool using simple YAML configuration
@@ -90,6 +142,15 @@
   - cli
   - api
   - data-service
+- key: rigit
+  name: Rig It
+  summary: Build project templates easily without writing code
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - scaffolding
+  - templating
 - key: runfile
   name: Runfile
   summary: Build command line applications per project with ease
@@ -120,5 +181,5 @@
   lang: Ruby
   tags:
   - ruby
-  - name-utilities
   - cli
+  - name-utilities

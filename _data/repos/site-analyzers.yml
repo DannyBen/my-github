@@ -4,8 +4,8 @@
   summary: Crawl a website and take screenshots (Docker version)
   lang: Dockerfile
   tags:
-  - ruby
   - docker
+  - ruby
   - site-analyzers
 - key: sla
   name: Site Link Analyzer

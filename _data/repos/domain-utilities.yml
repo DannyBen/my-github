@@ -5,6 +5,6 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - name-utilities
   - domain-utilities
-  - cli

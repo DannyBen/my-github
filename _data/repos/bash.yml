@@ -5,9 +5,9 @@
   lang: Bash
   tags:
   - bash
-  - shell-productivity
-  - alias-management
   - cli
+  - alias-management
+  - shell-productivity
 - key: opcode
   name: Opcode
   summary: Local command shortcuts

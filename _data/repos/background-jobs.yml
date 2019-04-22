@@ -5,8 +5,8 @@
   lang: Dockerfile
   tags:
   - docker
-  - background-jobs
   - ruby
+  - background-jobs
   - cicd
 - key: jobly
   name: Jobly
@@ -15,7 +15,7 @@
   tags:
   - ruby
   - cli
-  - background-jobs
   - api
+  - background-jobs
   - web-server
   - cicd

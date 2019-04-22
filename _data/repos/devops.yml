@@ -21,6 +21,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - ssh
   - devops
 - key: loadrunner
@@ -29,6 +30,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - web-server
   - github
   - devops

@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - name-utilities
 - key: ismine
   name: IsMine
@@ -12,14 +13,14 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - name-utilities
   - domain-utilities
-  - cli
 - key: wordscan
   name: Wordscan
   summary: Dictionary and thesaurus regular expression search
   lang: Ruby
   tags:
   - ruby
-  - name-utilities
   - cli
+  - name-utilities

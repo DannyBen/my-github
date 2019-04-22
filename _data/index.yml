@@ -4,7 +4,7 @@
   count: 43
 - tag: cli
   tag_name: CLI
-  count: 14
+  count: 21
 - tag: docker
   tag_name: Docker
   count: 14
@@ -14,6 +14,9 @@
 - tag: developer-utilities
   tag_name: Developer Utilities
   count: 8
+- tag: alpine
+  tag_name: Alpine Linux
+  count: 5
 - tag: data-service
   tag_name: Data Service
   count: 5
@@ -23,9 +26,6 @@
 - tag: shell-productivity
   tag_name: Shell Productivity
   count: 5
-- tag: alpine
-  tag_name: Alpine Linux
-  count: 4
 - tag: autohotkey
   tag_name: AutoHotkey
   count: 4

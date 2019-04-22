@@ -5,9 +5,9 @@
   lang: Bash
   tags:
   - bash
-  - shell-productivity
-  - alias-management
   - cli
+  - alias-management
+  - shell-productivity
 - key: menu_commander
   name: Menu Commander
   summary: Create menus for any command line tool using simple YAML configuration

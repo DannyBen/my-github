@@ -12,8 +12,8 @@
   lang: Ruby
   tags:
   - ruby
-  - api
   - cli
+  - api
   - data-service
 - key: gondl
   name: Gondl
@@ -40,8 +40,8 @@
   tags:
   - ruby
   - cli
-  - background-jobs
   - api
+  - background-jobs
   - web-server
   - cicd
 - key: php-quandl

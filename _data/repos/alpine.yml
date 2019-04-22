@@ -5,9 +5,9 @@
   lang: Dockerfile
   tags:
   - docker
+  - alpine
   - ruby
   - file-server
-  - alpine
 - key: docker-alpine-mongo
   name: Docker Alpine Mongo
   summary: MongoDB on Alpine linux
@@ -16,6 +16,14 @@
   - docker
   - alpine
   - mongo
+- key: docker-alpine-php
+  name: Docker Alpine PHP
+  summary: PHP CLI on Alpine linux
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - php
 - key: docker-alpine-ruby
   name: Docker Alpine Ruby
   summary: Minimal Ruby docker image with native extensions support

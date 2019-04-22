@@ -34,6 +34,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - name-utilities
 - key: datamix
   name: DataMix
@@ -48,9 +49,9 @@
   lang: Dockerfile
   tags:
   - docker
+  - alpine
   - ruby
   - file-server
-  - alpine
 - key: docker-alpine-ruby
   name: Docker Alpine Ruby
   summary: Minimal Ruby docker image with native extensions support
@@ -74,16 +75,16 @@
   lang: Dockerfile
   tags:
   - docker
-  - background-jobs
   - ruby
+  - background-jobs
   - cicd
 - key: docker-snapcrawl
   name: Docker Snapcrawl
   summary: Crawl a website and take screenshots (Docker version)
   lang: Dockerfile
   tags:
-  - ruby
   - docker
+  - ruby
   - site-analyzers
 - key: enforce
   name: Enforce
@@ -91,14 +92,15 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
 - key: fredric
   name: Fredric
   summary: FRED API library and command line interface
   lang: Ruby
   tags:
   - ruby
-  - api
   - cli
+  - api
   - data-service
 - key: getcomments
   name: GetComments
@@ -129,9 +131,9 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - name-utilities
   - domain-utilities
-  - cli
 - key: jobly
   name: Jobly
   summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
@@ -139,8 +141,8 @@
   tags:
   - ruby
   - cli
-  - background-jobs
   - api
+  - background-jobs
   - web-server
   - cicd
 - key: jossh
@@ -149,6 +151,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - ssh
   - devops
 - key: kojo
@@ -158,9 +161,9 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - templating
   - configuration-tools
-  - cli
 - key: lightly
   name: Lightly
   summary: Ruby file cache for performing heavy tasks lightly
@@ -174,6 +177,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - web-server
   - github
   - devops
@@ -191,6 +195,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - markdown
 - key: madness
   name: Madness
@@ -198,6 +203,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - markdown
   - documentation-server
 - key: menu_commander
@@ -260,16 +266,17 @@
   lang: Ruby
   tags:
   - ruby
-  - templating
+  - cli
   - scaffolding
+  - templating
 - key: rspec_fixtures
   name: RSpec Fixtures
   summary: Interactive fixture approvals for RSpec
   lang: Ruby
   tags:
   - ruby
-  - testing-tools
   - rspec
+  - testing-tools
 - key: runfile
   name: Runfile
   summary: Build command line applications per project with ease
@@ -329,8 +336,8 @@
   lang: Ruby
   tags:
   - ruby
-  - name-utilities
   - cli
+  - name-utilities
 - key: yamlcon
   name: YAMLCon
   summary: YAML configuration file loader with dot notation support

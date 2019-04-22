@@ -6,6 +6,6 @@
   lang: Ruby
   tags:
   - ruby
+  - cli
   - templating
   - configuration-tools
-  - cli

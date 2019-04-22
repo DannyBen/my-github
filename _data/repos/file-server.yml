@@ -5,6 +5,6 @@
   lang: Dockerfile
   tags:
   - docker
+  - alpine
   - ruby
   - file-server
-  - alpine

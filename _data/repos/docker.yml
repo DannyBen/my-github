@@ -5,9 +5,9 @@
   lang: Dockerfile
   tags:
   - docker
+  - alpine
   - ruby
   - file-server
-  - alpine
 - key: docker-alpine-mongo
   name: Docker Alpine Mongo
   summary: MongoDB on Alpine linux
@@ -22,6 +22,7 @@
   lang: Dockerfile
   tags:
   - docker
+  - alpine
   - php
 - key: docker-alpine-ruby
   name: Docker Alpine Ruby
@@ -68,8 +69,8 @@
   lang: Dockerfile
   tags:
   - docker
-  - background-jobs
   - ruby
+  - background-jobs
   - cicd
 - key: docker-madness
   name: Docker Madness
@@ -99,8 +100,8 @@
   summary: Crawl a website and take screenshots (Docker version)
   lang: Dockerfile
   tags:
-  - ruby
   - docker
+  - ruby
   - site-analyzers
 - key: docker-ubuntu
   name: Docker Ubuntu
