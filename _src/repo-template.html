@@ -14,7 +14,8 @@ layout: default
         </a>
         <p>{{ repo.summary }}</p>
         <p>
-          {%% for tag in repo.tags %%}
+          {%% assign local_tags = repo.tags %%}
+          {%% for tag in local_tags %%}
             <a class='text-small text-gray pr-3 pb-1 d-inline-block' href="/{{ tag }}">{{ site.data.tags[tag] }}</a>
           {%% endfor %%}
         </p>
