@@ -9,7 +9,7 @@
   - site-analyzers
 - key: sla
   name: Site Link Analyzer
-  summary: Find broken links in your website
+  summary: Command line broken links checker
   lang: Ruby
   tags:
   - ruby
