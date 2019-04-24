@@ -1,0 +1,9 @@
+- name: Jobly
+  image: featured/jobly.svg
+  summary: Job Server
+  link: https://jobly.dannyb.co/
+
+- name: Madness
+  image: featured/madness.svg
+  summary: Instant Markdown Server
+  link: https://madness.dannyb.co/
