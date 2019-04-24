@@ -7,3 +7,13 @@
   image: featured/madness.svg
   summary: Instant Markdown Server
   link: https://madness.dannyb.co/
+
+- name: Victor
+  image: featured/victor.svg
+  summary: Ruby to SVG
+  link: https://github.com/dannyben/victor
+
+- name: Alf
+  image: featured/alf.svg
+  summary: Bash Alias Manager
+  link: https://github.com/dannyben/alf
