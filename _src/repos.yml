@@ -184,6 +184,16 @@ docker-snapcrawl:
   - ruby
   - site-analyzers
 
+docker-sshd:
+  name: Docker SSHD
+  summary: Alpine SSH Client and Server
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - ssh
+  - devops
+
 docker-ubuntu:
   name: Docker Ubuntu
   summary: Ubuntu sandbox with non-root user

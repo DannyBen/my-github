@@ -41,3 +41,12 @@
   - alpine
   - ruby
   - mongo
+- key: docker-sshd
+  name: Docker SSHD
+  summary: Alpine SSH Client and Server
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - ssh
+  - devops

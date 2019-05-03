@@ -7,7 +7,7 @@
   count: 21
 - tag: docker
   tag_name: Docker
-  count: 14
+  count: 15
 - tag: api
   tag_name: API
   count: 8
@@ -16,12 +16,12 @@
   count: 8
 - tag: alpine
   tag_name: Alpine Linux
-  count: 5
-- tag: data-service
-  tag_name: Data Service
-  count: 5
+  count: 6
 - tag: devops
   tag_name: DevOps
+  count: 6
+- tag: data-service
+  tag_name: Data Service
   count: 5
 - tag: shell-productivity
   tag_name: Shell Productivity
@@ -76,6 +76,9 @@
   count: 2
 - tag: site-building
   tag_name: Site Building Tools
+  count: 2
+- tag: ssh
+  tag_name: SSH
   count: 2
 - tag: svg
   tag_name: SVG
@@ -136,9 +139,6 @@
   count: 1
 - tag: scaffolding
   tag_name: Scaffolding
-  count: 1
-- tag: ssh
-  tag_name: SSH
   count: 1
 - tag: ubuntu
   tag_name: Ubuntu
