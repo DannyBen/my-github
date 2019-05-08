@@ -519,6 +519,15 @@ sla:
   - cli
   - site-analyzers
 
+slacktail:
+  name: Slacktail
+  summary: Follow your Slack chats from the terminal
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - devops
+
 snapcrawl:
   name: Snapcrawl
   summary: Crawl a website and take screenshots

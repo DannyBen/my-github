@@ -293,6 +293,14 @@
   - ruby
   - cli
   - site-analyzers
+- key: slacktail
+  name: Slacktail
+  summary: Follow your Slack chats from the terminal
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - devops
 - key: snapcrawl
   name: Snapcrawl
   summary: Crawl a website and take screenshots

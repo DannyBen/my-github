@@ -53,3 +53,11 @@
   - shell-productivity
   - package-management
   - devops
+- key: slacktail
+  name: Slacktail
+  summary: Follow your Slack chats from the terminal
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - devops
