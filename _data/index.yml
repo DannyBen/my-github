@@ -16,18 +16,21 @@
   count: 8
 - tag: devops
   tag_name: DevOps
-  count: 7
+  count: 8
 - tag: alpine
   tag_name: Alpine Linux
+  count: 6
+- tag: shell-productivity
+  tag_name: Shell Productivity
   count: 6
 - tag: data-service
   tag_name: Data Service
   count: 5
-- tag: shell-productivity
-  tag_name: Shell Productivity
-  count: 5
 - tag: autohotkey
   tag_name: AutoHotkey
+  count: 4
+- tag: bash
+  tag_name: Bash
   count: 4
 - tag: cache
   tag_name: Cache Management
@@ -38,9 +41,6 @@
 - tag: web-server
   tag_name: Web Server
   count: 4
-- tag: bash
-  tag_name: Bash
-  count: 3
 - tag: cli-tools
   tag_name: CLI Tools
   count: 3
@@ -70,6 +70,9 @@
   count: 2
 - tag: mongo
   tag_name: MongoDB
+  count: 2
+- tag: package-management
+  tag_name: Package Management
   count: 2
 - tag: php
   tag_name: PHP
@@ -124,9 +127,6 @@
   count: 1
 - tag: jekyll
   tag_name: Jekyll
-  count: 1
-- tag: package-management
-  tag_name: Package Management
   count: 1
 - tag: rabbit
   tag_name: RabbitMQ

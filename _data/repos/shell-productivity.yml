@@ -41,3 +41,12 @@
   - shell-productivity
   - package-management
   - devops
+- key: rush-local
+  name: Rush Local
+  summary: Local version of Rush
+  lang: Bash
+  tags:
+  - bash
+  - shell-productivity
+  - package-management
+  - devops
