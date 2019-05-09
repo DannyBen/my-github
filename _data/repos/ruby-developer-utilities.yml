@@ -1,0 +1,77 @@
+---
+- key: concode
+  name: Concode
+  summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - ruby-developer-utilities
+  - name-utilities
+- key: getcomments
+  name: GetComments
+  summary: Extract comments from Ruby code
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
+- key: lp
+  name: Lovely Print
+  summary: Print any object in YAML format
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
+- key: mister_bin
+  name: Mister Bin
+  summary: Build modular command line tools
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
+  - cli-tools
+- key: pretty_trace
+  name: Pretty Trace
+  summary: Make your Ruby backtrace pretty again
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
+- key: requires
+  name: Requires
+  summary: Ruby's missing function to require all files and directories
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
+- key: runfile
+  name: Runfile
+  summary: Build command line applications per project with ease
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - ruby-developer-utilities
+  - shell-productivity
+- key: sting
+  name: Sting
+  summary: Minimal, lightweight, multi-YAML settings library
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
+- key: webcache
+  name: Webcache
+  summary: Hassle-free caching for HTTP download with ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - cache
+  - ruby-developer-utilities
+- key: yamlcon
+  name: YAMLCon
+  summary: YAML configuration file loader with dot notation support
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities

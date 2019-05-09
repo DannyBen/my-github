@@ -12,7 +12,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
   - cli-tools
 - key: super_docopt
   name: Super Docopt

@@ -8,11 +8,11 @@
 - tag: docker
   tag_name: Docker
   count: 15
+- tag: ruby-developer-utilities
+  tag_name: Ruby Developer Utilities
+  count: 10
 - tag: api
   tag_name: API
-  count: 8
-- tag: developer-utilities
-  tag_name: Developer Utilities
   count: 8
 - tag: devops
   tag_name: DevOps

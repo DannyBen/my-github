@@ -15,7 +15,6 @@ configuration-tools: Configuration Tools
 cucumber: Cucumber
 data-processing: Data Processing
 data-service: Data Service
-developer-utilities: Developer Utilities
 devops: DevOps
 docker-compose: Docker Compose
 docker: Docker
@@ -38,6 +37,7 @@ php: PHP
 rabbit: RabbitMQ
 rails: Rails
 rspec: RSpec
+ruby-developer-utilities: Ruby Developer Utilities
 ruby: Ruby
 scaffolding: Scaffolding
 shell-productivity: Shell Productivity

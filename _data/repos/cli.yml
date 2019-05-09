@@ -23,6 +23,7 @@
   tags:
   - ruby
   - cli
+  - ruby-developer-utilities
   - name-utilities
 - key: enforce
   name: Enforce
@@ -158,6 +159,7 @@
   tags:
   - ruby
   - cli
+  - ruby-developer-utilities
   - shell-productivity
 - key: sla
   name: Site Link Analyzer

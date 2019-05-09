@@ -35,6 +35,7 @@
   tags:
   - ruby
   - cli
+  - ruby-developer-utilities
   - name-utilities
 - key: datamix
   name: DataMix
@@ -108,7 +109,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 - key: icodi
   name: Icodi
   summary: Deterministic Random SVG Icon Generator
@@ -188,7 +189,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 - key: madman
   name: Madman
   summary: The markdown swiss army knife
@@ -220,7 +221,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
   - cli-tools
 - key: pobject
   name: Persistent Object
@@ -235,7 +236,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 - key: pundit_extra
   name: Pundit Extra
   summary: Extensions and helpers for Pundit authorization library
@@ -259,7 +260,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 - key: rigit
   name: Rig It
   summary: Build project templates easily without writing code
@@ -284,6 +285,7 @@
   tags:
   - ruby
   - cli
+  - ruby-developer-utilities
   - shell-productivity
 - key: sla
   name: Site Link Analyzer
@@ -315,7 +317,7 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 - key: super_docopt
   name: Super Docopt
   summary: docopt-based command line utility builder
@@ -337,7 +339,7 @@
   tags:
   - ruby
   - cache
-  - developer-utilities
+  - ruby-developer-utilities
 - key: wordscan
   name: Wordscan
   summary: Dictionary and thesaurus regular expression search
@@ -352,4 +354,4 @@
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities

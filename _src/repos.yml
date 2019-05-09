@@ -57,6 +57,7 @@ concode:
   tags:
   - ruby
   - cli
+  - ruby-developer-utilities
   - name-utilities
 
 datamix:
@@ -250,7 +251,7 @@ getcomments:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 
 gondl:
   name: Gondl
@@ -364,7 +365,7 @@ lp:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 
 madman:
   name: Madman
@@ -400,7 +401,7 @@ mister_bin:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
   - cli-tools
 
 opcode: 
@@ -435,7 +436,7 @@ pretty_trace:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 
 pundit_extra:
   name: Pundit Extra
@@ -470,7 +471,7 @@ requires:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 
 rigit:
   name: Rig It
@@ -498,6 +499,7 @@ runfile:
   tags:
   - ruby
   - cli
+  - ruby-developer-utilities
   - shell-productivity
 
 rush-command:
@@ -553,7 +555,7 @@ sting:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
 
 super_docopt:
   name: Super Docopt
@@ -585,7 +587,7 @@ webcache:
   tags:
   - ruby
   - cache
-  - developer-utilities
+  - ruby-developer-utilities
 
 wordscan:
   name: Wordscan
@@ -602,4 +604,4 @@ yamlcon:
   lang: Ruby
   tags:
   - ruby
-  - developer-utilities
+  - ruby-developer-utilities
