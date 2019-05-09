@@ -44,6 +44,15 @@
   tags:
   - ruby
   - ruby-developer-utilities
+- key: rspec_fixtures
+  name: RSpec Fixtures
+  summary: Interactive fixture approvals for RSpec
+  lang: Ruby
+  tags:
+  - ruby
+  - rspec
+  - ruby-developer-utilities
+  - testing-tools
 - key: runfile
   name: Runfile
   summary: Build command line applications per project with ease
