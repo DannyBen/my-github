@@ -523,7 +523,7 @@ rush-command:
 
 rush-local:
   name: Rush Local
-  summary: Local version of Rush
+  summary: Bootstrap Linux workstations using a centralized bash scripts repository
   lang: Bash
   tags:
   - bash
