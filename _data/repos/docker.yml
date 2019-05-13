@@ -41,6 +41,13 @@
   - alpine
   - ruby
   - mongo
+- key: docker-borg-client
+  name: Docker Borg Client
+  summary: Docker image with Borg Backup client
+  lang: Dockerfile
+  tags:
+  - docker
+  - devops
 - key: docker-fallback
   name: Docker Fallback
   summary: Default ingress backend

@@ -115,6 +115,14 @@ docker-alpine-ruby-mongo:
   - ruby
   - mongo
 
+docker-borg-client:
+  name: Docker Borg Client
+  summary: Docker image with Borg Backup client
+  lang: Dockerfile
+  tags:
+  - docker
+  - devops
+
 docker-fallback:
   name: Docker Fallback
   summary: Default ingress backend
