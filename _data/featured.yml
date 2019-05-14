@@ -17,3 +17,8 @@
   image: featured/alf.svg
   summary: Bash Alias Manager
   link: https://github.com/dannyben/alf
+
+# - name: Opcode
+#   image: featured/opcode.svg
+#   summary: Local Command Shortcuts
+#   link: https://github.com/dannyben/opcode
