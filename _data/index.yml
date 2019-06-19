@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 44
+  count: 45
 - tag: cli
   tag_name: CLI
   count: 22
@@ -26,6 +26,9 @@
 - tag: data-service
   tag_name: Data Service
   count: 5
+- tag: web-server
+  tag_name: Web Server
+  count: 5
 - tag: autohotkey
   tag_name: AutoHotkey
   count: 4
@@ -37,9 +40,6 @@
   count: 4
 - tag: cicd
   tag_name: CI/CD
-  count: 4
-- tag: web-server
-  tag_name: Web Server
   count: 4
 - tag: cli-tools
   tag_name: CLI Tools
@@ -55,6 +55,9 @@
   count: 3
 - tag: site-analyzers
   tag_name: Site Analyzers
+  count: 3
+- tag: svg
+  tag_name: SVG
   count: 3
 - tag: alias-management
   tag_name: Shell Alias Management
@@ -82,9 +85,6 @@
   count: 2
 - tag: ssh
   tag_name: SSH
-  count: 2
-- tag: svg
-  tag_name: SVG
   count: 2
 - tag: templating
   tag_name: Templating

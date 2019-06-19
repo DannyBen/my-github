@@ -15,6 +15,14 @@
   - docker
   - web-server
   - devops
+- key: icodi-site
+  name: Icodi Playground
+  summary: Deterministic Random SVG Icon Generator (Online Demo)
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
+  - svg
 - key: jobly
   name: Jobly
   summary: Compact job server with API, CLI, Web UI and a Sidekiq heart

@@ -117,6 +117,14 @@
   tags:
   - ruby
   - svg
+- key: icodi-site
+  name: Icodi Playground
+  summary: Deterministic Random SVG Icon Generator (Online Demo)
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
+  - svg
 - key: intrinio
   name: Intrinio
   summary: Library and command line interface for Intrinio data API

@@ -6,6 +6,14 @@
   tags:
   - ruby
   - svg
+- key: icodi-site
+  name: Icodi Playground
+  summary: Deterministic Random SVG Icon Generator (Online Demo)
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
+  - svg
 - key: victor
   name: Victor
   summary: Genearte SVG images by writing Ruby code
