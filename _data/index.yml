@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 45
+  count: 46
 - tag: cli
   tag_name: CLI
   count: 22
@@ -23,11 +23,11 @@
 - tag: shell-productivity
   tag_name: Shell Productivity
   count: 6
-- tag: data-service
-  tag_name: Data Service
-  count: 5
 - tag: web-server
   tag_name: Web Server
+  count: 6
+- tag: data-service
+  tag_name: Data Service
   count: 5
 - tag: autohotkey
   tag_name: AutoHotkey

@@ -15,6 +15,13 @@
   - docker
   - web-server
   - devops
+- key: echo-webserver
+  name: Echo Webserver
+  summary: A web server that echoes the request back
+  lang: Ruby
+  tags:
+  - ruby
+  - web-server
 - key: icodi-site
   name: Icodi Playground
   summary: Deterministic Random SVG Icon Generator (Online Demo)
