@@ -11,12 +11,12 @@
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
   count: 11
+- tag: api
+  tag_name: API
+  count: 9
 - tag: devops
   tag_name: DevOps
   count: 9
-- tag: api
-  tag_name: API
-  count: 8
 - tag: alpine
   tag_name: Alpine Linux
   count: 6

@@ -213,11 +213,12 @@ docker-ubuntu:
 
 echo-webserver:
   name: Echo Webserver
-  summary: A web server that echoes the request back
+  summary: A web server that echoes the request information back
   lang: Ruby
   tags:
   - ruby
   - web-server
+  - api
 
 eclipse:
   name: Eclipse
