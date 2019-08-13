@@ -218,6 +218,7 @@ echo-webserver:
   tags:
   - ruby
   - web-server
+  - docker
   - api
 
 eclipse:

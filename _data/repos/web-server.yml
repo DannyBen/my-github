@@ -22,6 +22,7 @@
   tags:
   - ruby
   - web-server
+  - docker
   - api
 - key: icodi-site
   name: Icodi Playground

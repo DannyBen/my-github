@@ -94,6 +94,7 @@
   tags:
   - ruby
   - web-server
+  - docker
   - api
 - key: enforce
   name: Enforce

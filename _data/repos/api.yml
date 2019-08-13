@@ -13,6 +13,7 @@
   tags:
   - ruby
   - web-server
+  - docker
   - api
 - key: fredric
   name: Fredric

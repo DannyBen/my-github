@@ -7,7 +7,7 @@
   count: 22
 - tag: docker
   tag_name: Docker
-  count: 16
+  count: 17
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
   count: 11
