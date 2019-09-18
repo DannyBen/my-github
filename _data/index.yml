@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 46
+  count: 47
 - tag: cli
   tag_name: CLI
   count: 22
@@ -10,7 +10,7 @@
   count: 17
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
-  count: 11
+  count: 12
 - tag: api
   tag_name: API
   count: 9

@@ -15,6 +15,13 @@
   tags:
   - ruby
   - ruby-developer-utilities
+- key: hash_cabinet
+  name: Hash Cabinet
+  summary: File-based, key-object store with hash-like access
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
 - key: lp
   name: Lovely Print
   summary: Print any object in YAML format
