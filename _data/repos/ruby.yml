@@ -125,6 +125,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cache
   - ruby-developer-utilities
 - key: icodi
   name: Icodi

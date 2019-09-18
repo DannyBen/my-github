@@ -21,6 +21,7 @@
   lang: Ruby
   tags:
   - ruby
+  - cache
   - ruby-developer-utilities
 - key: lp
   name: Lovely Print

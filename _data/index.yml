@@ -26,6 +26,9 @@
 - tag: web-server
   tag_name: Web Server
   count: 6
+- tag: cache
+  tag_name: Cache Management
+  count: 5
 - tag: data-service
   tag_name: Data Service
   count: 5
@@ -34,9 +37,6 @@
   count: 4
 - tag: bash
   tag_name: Bash
-  count: 4
-- tag: cache
-  tag_name: Cache Management
   count: 4
 - tag: cicd
   tag_name: CI/CD

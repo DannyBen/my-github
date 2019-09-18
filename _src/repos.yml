@@ -294,6 +294,7 @@ hash_cabinet:
   lang: Ruby
   tags:
   - ruby
+  - cache
   - ruby-developer-utilities
 
 icodi:

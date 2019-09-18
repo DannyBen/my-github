@@ -6,6 +6,14 @@
   tags:
   - go
   - cache
+- key: hash_cabinet
+  name: Hash Cabinet
+  summary: File-based, key-object store with hash-like access
+  lang: Ruby
+  tags:
+  - ruby
+  - cache
+  - ruby-developer-utilities
 - key: lightly
   name: Lightly
   summary: Ruby file cache for performing heavy tasks lightly
