@@ -70,6 +70,13 @@
   lang: Dockerfile
   tags:
   - docker
+- key: docker-gotty-ruby
+  name: Docker Gotty Ruby
+  summary: Docker image with browser based linux terminal and Ruby
+  lang: Dockerfile
+  tags:
+  - docker
+  - ruby
 - key: docker-jobly
   name: Docker Jobly
   summary: Docker image with the Jobly job server

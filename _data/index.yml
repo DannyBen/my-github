@@ -1,13 +1,13 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 47
+  count: 48
 - tag: cli
   tag_name: CLI
   count: 22
 - tag: docker
   tag_name: Docker
-  count: 17
+  count: 18
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
   count: 12
