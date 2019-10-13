@@ -94,6 +94,14 @@
   - docker
   - ruby
   - site-analyzers
+- key: docspec
+  name: Docspec
+  summary: Inline tests in Markdown documents
+  lang: Ruby
+  tags:
+  - ruby
+  - testing-tools
+  - ruby-developer-utilities
 - key: echo-webserver
   name: Echo Webserver
   summary: A web server that echoes the request information back

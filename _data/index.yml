@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 48
+  count: 49
 - tag: cli
   tag_name: CLI
   count: 22
@@ -10,7 +10,7 @@
   count: 18
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
-  count: 12
+  count: 13
 - tag: api
   tag_name: API
   count: 9
@@ -59,6 +59,9 @@
 - tag: svg
   tag_name: SVG
   count: 3
+- tag: testing-tools
+  tag_name: Testing Tools
+  count: 3
 - tag: alias-management
   tag_name: Shell Alias Management
   count: 2
@@ -88,9 +91,6 @@
   count: 2
 - tag: templating
   tag_name: Templating
-  count: 2
-- tag: testing-tools
-  tag_name: Testing Tools
   count: 2
 - tag: authorization
   tag_name: Authorization

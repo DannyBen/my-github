@@ -156,7 +156,6 @@ docker-gotty-ruby:
   - docker
   - ruby
 
-
 docker-jobly:
   name: Docker Jobly
   summary: Docker image with the Jobly job server
@@ -219,6 +218,15 @@ docker-ubuntu:
   tags:
   - docker
   - ubuntu
+
+docspec:
+  name: Docspec
+  summary: Inline tests in Markdown documents
+  lang: Ruby
+  tags:
+  - ruby
+  - testing-tools
+  - ruby-developer-utilities
 
 echo-webserver:
   name: Echo Webserver

@@ -8,6 +8,14 @@
   - cli
   - ruby-developer-utilities
   - name-utilities
+- key: docspec
+  name: Docspec
+  summary: Inline tests in Markdown documents
+  lang: Ruby
+  tags:
+  - ruby
+  - testing-tools
+  - ruby-developer-utilities
 - key: getcomments
   name: GetComments
   summary: Extract comments from Ruby code
