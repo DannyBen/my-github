@@ -8,6 +8,14 @@
   - cli
   - ruby-developer-utilities
   - name-utilities
+- key: configly
+  name: Configly
+  summary: Minimal, lightweight, multi-YAML settings library with dot notation.
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
 - key: docspec
   name: Docspec
   summary: Inline tests in Markdown documents
@@ -84,6 +92,7 @@
   lang: Ruby
   tags:
   - ruby
+  - configuration-tools
   - ruby-developer-utilities
 - key: webcache
   name: Webcache
@@ -99,4 +108,5 @@
   lang: Ruby
   tags:
   - ruby
+  - configuration-tools
   - ruby-developer-utilities

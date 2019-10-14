@@ -37,6 +37,14 @@
   - cli
   - ruby-developer-utilities
   - name-utilities
+- key: configly
+  name: Configly
+  summary: Minimal, lightweight, multi-YAML settings library with dot notation.
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
 - key: datamix
   name: DataMix
   summary: DSL for manipulating tabular data
@@ -358,6 +366,7 @@
   lang: Ruby
   tags:
   - ruby
+  - configuration-tools
   - ruby-developer-utilities
 - key: super_docopt
   name: Super Docopt
@@ -395,4 +404,5 @@
   lang: Ruby
   tags:
   - ruby
+  - configuration-tools
   - ruby-developer-utilities

@@ -1,4 +1,12 @@
 ---
+- key: configly
+  name: Configly
+  summary: Minimal, lightweight, multi-YAML settings library with dot notation.
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
 - key: kojo
   name: Kojo
   summary: Command line utility for generating config files from templates and definition
@@ -9,3 +17,19 @@
   - cli
   - templating
   - configuration-tools
+- key: sting
+  name: Sting
+  summary: Minimal, lightweight, multi-YAML settings library
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
+- key: yamlcon
+  name: YAMLCon
+  summary: YAML configuration file loader with dot notation support
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities

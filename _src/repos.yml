@@ -60,6 +60,15 @@ concode:
   - ruby-developer-utilities
   - name-utilities
 
+configly:
+  name: Configly
+  summary: Minimal, lightweight, multi-YAML settings library with dot notation.
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
+
 datamix:
   name: DataMix
   summary: DSL for manipulating tabular data
@@ -609,6 +618,7 @@ sting:
   lang: Ruby
   tags:
   - ruby
+  - configuration-tools
   - ruby-developer-utilities
 
 super_docopt:
@@ -658,4 +668,5 @@ yamlcon:
   lang: Ruby
   tags:
   - ruby
+  - configuration-tools
   - ruby-developer-utilities

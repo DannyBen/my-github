@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 49
+  count: 50
 - tag: cli
   tag_name: CLI
   count: 22
@@ -10,7 +10,7 @@
   count: 18
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
-  count: 13
+  count: 14
 - tag: api
   tag_name: API
   count: 9
@@ -40,6 +40,9 @@
   count: 4
 - tag: cicd
   tag_name: CI/CD
+  count: 4
+- tag: configuration-tools
+  tag_name: Configuration Tools
   count: 4
 - tag: cli-tools
   tag_name: CLI Tools
@@ -94,9 +97,6 @@
   count: 2
 - tag: authorization
   tag_name: Authorization
-  count: 1
-- tag: configuration-tools
-  tag_name: Configuration Tools
   count: 1
 - tag: cucumber
   tag_name: Cucumber
