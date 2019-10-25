@@ -263,6 +263,15 @@ enforce:
   - ruby
   - cli
 
+extended_yaml:
+  name: ExtendedYAML
+  summary: Load YAML files that call other YAML files
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
+
 filecache:
   name: Filecache
   summary: File caching library for Go

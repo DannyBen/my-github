@@ -126,6 +126,14 @@
   tags:
   - ruby
   - cli
+- key: extended_yaml
+  name: ExtendedYAML
+  summary: Load YAML files that call other YAML files
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
 - key: fredric
   name: Fredric
   summary: FRED API library and command line interface

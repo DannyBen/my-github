@@ -7,6 +7,14 @@
   - ruby
   - configuration-tools
   - ruby-developer-utilities
+- key: extended_yaml
+  name: ExtendedYAML
+  summary: Load YAML files that call other YAML files
+  lang: Ruby
+  tags:
+  - ruby
+  - configuration-tools
+  - ruby-developer-utilities
 - key: kojo
   name: Kojo
   summary: Command line utility for generating config files from templates and definition

@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 50
+  count: 51
 - tag: cli
   tag_name: CLI
   count: 22
@@ -10,7 +10,7 @@
   count: 18
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
-  count: 14
+  count: 15
 - tag: api
   tag_name: API
   count: 9
@@ -29,6 +29,9 @@
 - tag: cache
   tag_name: Cache Management
   count: 5
+- tag: configuration-tools
+  tag_name: Configuration Tools
+  count: 5
 - tag: data-service
   tag_name: Data Service
   count: 5
@@ -40,9 +43,6 @@
   count: 4
 - tag: cicd
   tag_name: CI/CD
-  count: 4
-- tag: configuration-tools
-  tag_name: Configuration Tools
   count: 4
 - tag: cli-tools
   tag_name: CLI Tools
