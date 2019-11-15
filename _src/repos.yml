@@ -42,6 +42,14 @@ clicumber:
   - cucumber
   - testing-tools
 
+clipper:
+  name: Clipper
+  summary: Pure Command Line Arguments Parser
+  lang: Crystal
+  tags:
+  - crystal
+  - cli-tools
+
 colsole:
   name: Colsole
   summary: Utility functions for colorful console applications with Ruby
@@ -86,6 +94,15 @@ docker-alpine-adsf:
   - alpine
   - ruby
   - file-server
+
+docker-alpine-crystal:
+  name: Docker Alpine Crystal
+  summary: Alpine image with the Crystal programming language
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - crystal
 
 docker-alpine-mongo:
   name: Docker Alpine Mongo

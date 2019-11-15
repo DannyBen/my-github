@@ -8,6 +8,14 @@
   - alpine
   - ruby
   - file-server
+- key: docker-alpine-crystal
+  name: Docker Alpine Crystal
+  summary: Alpine image with the Crystal programming language
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - crystal
 - key: docker-alpine-mongo
   name: Docker Alpine Mongo
   summary: MongoDB on Alpine linux

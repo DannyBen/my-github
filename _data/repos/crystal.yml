@@ -1,0 +1,16 @@
+---
+- key: clipper
+  name: Clipper
+  summary: Pure Command Line Arguments Parser
+  lang: Crystal
+  tags:
+  - crystal
+  - cli-tools
+- key: docker-alpine-crystal
+  name: Docker Alpine Crystal
+  summary: Alpine image with the Crystal programming language
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
+  - crystal

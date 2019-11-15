@@ -1,4 +1,11 @@
 ---
+- key: clipper
+  name: Clipper
+  summary: Pure Command Line Arguments Parser
+  lang: Crystal
+  tags:
+  - crystal
+  - cli-tools
 - key: colsole
   name: Colsole
   summary: Utility functions for colorful console applications with Ruby

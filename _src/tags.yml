@@ -12,6 +12,7 @@ cicd: CI/CD
 cli-tools: CLI Tools
 cli: CLI
 configuration-tools: Configuration Tools
+crystal: Crystal
 cucumber: Cucumber
 data-processing: Data Processing
 data-service: Data Service
