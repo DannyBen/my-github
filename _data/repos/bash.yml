@@ -8,6 +8,16 @@
   - cli
   - alias-management
   - shell-productivity
+- key: bashly
+  name: Bashly
+  summary: Bash CLI Generator
+  lang: Ruby
+  tags:
+  - ruby
+  - bash
+  - shell-productivity
+  - cli-tools
+  - cli
 - key: opcode
   name: Opcode
   summary: Local command shortcuts

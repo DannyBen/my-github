@@ -25,6 +25,17 @@ audio_addict:
   - cli
   - audio-tools
 
+bashly:
+  name: Bashly
+  summary: Bash CLI Generator
+  lang: Ruby
+  tags:
+  - ruby
+  - bash
+  - shell-productivity
+  - cli-tools
+  - cli
+
 bobkit:
   name: Bobkit
   summary: Site generation toolkit with Slim, SCSS, CoffeeScript and Markdown

@@ -16,6 +16,16 @@
   - ruby
   - cli
   - audio-tools
+- key: bashly
+  name: Bashly
+  summary: Bash CLI Generator
+  lang: Ruby
+  tags:
+  - ruby
+  - bash
+  - shell-productivity
+  - cli-tools
+  - cli
 - key: concode
   name: Concode
   summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).

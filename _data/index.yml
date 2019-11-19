@@ -1,10 +1,10 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 51
+  count: 52
 - tag: cli
   tag_name: CLI
-  count: 22
+  count: 23
 - tag: docker
   tag_name: Docker
   count: 19
@@ -22,12 +22,18 @@
   count: 7
 - tag: shell-productivity
   tag_name: Shell Productivity
-  count: 6
+  count: 7
 - tag: web-server
   tag_name: Web Server
   count: 6
+- tag: bash
+  tag_name: Bash
+  count: 5
 - tag: cache
   tag_name: Cache Management
+  count: 5
+- tag: cli-tools
+  tag_name: CLI Tools
   count: 5
 - tag: configuration-tools
   tag_name: Configuration Tools
@@ -38,14 +44,8 @@
 - tag: autohotkey
   tag_name: AutoHotkey
   count: 4
-- tag: bash
-  tag_name: Bash
-  count: 4
 - tag: cicd
   tag_name: CI/CD
-  count: 4
-- tag: cli-tools
-  tag_name: CLI Tools
   count: 4
 - tag: go
   tag_name: Go
