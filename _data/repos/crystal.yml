@@ -1,7 +1,7 @@
 ---
 - key: clipper
   name: Clipper
-  summary: Pure Command Line Arguments Parser
+  summary: Pure command line arguments parser
   lang: Crystal
   tags:
   - crystal

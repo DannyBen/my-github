@@ -1,7 +1,7 @@
 ---
 - key: audio_addict
   name: AudioAddict
-  summary: AudioAddict Command Line for Voting and Playlist Management
+  summary: AudioAddict command line for voting and playlist management
   lang: Ruby
   tags:
   - ruby

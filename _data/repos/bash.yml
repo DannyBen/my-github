@@ -10,7 +10,7 @@
   - shell-productivity
 - key: bashly
   name: Bashly
-  summary: Bash CLI Generator
+  summary: Bash command line framework and CLI Generator
   lang: Ruby
   tags:
   - ruby

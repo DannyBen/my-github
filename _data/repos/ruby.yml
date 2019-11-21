@@ -8,7 +8,7 @@
   - api
 - key: audio_addict
   name: AudioAddict
-  summary: AudioAddict Command Line for Voting and Playlist Management
+  summary: AudioAddict command line for voting and playlist management
   lang: Ruby
   tags:
   - ruby
@@ -16,7 +16,7 @@
   - audio-tools
 - key: bashly
   name: Bashly
-  summary: Bash CLI Generator
+  summary: Bash command line framework and CLI Generator
   lang: Ruby
   tags:
   - ruby

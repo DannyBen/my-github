@@ -18,7 +18,7 @@ apicake:
 
 audio_addict:
   name: AudioAddict
-  summary: AudioAddict Command Line for Voting and Playlist Management
+  summary: AudioAddict command line for voting and playlist management
   lang: Ruby
   tags:
   - ruby
@@ -27,7 +27,7 @@ audio_addict:
 
 bashly:
   name: Bashly
-  summary: Bash CLI Generator
+  summary: Bash command line framework and CLI Generator
   lang: Ruby
   tags:
   - ruby
@@ -55,7 +55,7 @@ clicumber:
 
 clipper:
   name: Clipper
-  summary: Pure Command Line Arguments Parser
+  summary: Pure command line arguments parser
   lang: Crystal
   tags:
   - crystal

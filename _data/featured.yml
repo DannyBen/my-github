@@ -13,12 +13,17 @@
   summary: Ruby to SVG
   link: https://github.com/dannyben/victor
 
+- name: Opcode
+  image: featured/opcode.svg
+  summary: Local Command Shortcuts
+  link: https://github.com/dannyben/opcode
+
 - name: Alf
   image: featured/alf.svg
   summary: Bash Alias Manager
   link: https://github.com/dannyben/alf
 
-# - name: Opcode
-#   image: featured/opcode.svg
-#   summary: Local Command Shortcuts
-#   link: https://github.com/dannyben/opcode
+- name: Bashly
+  image: featured/bashly.svg
+  summary: Bash command line framework and CLI generator
+  link: https://github.com/dannyben/bashly
