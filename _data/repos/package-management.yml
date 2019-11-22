@@ -1,16 +1,7 @@
 ---
-- key: rush-command
+- key: rush-cli
   name: Rush
-  summary: Bootstrap Linux workstations by running GitHub hosted bash scripts
-  lang: Bash
-  tags:
-  - bash
-  - shell-productivity
-  - package-management
-  - devops
-- key: rush-local
-  name: Rush Local
-  summary: Bootstrap Linux workstations using a centralized bash scripts repository
+  summary: Personal package manager
   lang: Bash
   tags:
   - bash
