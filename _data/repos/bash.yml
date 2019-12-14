@@ -8,6 +8,13 @@
   - cli
   - alias-management
   - shell-productivity
+- key: approvals.bash
+  name: Approvals.bash
+  summary: Bash Interactive Approval Testing
+  lang: Bash
+  tags:
+  - bash
+  - testing-tools
 - key: bashly
   name: Bashly
   summary: Bash command line framework and CLI Generator

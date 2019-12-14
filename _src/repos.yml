@@ -16,6 +16,14 @@ apicake:
   - ruby
   - api
 
+approvals.bash:
+  name: Approvals.bash
+  summary: Bash Interactive Approval Testing
+  lang: Bash
+  tags:
+  - bash
+  - testing-tools
+
 audio_addict:
   name: AudioAddict
   summary: AudioAddict command line for voting and playlist management
