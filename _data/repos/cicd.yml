@@ -38,3 +38,12 @@
   - github
   - devops
   - cicd
+- key: secret_hub
+  name: SecretHub
+  summary: Manage GitHub secrets over multiple repositories
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - cicd
+  - github

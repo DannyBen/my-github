@@ -1,4 +1,13 @@
 ---
+- key: jekyll-theme-proxima
+  name: Jekyll Theme Proxima
+  summary: Theme for GitHub Pages, with GitHub-like styling
+  lang: HTML
+  tags:
+  - html
+  - jekyll
+  - site-building
+  - github
 - key: loadrunner
   name: LoadRunner
   summary: GitHub webhook server and event simulator
@@ -10,3 +19,12 @@
   - github
   - devops
   - cicd
+- key: secret_hub
+  name: SecretHub
+  summary: Manage GitHub secrets over multiple repositories
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - cicd
+  - github
