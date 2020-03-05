@@ -220,6 +220,15 @@ docker-madness:
   - markdown
   - documentation-server
 
+docker-mdbook:
+  name: Docker MDBook
+  summary: Docker with mdbook site generator
+  lang: Dockerfile
+  tags:
+  - docker
+  - markdown
+  - documentation-server
+
 docker-rabbit:
   name: Docker Rabbit
   summary: RabbitMQ image with extras

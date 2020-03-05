@@ -7,7 +7,7 @@
   count: 24
 - tag: docker
   tag_name: Docker
-  count: 19
+  count: 20
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
   count: 15
@@ -47,17 +47,20 @@
 - tag: autohotkey
   tag_name: AutoHotkey
   count: 4
+- tag: markdown
+  tag_name: Markdown
+  count: 4
 - tag: testing-tools
   tag_name: Testing Tools
   count: 4
+- tag: documentation-server
+  tag_name: Documentation Server
+  count: 3
 - tag: github
   tag_name: GitHub
   count: 3
 - tag: go
   tag_name: Go
-  count: 3
-- tag: markdown
-  tag_name: Markdown
   count: 3
 - tag: name-utilities
   tag_name: Name Utilities
@@ -79,9 +82,6 @@
   count: 2
 - tag: crystal
   tag_name: Crystal
-  count: 2
-- tag: documentation-server
-  tag_name: Documentation Server
   count: 2
 - tag: mongo
   tag_name: MongoDB

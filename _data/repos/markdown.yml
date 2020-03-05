@@ -7,6 +7,14 @@
   - docker
   - markdown
   - documentation-server
+- key: docker-mdbook
+  name: Docker MDBook
+  summary: Docker with mdbook site generator
+  lang: Dockerfile
+  tags:
+  - docker
+  - markdown
+  - documentation-server
 - key: madman
   name: Madman
   summary: The markdown swiss army knife
