@@ -676,6 +676,16 @@ sting:
   - configuration-tools
   - ruby-developer-utilities
 
+stress-server:
+  name: Stress Server
+  summary: Docker image for simulating server resource stress
+  lang: Ruby
+  tags:
+  - ruby
+  - docker
+  - devops
+  - web-server
+
 super_docopt:
   name: Super Docopt
   summary: docopt-based command line utility builder

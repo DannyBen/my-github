@@ -54,3 +54,12 @@
   - github
   - devops
   - cicd
+- key: stress-server
+  name: Stress Server
+  summary: Docker image for simulating server resource stress
+  lang: Ruby
+  tags:
+  - ruby
+  - docker
+  - devops
+  - web-server

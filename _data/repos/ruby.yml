@@ -395,6 +395,15 @@
   - ruby
   - configuration-tools
   - ruby-developer-utilities
+- key: stress-server
+  name: Stress Server
+  summary: Docker image for simulating server resource stress
+  lang: Ruby
+  tags:
+  - ruby
+  - docker
+  - devops
+  - web-server
 - key: super_docopt
   name: Super Docopt
   summary: docopt-based command line utility builder
