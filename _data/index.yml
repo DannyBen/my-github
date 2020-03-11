@@ -7,7 +7,7 @@
   count: 24
 - tag: docker
   tag_name: Docker
-  count: 21
+  count: 22
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
   count: 15
@@ -19,7 +19,7 @@
   count: 9
 - tag: alpine
   tag_name: Alpine Linux
-  count: 7
+  count: 8
 - tag: web-server
   tag_name: Web Server
   count: 7

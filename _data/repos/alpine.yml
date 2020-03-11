@@ -49,6 +49,13 @@
   - alpine
   - ruby
   - mongo
+- key: docker-ruby-python
+  name: Docker Ruby Python
+  summary: Docker image with Ruby and Python 2+3 on Alpine
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
 - key: docker-sshd
   name: Docker SSHD
   summary: Alpine SSH Client and Server

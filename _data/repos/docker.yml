@@ -125,6 +125,13 @@
   - docker
   - web-server
   - devops
+- key: docker-ruby-python
+  name: Docker Ruby Python
+  summary: Docker image with Ruby and Python 2+3 on Alpine
+  lang: Dockerfile
+  tags:
+  - docker
+  - alpine
 - key: docker-snapcrawl
   name: Docker Snapcrawl
   summary: Crawl a website and take screenshots (Docker version)
