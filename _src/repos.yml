@@ -112,7 +112,7 @@ docker-alpine-adsf:
   - docker
   - alpine
   - ruby
-  - file-server
+  - web-server
 
 docker-alpine-crystal:
   name: Docker Alpine Crystal
@@ -384,6 +384,15 @@ hash_cabinet:
   - ruby
   - cache
   - ruby-developer-utilities
+
+httpme:
+  name: HTTPMe
+  summary: Static files web server with basic authentication
+  lang: Ruby
+  tags:
+  - ruby
+  - docker
+  - web-server
 
 icodi:
   name: Icodi

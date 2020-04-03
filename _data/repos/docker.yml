@@ -7,7 +7,7 @@
   - docker
   - alpine
   - ruby
-  - file-server
+  - web-server
 - key: docker-alpine-crystal
   name: Docker Alpine Crystal
   summary: Alpine image with the Crystal programming language
@@ -165,6 +165,14 @@
   - web-server
   - docker
   - api
+- key: httpme
+  name: HTTPMe
+  summary: Static files web server with basic authentication
+  lang: Ruby
+  tags:
+  - ruby
+  - docker
+  - web-server
 - key: stress-server
   name: Stress Server
   summary: Docker image for simulating server resource stress

@@ -7,7 +7,7 @@
   - docker
   - alpine
   - ruby
-  - file-server
+  - web-server
 - key: docker-alpine-crystal
   name: Docker Alpine Crystal
   summary: Alpine image with the Crystal programming language

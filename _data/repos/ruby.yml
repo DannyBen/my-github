@@ -70,7 +70,7 @@
   - docker
   - alpine
   - ruby
-  - file-server
+  - web-server
 - key: docker-alpine-ruby
   name: Docker Alpine Ruby
   summary: Minimal Ruby docker image with native extensions support
@@ -168,6 +168,14 @@
   - ruby
   - cache
   - ruby-developer-utilities
+- key: httpme
+  name: HTTPMe
+  summary: Static files web server with basic authentication
+  lang: Ruby
+  tags:
+  - ruby
+  - docker
+  - web-server
 - key: icodi
   name: Icodi
   summary: Deterministic Random SVG Icon Generator

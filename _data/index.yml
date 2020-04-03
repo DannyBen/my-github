@@ -1,13 +1,13 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 54
+  count: 55
 - tag: cli
   tag_name: CLI
   count: 24
 - tag: docker
   tag_name: Docker
-  count: 22
+  count: 23
 - tag: ruby-developer-utilities
   tag_name: Ruby Developer Utilities
   count: 15
@@ -17,12 +17,12 @@
 - tag: devops
   tag_name: DevOps
   count: 9
+- tag: web-server
+  tag_name: Web Server
+  count: 9
 - tag: alpine
   tag_name: Alpine Linux
   count: 8
-- tag: web-server
-  tag_name: Web Server
-  count: 7
 - tag: shell-productivity
   tag_name: Shell Productivity
   count: 6
@@ -112,9 +112,6 @@
   count: 1
 - tag: encryption
   tag_name: Encryption
-  count: 1
-- tag: file-server
-  tag_name: File Server
   count: 1
 - tag: gherkin
   tag_name: Gherkin
