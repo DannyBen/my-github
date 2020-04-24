@@ -1,4 +1,11 @@
 ---
+- key: erbx
+  name: ERBX
+  summary: ERB Extended with Pretty Tags
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
 - key: kojo
   name: Kojo
   summary: Command line utility for generating config files from templates and definition

@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 55
+  count: 56
 - tag: cli
   tag_name: CLI
   count: 24
@@ -71,6 +71,9 @@
 - tag: svg
   tag_name: SVG
   count: 3
+- tag: templating
+  tag_name: Templating
+  count: 3
 - tag: alias-management
   tag_name: Shell Alias Management
   count: 2
@@ -94,9 +97,6 @@
   count: 2
 - tag: ssh
   tag_name: SSH
-  count: 2
-- tag: templating
-  tag_name: Templating
   count: 2
 - tag: authorization
   tag_name: Authorization

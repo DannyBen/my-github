@@ -316,6 +316,14 @@ enforce:
   - ruby
   - cli
 
+erbx:
+  name: ERBX
+  summary: ERB Extended with Pretty Tags
+  lang: Ruby
+  tags:
+  - ruby
+  - templating
+
 extended_yaml:
   name: ExtendedYAML
   summary: Load YAML files that call other YAML files
