@@ -433,6 +433,14 @@
   tags:
   - ruby
   - svg
+- key: victor-cli
+  name: Victor CLI
+  summary: Command line for Victor, the Ruby SVG library
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
+  - cli
 - key: webcache
   name: Webcache
   summary: Hassle-free caching for HTTP download with ruby

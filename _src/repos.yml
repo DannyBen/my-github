@@ -727,6 +727,15 @@ victor:
   - ruby
   - svg
 
+victor-cli:
+  name: Victor CLI
+  summary: Command line for Victor, the Ruby SVG library
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
+  - cli
+
 WallpaperRandomizer:
   name: Wallpaper Randomizer
   summary: System tray wallpaper changer

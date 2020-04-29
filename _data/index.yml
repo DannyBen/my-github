@@ -1,10 +1,10 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 56
+  count: 57
 - tag: cli
   tag_name: CLI
-  count: 24
+  count: 25
 - tag: docker
   tag_name: Docker
   count: 23
@@ -50,6 +50,9 @@
 - tag: markdown
   tag_name: Markdown
   count: 4
+- tag: svg
+  tag_name: SVG
+  count: 4
 - tag: testing-tools
   tag_name: Testing Tools
   count: 4
@@ -67,9 +70,6 @@
   count: 3
 - tag: site-analyzers
   tag_name: Site Analyzers
-  count: 3
-- tag: svg
-  tag_name: SVG
   count: 3
 - tag: templating
   tag_name: Templating
