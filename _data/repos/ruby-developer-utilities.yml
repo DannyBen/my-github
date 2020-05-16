@@ -69,6 +69,14 @@
   tags:
   - ruby
   - ruby-developer-utilities
+- key: recode
+  name: Recode
+  summary: Command line refactoring utility
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - ruby-developer-utilities
 - key: requires
   name: Requires
   summary: Ruby's missing function to require all files and directories

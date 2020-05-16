@@ -153,6 +153,14 @@
   - cli
   - api
   - data-service
+- key: recode
+  name: Recode
+  summary: Command line refactoring utility
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - ruby-developer-utilities
 - key: rigit
   name: Rig It
   summary: Build project templates easily without writing code

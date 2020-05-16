@@ -607,6 +607,15 @@ quata:
   - api
   - data-service
 
+recode:
+  name: Recode
+  summary: Command line refactoring utility
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - ruby-developer-utilities
+
 requires:
   name: Requires
   summary: Ruby's missing function to require all files and directories
