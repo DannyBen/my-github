@@ -22,9 +22,9 @@
   - ruby
   - testing-tools
   - ruby-developer-utilities
-- key: rspec_fixtures
-  name: RSpec Fixtures
-  summary: Interactive fixture approvals for RSpec
+- key: rspec_approvals
+  name: RSpec Approvals
+  summary: Interactive approval testing for RSpec
   lang: Ruby
   tags:
   - ruby

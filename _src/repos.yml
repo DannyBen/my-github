@@ -634,9 +634,9 @@ rigit:
   - scaffolding
   - templating
 
-rspec_fixtures:
-  name: RSpec Fixtures
-  summary: Interactive fixture approvals for RSpec
+rspec_approvals:
+  name: RSpec Approvals
+  summary: Interactive approval testing for RSpec
   lang: Ruby
   tags:
   - ruby
