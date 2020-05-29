@@ -14,6 +14,13 @@
   - ruby
   - web-server
   - svg
+- key: minichart
+  name: Minichart
+  summary: Genearte SVG charts with Ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
 - key: victor
   name: Victor
   summary: Genearte SVG images by writing Ruby code

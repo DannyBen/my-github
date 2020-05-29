@@ -1,7 +1,7 @@
 ---
 - tag: ruby
   tag_name: Ruby
-  count: 58
+  count: 59
 - tag: cli
   tag_name: CLI
   count: 26
@@ -44,14 +44,14 @@
 - tag: data-service
   tag_name: Data Service
   count: 5
+- tag: svg
+  tag_name: SVG
+  count: 5
 - tag: autohotkey
   tag_name: AutoHotkey
   count: 4
 - tag: markdown
   tag_name: Markdown
-  count: 4
-- tag: svg
-  tag_name: SVG
   count: 4
 - tag: testing-tools
   tag_name: Testing Tools

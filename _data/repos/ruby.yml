@@ -296,6 +296,13 @@
   - ruby
   - cli
   - shell-productivity
+- key: minichart
+  name: Minichart
+  summary: Genearte SVG charts with Ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - svg
 - key: mister_bin
   name: Mister Bin
   summary: Build modular command line tools
