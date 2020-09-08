@@ -7,7 +7,7 @@
   - go
   - cache
 - key: hash_cabinet
-  name: Hash Cabinet
+  name: HashCabinet
   summary: File-based, key-object store with hash-like access
   lang: Ruby
   tags:

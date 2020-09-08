@@ -1,4 +1,12 @@
 ---
+- key: active_cabinet
+  name: ActiveCabinet
+  summary: ActiveRecord-inspired interface for HashCabinet, the file-based key-object
+    store
+  lang: Ruby
+  tags:
+  - ruby
+  - ruby-developer-utilities
 - key: concode
   name: Concode
   summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
@@ -40,7 +48,7 @@
   - ruby
   - ruby-developer-utilities
 - key: hash_cabinet
-  name: Hash Cabinet
+  name: HashCabinet
   summary: File-based, key-object store with hash-like access
   lang: Ruby
   tags:
