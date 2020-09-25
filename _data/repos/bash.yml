@@ -25,6 +25,14 @@
   - shell-productivity
   - cli-tools
   - cli
+- key: git-changelog
+  name: git-changelog
+  summary: Generate change logs from git repositories
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - git
 - key: opcode
   name: Opcode
   summary: Local command shortcuts

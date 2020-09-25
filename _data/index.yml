@@ -4,7 +4,7 @@
   count: 60
 - tag: cli
   tag_name: CLI
-  count: 26
+  count: 27
 - tag: docker
   tag_name: Docker
   count: 23
@@ -23,12 +23,12 @@
 - tag: alpine
   tag_name: Alpine Linux
   count: 8
+- tag: bash
+  tag_name: Bash
+  count: 6
 - tag: shell-productivity
   tag_name: Shell Productivity
   count: 6
-- tag: bash
-  tag_name: Bash
-  count: 5
 - tag: cache
   tag_name: Cache Management
   count: 5
@@ -86,6 +86,9 @@
 - tag: crystal
   tag_name: Crystal
   count: 2
+- tag: git
+  tag_name: Git
+  count: 2
 - tag: mongo
   tag_name: MongoDB
   count: 2
@@ -115,9 +118,6 @@
   count: 1
 - tag: gherkin
   tag_name: Gherkin
-  count: 1
-- tag: git
-  tag_name: Git
   count: 1
 - tag: html
   tag_name: HTML
