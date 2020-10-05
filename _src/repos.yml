@@ -699,6 +699,16 @@ secret_hub:
   - cicd
   - github
 
+sasstool:
+  name: Sasstool
+  summary: Sass command line renderer
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - site-building
+  - ruby-developer-utilities
+
 sla:
   name: Site Link Analyzer
   summary: Command line broken links checker
