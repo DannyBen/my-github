@@ -37,6 +37,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - ssh
   - devops
@@ -46,6 +47,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - web-server
   - github
@@ -66,6 +68,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - devops
 - key: stress-server

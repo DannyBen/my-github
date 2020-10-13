@@ -12,6 +12,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
   - ruby-developer-utilities
 - key: lightly
@@ -20,6 +21,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
 - key: pobject
   name: Persistent Object
@@ -27,6 +29,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
 - key: webcache
   name: Webcache
@@ -34,5 +37,6 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
   - ruby-developer-utilities

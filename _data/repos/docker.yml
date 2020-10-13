@@ -171,6 +171,8 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
+  - cli
   - docker
   - web-server
 - key: stress-server

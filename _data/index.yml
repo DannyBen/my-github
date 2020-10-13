@@ -2,9 +2,12 @@
 - tag: ruby
   tag_name: Ruby
   count: 61
+- tag: gem
+  tag_name: Ruby Gem
+  count: 50
 - tag: cli
   tag_name: CLI
-  count: 28
+  count: 30
 - tag: docker
   tag_name: Docker
   count: 23

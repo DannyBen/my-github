@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -23,6 +24,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -40,6 +42,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service

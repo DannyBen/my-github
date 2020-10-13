@@ -1,13 +1,21 @@
 ---
-- key: alf
-  name: Alf
-  summary: Alias manager for Bash
-  lang: Bash
+- key: active_cabinet
+  name: ActiveCabinet
+  summary: ActiveRecord-inspired interface for HashCabinet, the file-based key-object
+    store
+  lang: Ruby
   tags:
-  - bash
-  - cli
-  - alias-management
-  - shell-productivity
+  - ruby
+  - gem
+  - ruby-developer-utilities
+- key: apicake
+  name: API Cake
+  summary: Build dynamic API wrappers
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - api
 - key: audio_addict
   name: AudioAddict
   summary: AudioAddict command line for voting and playlist management
@@ -28,6 +36,22 @@
   - shell-productivity
   - cli-tools
   - cli
+- key: bobkit
+  name: Bobkit
+  summary: Site generation toolkit with Slim, SCSS, CoffeeScript and Markdown
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - site-building
+- key: colsole
+  name: Colsole
+  summary: Utility functions for colorful console applications with Ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli-tools
 - key: concode
   name: Concode
   summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
@@ -38,6 +62,23 @@
   - cli
   - ruby-developer-utilities
   - name-utilities
+- key: configly
+  name: Configly
+  summary: Minimal, lightweight, multi-YAML settings library with dot notation.
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - configuration-tools
+  - ruby-developer-utilities
+- key: datamix
+  name: DataMix
+  summary: DSL for manipulating tabular data
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - data-processing
 - key: docspec
   name: Docspec
   summary: Inline tests in Markdown documents
@@ -56,6 +97,23 @@
   - ruby
   - gem
   - cli
+- key: erbx
+  name: ERBX
+  summary: ERB Extended with Pretty Tags
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - templating
+- key: extended_yaml
+  name: ExtendedYAML
+  summary: Load YAML files that call other YAML files
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - configuration-tools
+  - ruby-developer-utilities
 - key: fredric
   name: Fredric
   summary: FRED API library and command line interface
@@ -66,23 +124,23 @@
   - cli
   - api
   - data-service
-- key: git-changelog
-  name: git-changelog
-  summary: Generate change logs from git repositories
-  lang: Bash
+- key: getcomments
+  name: GetComments
+  summary: Extract comments from Ruby code
+  lang: Ruby
   tags:
-  - bash
-  - cli
-  - git
-- key: gondl
-  name: Gondl
-  summary: Command line console for Quandl
-  lang: Go
+  - ruby
+  - gem
+  - ruby-developer-utilities
+- key: hash_cabinet
+  name: HashCabinet
+  summary: File-based, key-object store with hash-like access
+  lang: Ruby
   tags:
-  - go
-  - cli
-  - api
-  - data-service
+  - ruby
+  - gem
+  - cache
+  - ruby-developer-utilities
 - key: httpme
   name: HTTPMe
   summary: Static files web server with basic authentication
@@ -93,6 +151,14 @@
   - cli
   - docker
   - web-server
+- key: icodi
+  name: Icodi
+  summary: Deterministic Random SVG Icon Generator
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - svg
 - key: intrinio
   name: Intrinio
   summary: Library and command line interface for Intrinio data API
@@ -103,15 +169,6 @@
   - cli
   - api
   - data-service
-- key: ismine
-  name: IsMine
-  summary: Ruby command line domain checker with wildcards
-  lang: Ruby
-  tags:
-  - ruby
-  - cli
-  - name-utilities
-  - domain-utilities
 - key: jobly
   name: Jobly
   summary: Compact job server with API, CLI, Web UI and a Sidekiq heart
@@ -145,6 +202,14 @@
   - cli
   - templating
   - configuration-tools
+- key: lightly
+  name: Lightly
+  summary: Ruby file cache for performing heavy tasks lightly
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cache
 - key: loadrunner
   name: LoadRunner
   summary: GitHub webhook server and event simulator
@@ -157,6 +222,14 @@
   - github
   - devops
   - cicd
+- key: lp
+  name: Lovely Print
+  summary: Print any object in YAML format
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
 - key: madman
   name: Madman
   summary: The markdown swiss army knife
@@ -185,6 +258,48 @@
   - gem
   - cli
   - shell-productivity
+- key: minichart
+  name: Minichart
+  summary: Genearte SVG charts with Ruby
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - svg
+- key: mister_bin
+  name: Mister Bin
+  summary: Build modular command line tools
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
+  - cli-tools
+- key: pobject
+  name: Persistent Object
+  summary: Automatically persist objects to disk as YAML files
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cache
+- key: pretty_trace
+  name: Pretty Trace
+  summary: Make your Ruby backtrace pretty again
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
+- key: pundit_extra
+  name: Pundit Extra
+  summary: Extensions and helpers for Pundit authorization library
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - rails
+  - authorization
 - key: quata
   name: Quata
   summary: Lightweight Quandl API library and command line interface
@@ -204,6 +319,14 @@
   - gem
   - cli
   - ruby-developer-utilities
+- key: requires
+  name: Requires
+  summary: Ruby's missing function to require all files and directories
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
 - key: rigit
   name: Rig It
   summary: Build project templates easily without writing code
@@ -214,6 +337,16 @@
   - cli
   - scaffolding
   - templating
+- key: rspec_approvals
+  name: RSpec Approvals
+  summary: Interactive approval testing for RSpec
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - rspec
+  - ruby-developer-utilities
+  - testing-tools
 - key: runfile
   name: Runfile
   summary: Build command line applications per project with ease
@@ -271,6 +404,31 @@
   - gem
   - cli
   - site-analyzers
+- key: sting
+  name: Sting
+  summary: Minimal, lightweight, multi-YAML settings library
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - configuration-tools
+  - ruby-developer-utilities
+- key: super_docopt
+  name: Super Docopt
+  summary: docopt-based command line utility builder
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli-tools
+- key: victor
+  name: Victor
+  summary: Genearte SVG images by writing Ruby code
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - svg
 - key: victor-cli
   name: Victor CLI
   summary: Command line for Victor, the Ruby SVG library
@@ -280,11 +438,21 @@
   - gem
   - svg
   - cli
-- key: wordscan
-  name: Wordscan
-  summary: Dictionary and thesaurus regular expression search
+- key: webcache
+  name: Webcache
+  summary: Hassle-free caching for HTTP download with ruby
   lang: Ruby
   tags:
   - ruby
-  - cli
-  - name-utilities
+  - gem
+  - cache
+  - ruby-developer-utilities
+- key: yamlcon
+  name: YAMLCon
+  summary: YAML configuration file loader with dot notation support
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - configuration-tools
+  - ruby-developer-utilities

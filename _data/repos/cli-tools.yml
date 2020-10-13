@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - bash
   - shell-productivity
   - cli-tools
@@ -22,6 +23,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli-tools
 - key: mister_bin
   name: Mister Bin
@@ -29,6 +31,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
   - cli-tools
 - key: super_docopt
@@ -37,4 +40,5 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli-tools

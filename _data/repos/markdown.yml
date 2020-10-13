@@ -21,6 +21,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - markdown
 - key: madness
@@ -29,6 +30,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - markdown
   - documentation-server

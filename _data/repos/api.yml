@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - api
 - key: echo-webserver
   name: Echo Webserver
@@ -21,6 +22,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -39,6 +41,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -48,6 +51,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - background-jobs
@@ -74,6 +78,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service

@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - audio-tools
 - key: FlicFlac

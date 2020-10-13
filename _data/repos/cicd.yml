@@ -22,6 +22,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - background-jobs
@@ -33,6 +34,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - web-server
   - github
@@ -44,6 +46,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - cicd
   - github

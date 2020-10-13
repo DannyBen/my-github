@@ -20,6 +20,8 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
+  - cli
   - testing-tools
   - ruby-developer-utilities
 - key: rspec_approvals
@@ -28,6 +30,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - rspec
   - ruby-developer-utilities
   - testing-tools

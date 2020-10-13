@@ -6,6 +6,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
 - key: apicake
   name: API Cake
@@ -13,6 +14,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - api
 - key: audio_addict
   name: AudioAddict
@@ -20,6 +22,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - audio-tools
 - key: bashly
@@ -28,6 +31,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - bash
   - shell-productivity
   - cli-tools
@@ -38,6 +42,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - site-building
 - key: colsole
   name: Colsole
@@ -45,6 +50,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli-tools
 - key: concode
   name: Concode
@@ -52,6 +58,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - ruby-developer-utilities
   - name-utilities
@@ -61,6 +68,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities
 - key: datamix
@@ -69,6 +77,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - data-processing
 - key: docker-alpine-adsf
   name: Docker Alpine ADSF
@@ -126,6 +135,8 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
+  - cli
   - testing-tools
   - ruby-developer-utilities
 - key: echo-webserver
@@ -143,6 +154,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
 - key: erbx
   name: ERBX
@@ -150,6 +162,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - templating
 - key: extended_yaml
   name: ExtendedYAML
@@ -157,6 +170,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities
 - key: fredric
@@ -165,6 +179,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -174,6 +189,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
 - key: hash_cabinet
   name: HashCabinet
@@ -181,6 +197,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
   - ruby-developer-utilities
 - key: httpme
@@ -189,6 +206,8 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
+  - cli
   - docker
   - web-server
 - key: icodi
@@ -197,6 +216,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
 - key: icodi-site
   name: Icodi Playground
@@ -212,6 +232,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -230,6 +251,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - background-jobs
@@ -241,6 +263,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - ssh
   - devops
@@ -251,6 +274,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - templating
   - configuration-tools
@@ -260,6 +284,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
 - key: loadrunner
   name: LoadRunner
@@ -267,6 +292,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - web-server
   - github
@@ -278,6 +304,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
 - key: madman
   name: Madman
@@ -285,6 +312,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - markdown
 - key: madness
@@ -293,6 +321,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - markdown
   - documentation-server
@@ -302,6 +331,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - shell-productivity
 - key: minichart
@@ -310,6 +340,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
 - key: mister_bin
   name: Mister Bin
@@ -317,6 +348,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
   - cli-tools
 - key: pobject
@@ -325,6 +357,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
 - key: pretty_trace
   name: Pretty Trace
@@ -332,6 +365,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
 - key: pundit_extra
   name: Pundit Extra
@@ -339,6 +373,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - rails
   - authorization
 - key: quata
@@ -347,6 +382,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - data-service
@@ -356,6 +392,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - ruby-developer-utilities
 - key: requires
@@ -364,6 +401,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - ruby-developer-utilities
 - key: rigit
   name: Rig It
@@ -371,6 +409,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - scaffolding
   - templating
@@ -380,6 +419,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - rspec
   - ruby-developer-utilities
   - testing-tools
@@ -389,6 +429,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - ruby-developer-utilities
   - shell-productivity
@@ -398,6 +439,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - cicd
   - github
@@ -407,6 +449,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - site-building
   - ruby-developer-utilities
@@ -416,6 +459,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - site-analyzers
 - key: slacktail
@@ -424,6 +468,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - devops
 - key: snapcrawl
@@ -432,6 +477,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - site-analyzers
 - key: sting
@@ -440,6 +486,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities
 - key: stress-server
@@ -457,6 +504,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli-tools
 - key: victor
   name: Victor
@@ -464,6 +512,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
 - key: victor-cli
   name: Victor CLI
@@ -471,6 +520,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
   - cli
 - key: webcache
@@ -479,6 +529,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cache
   - ruby-developer-utilities
 - key: wordscan
@@ -495,5 +546,6 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities

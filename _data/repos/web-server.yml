@@ -39,6 +39,8 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
+  - cli
   - docker
   - web-server
 - key: icodi-site
@@ -55,6 +57,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - api
   - background-jobs
@@ -66,6 +69,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - web-server
   - github

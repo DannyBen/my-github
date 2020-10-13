@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities
 - key: extended_yaml
@@ -13,6 +14,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities
 - key: kojo
@@ -22,6 +24,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - templating
   - configuration-tools
@@ -31,6 +34,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities
 - key: yamlcon
@@ -39,5 +43,6 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - configuration-tools
   - ruby-developer-utilities

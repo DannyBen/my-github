@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - rspec
   - ruby-developer-utilities
   - testing-tools

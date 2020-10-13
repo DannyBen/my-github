@@ -21,6 +21,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - markdown
   - documentation-server

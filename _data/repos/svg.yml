@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
 - key: icodi-site
   name: Icodi Playground
@@ -20,6 +21,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
 - key: victor
   name: Victor
@@ -27,6 +29,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
 - key: victor-cli
   name: Victor CLI
@@ -34,5 +37,6 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - svg
   - cli

@@ -5,6 +5,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - site-building
 - key: jekyll-theme-proxima
   name: Jekyll Theme Proxima
@@ -21,6 +22,7 @@
   lang: Ruby
   tags:
   - ruby
+  - gem
   - cli
   - site-building
   - ruby-developer-utilities
