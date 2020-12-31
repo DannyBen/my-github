@@ -9,6 +9,7 @@ action :generate, :g do
   system "rm -rf docs"
   system "mkdir docs"
   system "cp -r src/assets docs/"
+  system "cp src/files/* docs/"
 
   index_data = {}
 
