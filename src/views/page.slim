@@ -1,0 +1,16 @@
+h1.f1-light = tag_name
+
+.container-lg.gutter-condensed.clearfix
+  - repos.each_slice(3) do |slice|
+    - slice.each do |repo|
+      .col-12.col-md-4.float-left.mb-3
+        .border.pt-3.pl-3.pr-3.rounded-2
+          a.f3-light href="https://github.com/DannyBen/#{repo['key']}"
+            = repo['name']
+
+          p = repo['summary']
+          p
+            - repo['tags'].each do |tag|
+              a.text-small.text-gray.pr-3.pb-1.d-inline-block href="/#{tag}" = tags[tag]
+
+    .clearfix

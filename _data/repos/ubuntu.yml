@@ -1,8 +1,0 @@
----
-- key: docker-ubuntu
-  name: Docker Ubuntu
-  summary: Ubuntu sandbox with non-root user
-  lang: Dockerfile
-  tags:
-  - docker
-  - ubuntu

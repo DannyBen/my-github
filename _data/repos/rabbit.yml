@@ -1,8 +1,0 @@
----
-- key: docker-rabbit
-  name: Docker Rabbit
-  summary: RabbitMQ image with extras
-  lang: Dockerfile
-  tags:
-  - docker
-  - rabbit

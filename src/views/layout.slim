@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    == slim :analytics
+    meta charset="UTF-8"
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+    title #{tag_name} Open Source Projects by @DannyBen
+    link rel="canonical" href="http://github.dannyben.com/"
+    link rel="stylesheet" href="/assets/css/style.css"
+
+  body
+    div.p-3.mb-5 align="center" style='background: #e4e4e4;'
+      a href='/'
+        img src="/assets/img/github.png" style='width: 100%; max-width:300px;'
+
+      h1.f1-light
+        ' Open Source Projects by
+        a href="https://github.com/dannyben" @DannyBen
+
+    div.container-lg.px-3.my-5.markdown-body == content
+

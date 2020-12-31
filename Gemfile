@@ -1,6 +1,9 @@
 # frozen_string_literal: true
-source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'runfile', require: false
-gem 'byebug'
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "runfile"
+gem "slim"
+gem "byebug"

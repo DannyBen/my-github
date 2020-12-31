@@ -1,0 +1,6 @@
+.container-lg.gutter-condensed.clearfix
+  - featured.each do |item|
+    .col-6.col-md-4.float-left.mb-2
+      .p-2
+        a title="#{item['name']} - #{item['summary']}" href="#{item['link']}"
+          img src="/assets/img/#{item['image']}"

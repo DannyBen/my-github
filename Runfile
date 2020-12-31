@@ -1,44 +1,33 @@
-require_relative '_src/app'
+require_relative 'src/support'
 
 title   "My GitHub"
+summary "Utilities for generating github.dannyben.com"
+version "0.1.0"
 
-action :serve, :s do
-  run! "bundle exec jekyll serve -H 0.0.0.0 -P 3000 --force-polling"
-end
+help   "Generate the static site"
+action :generate, :g do
+  system "rm -rf docs"
+  system "mkdir docs"
+  system "cp -r src/assets docs/"
 
-usage "(generate|g) [--debug]"
-option "-d, --debug", "Generate the first one only"
-action :generate, :g do |args|
-  template = File.read '_src/repo-template.html'
-
-  index = []
+  index_data = {}
 
   repos_by_tag.each do |tag, repos|
-    # Generate YAML file
-    filename = "_data/repos/#{tag}.yml"
-    File.write filename, repos.to_yaml
-    say "saved !txtgrn!#{filename}"
+    tag_name = tags[tag]
+    index_data[tag] = repos.count
+    abort "No title for #{tag}" unless tag_name
 
-    # Generate HTML file
-    filename = "#{tag}.html"
-    content = template % { tag: tag, tag_name: tags[tag] }
-    File.write filename, content
-    say "saved !txtgrn!#{filename}"
+    say "#{repos.count.to_s.rjust 2} !txtgrn!#{tag_name}!txtrst!"
 
-    # Collect data for index.yml
-    index << { 'tag' => tag, 'tag_name' => tags[tag], 'count' => repos.count }
-
-    break if args['--debug']
+    page = slim "page", tag: tag, tag_name: tag_name, repos: repos
+    output = slim "layout", tag_name: tag_name, content: page
+    File.deep_write "docs/#{tag}/index.html", output
   end
 
-  # Tag names data file
-  FileUtils.cp '_src/tags.yml', '_data/tags.yml'
-  say "copied tags.yml to !txtgrn!_data/tags.yml"
+  say " - !txtgrn!Index"
 
-  # Index data file
-  filename = "_data/index.yml"
-  File.write filename, index.to_yaml
-  say "saved !txtgrn!#{filename}"
-
+  page = slim "index", data: index_data, featured: featured
+  output = slim "layout", tag_name: '', content: page
+  File.deep_write "docs/index.html", output
 
 end
