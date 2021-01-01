@@ -11,6 +11,11 @@ class File
   end
 end
 
+def render(name, context = {})
+  context[:content] = slim name, context
+  slim "layout", context
+end
+
 def slim(name, context = {}, &block)
   Slim::Template.new("src/views/#{name}.slim", pretty: true).render(OpenStruct.new(context), &block)
 end
