@@ -82,6 +82,15 @@ clipper:
   - crystal
   - cli-tools
 
+colorly:
+  name: Colorly
+  summary: Command line and DSL for generating color palettes
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli
+
 colsole:
   name: Colsole
   summary: Utility functions for colorful console applications with Ruby
