@@ -687,6 +687,18 @@ recode:
   - cli
   - ruby-developer-utilities
 
+redirectly:
+  name: Redirectly
+  summary: Redirect server with dynamic URL and hostname support
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli
+  - docker
+  - web-server
+  - devops
+
 requires:
   name: Requires
   summary: Ruby's missing function to require all files and directories
