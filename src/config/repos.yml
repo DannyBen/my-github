@@ -100,6 +100,18 @@ colsole:
   - gem
   - cli-tools
 
+completely:
+  name: Completely
+  summary: Generate bash completion scripts using a simple configuration file
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - bash
+  - shell-productivity
+  - cli-tools
+  - cli
+
 concode:
   name: Concode
   summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
