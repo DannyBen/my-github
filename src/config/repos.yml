@@ -744,7 +744,7 @@ rspec_approvals:
 
 runfile:
   name: Runfile
-  summary: Build command line applications per project with ease
+  summary: Command line for your projects
   lang: Ruby
   tags:
   - ruby
