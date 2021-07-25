@@ -1,30 +1,30 @@
 - name: Bashly
-  image: featured/bashly.svg
+  image: bashly.png
   summary: Bash command line framework and CLI generator
   link: https://bashly.dannyb.co/
 
 - name: Jobly
-  image: featured/jobly.svg
+  image: jobly.png
   summary: Job Server
   link: https://jobly.dannyb.co/
 
 - name: Opcode
-  image: featured/opcode.svg
+  image: opcode.png
   summary: Local Command Shortcuts
   link: https://github.com/dannyben/opcode
 
 - name: Madness
-  image: featured/madness.svg
+  image: madness.png
   summary: Instant Markdown Server
   link: https://madness.dannyb.co/
 
 - name: Victor
-  image: featured/victor.svg
+  image: victor.png
   summary: Ruby to SVG
   link: https://github.com/dannyben/victor
 
 - name: Alf
-  image: featured/alf.svg
+  image: alf.png
   summary: Bash Alias Manager
   link: https://github.com/dannyben/alf
 
