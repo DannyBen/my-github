@@ -23,13 +23,13 @@ action :generate, :g do
     index_data[tag] = repos.count
     abort "No title for #{tag}" unless tag_name
 
-    say "#{repos.count.to_s.rjust 2} !txtgrn!#{tag_name}!txtrst!"
+    puts "#{repos.count.to_s.rjust 2} #{tag_name}"
 
     output = render "page", tag: tag, tag_name: tag_name, repos: repos
     File.deep_write "docs/#{tag}/index.html", output
   end
 
-  say " - !txtgrn!Index"
+  puts " - Index"
 
   output = render "index", data: index_data, featured: featured
   File.deep_write "docs/index.html", output
