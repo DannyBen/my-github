@@ -357,6 +357,17 @@ enforce:
   - gem
   - cli
 
+eod:
+  name: EOD Historical Data
+  summary: Library and command line interface for EOD Historical Data API
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli
+  - api
+  - data-service
+
 erbx:
   name: ERBX
   summary: ERB Extended with Pretty Tags
