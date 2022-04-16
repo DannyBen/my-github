@@ -874,6 +874,17 @@ victor-cli:
   - svg
   - cli
 
+voicemaker:
+  name: Voicemaker TTS API and CLI
+  summary: Library and command line interface for Voicemaker Text-to-Speech API
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli
+  - api
+  - audio-tools
+
 WallpaperRandomizer:
   name: Wallpaper Randomizer
   summary: System tray wallpaper changer
