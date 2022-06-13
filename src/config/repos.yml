@@ -375,6 +375,7 @@ erbx:
   tags:
   - ruby
   - gem
+  - ruby-developer-utilities
   - templating
 
 extended_yaml:
@@ -448,6 +449,16 @@ Gridy:
   lang: AutoHotkey
   tags:
   - autohotkey
+
+gtx:
+  name: GTX
+  summary: Minimal Template Engine
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
+  - templating
 
 hash_cabinet:
   name: HashCabinet
@@ -920,3 +931,4 @@ yamlcon:
   - gem
   - configuration-tools
   - ruby-developer-utilities
+
