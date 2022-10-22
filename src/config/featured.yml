@@ -3,15 +3,20 @@
   summary: Bash command line framework and CLI generator
   link: https://bashly.dannyb.co/
 
-- name: Jobly
-  image: jobly.png
-  summary: Job Server
-  link: https://jobly.dannyb.co/
+# - name: Jobly
+#   image: jobly.png
+#   summary: Job Server
+#   link: https://jobly.dannyb.co/
+
+- name: Fuzzy CD
+  image: fuzzy-cd.png
+  summary: Change directories with fuzzy search
+  link: https://github.com/dannyben/fuzzy-cd#readme
 
 - name: Opcode
   image: opcode.png
   summary: Local Command Shortcuts
-  link: https://github.com/dannyben/opcode
+  link: https://github.com/dannyben/opcode#readme
 
 - name: Madness
   image: madness.png
@@ -21,10 +26,10 @@
 - name: Victor
   image: victor.png
   summary: Ruby to SVG
-  link: https://github.com/dannyben/victor
+  link: https://github.com/dannyben/victor#readme
 
 - name: Alf
   image: alf.png
   summary: Bash Alias Manager
-  link: https://github.com/dannyben/alf
+  link: https://github.com/dannyben/alf#readme
 

@@ -415,6 +415,15 @@ fredric:
   - api
   - data-service
 
+fuzzy-cd: 
+  name: Fuzzy CD
+  summary: Change directories with fuzzy search
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - shell-productivity
+
 getcomments:
   name: GetComments
   summary: Extract comments from Ruby code
