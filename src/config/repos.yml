@@ -415,7 +415,7 @@ fredric:
   - api
   - data-service
 
-fuzzy-cd: 
+fuzzycd: 
   name: Fuzzy CD
   summary: Change directories with fuzzy search
   lang: Bash

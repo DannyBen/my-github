@@ -9,9 +9,9 @@
 #   link: https://jobly.dannyb.co/
 
 - name: Fuzzy CD
-  image: fuzzy-cd.png
+  image: fuzzycd.png
   summary: Change directories with fuzzy search
-  link: https://github.com/dannyben/fuzzy-cd#readme
+  link: https://github.com/dannyben/fuzzycd#readme
 
 - name: Opcode
   image: opcode.png
