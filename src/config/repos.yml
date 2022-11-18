@@ -742,6 +742,17 @@ redirectly:
   - web-server
   - devops
 
+rentacop:
+  name: Rentacop
+  summary: RuboCop ruleset
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - rubocop
+  - ruby-developer-utilities
+  - testing-tools
+
 requires:
   name: Requires
   summary: Ruby's missing function to require all files and directories

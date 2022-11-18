@@ -38,6 +38,7 @@ php: PHP
 rabbit: RabbitMQ
 rails: Rails
 rspec: RSpec
+rubocop: Rubocop
 ruby-developer-utilities: Ruby Developer Utilities
 ruby: Ruby
 scaffolding: Scaffolding
