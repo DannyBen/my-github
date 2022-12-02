@@ -762,6 +762,17 @@ requires:
   - gem
   - ruby-developer-utilities
 
+respec:
+  name: Respec
+  summary: Convenience wrapper for RSpec
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - rspec
+  - ruby-developer-utilities
+  - testing-tools
+
 rigit:
   name: Rig It
   summary: Build project templates easily without writing code
