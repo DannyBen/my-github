@@ -769,7 +769,6 @@ respec:
   tags:
   - ruby
   - bash
-  - gem
   - rspec
   - ruby-developer-utilities
   - testing-tools
