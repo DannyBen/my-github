@@ -765,9 +765,10 @@ requires:
 respec:
   name: Respec
   summary: Convenience wrapper for RSpec
-  lang: Ruby
+  lang: Bash
   tags:
   - ruby
+  - bash
   - gem
   - rspec
   - ruby-developer-utilities
