@@ -4,6 +4,6 @@
   - index_data.each_slice 3 do |slice|
     - slice.each do |tag, count|
       .card style="--shadow:4;"
-        h2
-          a href="/#{tag}/" = tags[tag]
+        a href="/#{tag}/"
+          h2 = tags[tag]
         = "#{count} #{count == 1 ? 'repository' : 'repositories'}"

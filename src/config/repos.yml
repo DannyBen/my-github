@@ -552,16 +552,16 @@ jobly:
   - web-server
   - cicd
 
-jossh:
-  name: Jossh
-  summary: Run local scripts remotely by SSH
-  lang: Ruby
-  tags:
-  - ruby
-  - gem
-  - cli
-  - ssh
-  - devops
+# jossh:
+#   name: Jossh
+#   summary: Run local scripts remotely by SSH
+#   lang: Ruby
+#   tags:
+#   - ruby
+#   - gem
+#   - cli
+#   - ssh
+#   - devops
 
 kojo:
   name: Kojo
