@@ -1,36 +1,17 @@
-require_relative 'src/support'
+require './src/site'
 
 title   "My GitHub"
-summary "Utilities for generating github.dannyben.com"
-version "0.1.0"
+summary "Generate HTML code for github.dannyben.com"
 
 help   "Start a local preview server"
 action :serve, :s do
-  exec "httpme docs"
+  exec "httpme site"
 end
 
 help   "Generate the static site"
 action :generate, :g do
-  system "rm -rf docs"
-  system "mkdir docs"
-  system "cp -r src/assets docs/"
-  system "cp src/files/* docs/"
-
-  index_data = {}
-
-  repos_by_tag.each do |tag, repos|
-    tag_name = tags[tag]
-    index_data[tag] = repos.count
-    abort "No title for #{tag}" unless tag_name
-
-    puts "#{repos.count.to_s.rjust 2} #{tag_name}"
-
-    output = render "page", tag: tag, tag_name: tag_name, repos: repos
-    File.deep_write "docs/#{tag}/index.html", output
-  end
-
-  puts " - Index"
-
-  output = render "index", data: index_data, featured: featured
-  File.deep_write "docs/index.html", output
+  site = Site.new
+  site.reset
+  site.generate_pages
+  site.generate_index
 end

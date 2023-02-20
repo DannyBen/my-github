@@ -4,7 +4,11 @@ html
     == slim :analytics
     meta charset="UTF-8"
     meta name="viewport" content="width=device-width, initial-scale=1"
-    title #{tag_name} Open Source Projects by @DannyBen
+    title 
+      - if @tag_name
+        = "#{@tag_name}: Open Source Projects by @DannyBen"
+      - else
+        = "Open Source Projects by @DannyBen"
     link rel="stylesheet" href="/assets/css/style.css"
 
   body
@@ -16,5 +20,5 @@ html
         ' Open Source Projects by
         a href="https://github.com/dannyben" @DannyBen
 
-    div.container-lg.px-3.my-5.markdown-body == content
+    div.container-lg.px-3.my-5.markdown-body == yield
 
