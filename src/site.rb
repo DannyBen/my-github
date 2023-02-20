@@ -24,7 +24,7 @@ class Site
     say 'b`copying assets`'
     system 'cp -r src/assets/img/*.png site/assets/img/'
     system "cp -r src/assets/css/main.css site/assets/css/main-#{css_fingerprint}.css"
-    system "cp -r src/assets/css/bonsai.min.css site/assets/css/"
+    system 'cp -r src/assets/css/bonsai.min.css site/assets/css/'
     system 'cp src/files/* site/'
   end
 
@@ -100,5 +100,4 @@ class Site
   def css_fingerprint
     @css_fingerprint ||= Digest::MD5.hexdigest(File.read('src/assets/css/main.css'))
   end
-
 end
