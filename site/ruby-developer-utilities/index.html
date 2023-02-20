@@ -11,338 +11,384 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Ruby Developer Utilities: Open Source Projects by @DannyBen</title>
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css" rel="stylesheet" />
+    <link href="/assets/css/main-c3ad5d1905d52a37cbde869d17bae3f4.css" rel="stylesheet" />
   </head>
   <body>
-    <div align="center" class="p-3 mb-5" style="background: #e4e4e4;">
+    <header>
       <a href="/"><img src="/assets/img/github.png" style="width: 100%; max-width:300px;" /></a>
-      <h1 class="f1-light">
+      <h1>
         Open Source Projects by <a href="https://github.com/dannyben">@DannyBen</a>
       </h1>
-    </div>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <h1 class="f1-light">
+    </header>
+    <div>
+      <h1>
         Ruby Developer Utilities
       </h1>
-      <div class="container-lg gutter-condensed clearfix">
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/active_cabinet">ActiveCabinet</a>
+      <style>
+        .card { 
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .shrink { flex-shrink: 3; }
+        .grow { flex-grow: 3; padding-bottom: 20px }
+      </style>
+      <div class="grid">
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/active_cabinet">ActiveCabinet</a>
+            </h2>
             <p>
               ActiveRecord-inspired interface for HashCabinet, the file-based key-object store
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/concode">Concode</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/concode">Concode</a>
+            </h2>
             <p>
               Generate consistent-codenames from any string (Heroku style, aka Haiku).
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/name-utilities/">Name Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/name-utilities/">Name Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/configly">Configly</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/configly">Configly</a>
+            </h2>
             <p>
               Minimal, lightweight, multi-YAML settings library with dot notation.
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/configuration-tools/">Configuration Tools</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/configuration-tools/">Configuration Tools</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docspec">Docspec</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docspec">Docspec</a>
+            </h2>
             <p>
               Inline tests in Markdown documents
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/testing-tools/">Testing Tools</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/testing-tools/">Testing Tools</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/erbx">ERBX</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/erbx">ERBX</a>
+            </h2>
             <p>
               ERB Extended with Pretty Tags
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/templating/">Templating</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/templating/">Templating</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/extended_yaml">ExtendedYAML</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/extended_yaml">ExtendedYAML</a>
+            </h2>
             <p>
               Load YAML files that call other YAML files
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/configuration-tools/">Configuration Tools</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/configuration-tools/">Configuration Tools</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/getcomments">GetComments</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/getcomments">GetComments</a>
+            </h2>
             <p>
               Extract comments from Ruby code
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/gtx">GTX</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/gtx">GTX</a>
+            </h2>
             <p>
               Minimal Template Engine
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/templating/">Templating</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/templating/">Templating</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/hash_cabinet">HashCabinet</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/hash_cabinet">HashCabinet</a>
+            </h2>
             <p>
               File-based, key-object store with hash-like access
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cache/">Cache Management</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cache/">Cache Management</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/lp">Lovely Print</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/lp">Lovely Print</a>
+            </h2>
             <p>
               Print any object in YAML format
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/mister_bin">Mister Bin</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/mister_bin">Mister Bin</a>
+            </h2>
             <p>
               Build modular command line tools
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli-tools/">CLI Tools</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/cli-tools/">CLI Tools</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/pretty_trace">Pretty Trace</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/pretty_trace">Pretty Trace</a>
+            </h2>
             <p>
               Make your Ruby backtrace pretty again
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/recode">Recode</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/recode">Recode</a>
+            </h2>
             <p>
               Command line refactoring utility
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/rentacop">Rentacop</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/rentacop">Rentacop</a>
+            </h2>
             <p>
               RuboCop ruleset
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/rubocop/">Rubocop</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/testing-tools/">Testing Tools</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/rubocop/">Rubocop</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/testing-tools/">Testing Tools</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/requires">Requires</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/requires">Requires</a>
+            </h2>
             <p>
               Ruby&#39;s missing function to require all files and directories
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/respec">Respec</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/respec">Respec</a>
+            </h2>
             <p>
               Convenience wrapper for RSpec
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/bash/">Bash</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/rspec/">RSpec</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/testing-tools/">Testing Tools</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/bash/">Bash</a>
+            <a class="tag grey" href="/rspec/">RSpec</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/testing-tools/">Testing Tools</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/rspec_approvals">RSpec Approvals</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/rspec_approvals">RSpec Approvals</a>
+            </h2>
             <p>
               Interactive approval testing for RSpec
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/rspec/">RSpec</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/testing-tools/">Testing Tools</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/rspec/">RSpec</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/testing-tools/">Testing Tools</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/runfile">Runfile</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/runfile">Runfile</a>
+            </h2>
             <p>
               Command line for your projects
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/shell-productivity/">Shell Productivity</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
+            <a class="tag grey" href="/shell-productivity/">Shell Productivity</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/sasstool">Sasstool</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/sasstool">Sasstool</a>
+            </h2>
             <p>
               Sass command line renderer
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/site-building/">Site Building Tools</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/site-building/">Site Building Tools</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/sting">Sting</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/sting">Sting</a>
+            </h2>
             <p>
               Minimal, lightweight, multi-YAML settings library
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/configuration-tools/">Configuration Tools</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/configuration-tools/">Configuration Tools</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/webcache">Webcache</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/webcache">Webcache</a>
+            </h2>
             <p>
               Hassle-free caching for HTTP download with ruby
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cache/">Cache Management</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cache/">Cache Management</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/yamlcon">YAMLCon</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/yamlcon">YAMLCon</a>
+            </h2>
             <p>
               YAML configuration file loader with dot notation support
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/configuration-tools/">Configuration Tools</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/configuration-tools/">Configuration Tools</a>
+            <a class="tag grey" href="/ruby-developer-utilities/">Ruby Developer Utilities</a>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
     </div>
   </body>

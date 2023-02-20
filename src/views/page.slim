@@ -1,16 +1,21 @@
-h1.f1-light = @tag_name
+h1 = @tag_name
 
-.container-lg.gutter-condensed.clearfix
-  - @repos.each_slice(3) do |slice|
-    - slice.each do |repo|
-      .col-12.col-md-4.float-left.mb-3
-        .border.pt-3.pl-3.pr-3.rounded-2
-          a.f3-light href="https://github.com/DannyBen/#{repo['key']}"
-            = repo['name']
+css:
+  .card { 
+    display: flex;
+    flex-direction: column;
+  }
 
-          p = repo['summary']
-          p
-            - repo['tags'].each do |tag|
-              a.text-small.text-gray.pr-3.pb-1.d-inline-block href="/#{tag}/" = @tags[tag]
+  .shrink { flex-shrink: 3; }
+  .grow { flex-grow: 3; padding-bottom: 20px }
 
-    .clearfix
+.grid
+  - @repos.each do |repo|
+    .card style="--shadow:4"
+      .grow
+        h2: a. href="https://github.com/DannyBen/#{repo['key']}" = repo['name']
+        p = repo['summary']
+
+      .shrink
+        - repo['tags'].each do |tag|
+          a.tag.grey href="/#{tag}/" = @tags[tag]

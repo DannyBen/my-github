@@ -1,5 +1,6 @@
 require 'byebug'
 require 'colsole'
+require 'digest/md5'
 require 'lp'
 require 'slim'
 require 'yaml'
@@ -12,10 +13,17 @@ class Site
   # Main interface
 
   def reset
-    say 'bb`initializing site`'
+    say 'rb`initializing site`'
     system 'rm -rf site'
-    system 'mkdir site'
-    system 'cp -r src/assets site/'
+    system 'mkdir -p site/assets/img'
+    system 'mkdir -p site/assets/css'
+    copy_assets
+  end
+
+  def copy_assets
+    say 'b`copying assets`'
+    system 'cp -r src/assets/img/*.png site/assets/img/'
+    system "cp -r src/assets/css/main.css site/assets/css/main-#{css_fingerprint}.css"
     system 'cp src/files/* site/'
   end
 
@@ -86,6 +94,10 @@ class Site
 
   def layout_template
     @layout_template ||= Slim::Template.new('src/views/layout.slim', pretty: true)
+  end
+
+  def css_fingerprint
+    @css_fingerprint ||= Digest::MD5.hexdigest(File.read('src/assets/css/main.css'))
   end
 
 end

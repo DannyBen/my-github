@@ -11,77 +11,93 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Markdown: Open Source Projects by @DannyBen</title>
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css" rel="stylesheet" />
+    <link href="/assets/css/main-c3ad5d1905d52a37cbde869d17bae3f4.css" rel="stylesheet" />
   </head>
   <body>
-    <div align="center" class="p-3 mb-5" style="background: #e4e4e4;">
+    <header>
       <a href="/"><img src="/assets/img/github.png" style="width: 100%; max-width:300px;" /></a>
-      <h1 class="f1-light">
+      <h1>
         Open Source Projects by <a href="https://github.com/dannyben">@DannyBen</a>
       </h1>
-    </div>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <h1 class="f1-light">
+    </header>
+    <div>
+      <h1>
         Markdown
       </h1>
-      <div class="container-lg gutter-condensed clearfix">
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docker-madness">Docker Madness</a>
+      <style>
+        .card { 
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .shrink { flex-shrink: 3; }
+        .grow { flex-grow: 3; padding-bottom: 20px }
+      </style>
+      <div class="grid">
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docker-madness">Docker Madness</a>
+            </h2>
             <p>
               Madness instant markdown server
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/markdown/">Markdown</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/documentation-server/">Documentation Server</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/markdown/">Markdown</a>
+            <a class="tag grey" href="/documentation-server/">Documentation Server</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docker-mdbook">Docker MDBook</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docker-mdbook">Docker MDBook</a>
+            </h2>
             <p>
               Docker with mdbook site generator
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/markdown/">Markdown</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/documentation-server/">Documentation Server</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/markdown/">Markdown</a>
+            <a class="tag grey" href="/documentation-server/">Documentation Server</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/madman">Madman</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/madman">Madman</a>
+            </h2>
             <p>
               The markdown swiss army knife
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/markdown/">Markdown</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/markdown/">Markdown</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/madness">Madness</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/madness">Madness</a>
+            </h2>
             <p>
               Instant markdown server
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/markdown/">Markdown</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/documentation-server/">Documentation Server</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/markdown/">Markdown</a>
+            <a class="tag grey" href="/documentation-server/">Documentation Server</a>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
     </div>
   </body>

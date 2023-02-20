@@ -1,11 +1,9 @@
 == slim 'featured'
 
-.container-lg.gutter-condensed.clearfix
+.grid
   - index_data.each_slice 3 do |slice|
     - slice.each do |tag, count|
-      .col-12.col-md-4.float-left.mb-3
-        .border.p-3.rounded-2
-          a.f2-light href="/#{tag}/" = tags[tag]
-          p.m-0 = "#{count} #{count == 1 ? 'repository' : 'repositories'}"
-
-    .clearfix
+      .card style="--shadow:4;"
+        h2
+          a href="/#{tag}/" = tags[tag]
+        = "#{count} #{count == 1 ? 'repository' : 'repositories'}"

@@ -11,166 +11,192 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>DevOps: Open Source Projects by @DannyBen</title>
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css" rel="stylesheet" />
+    <link href="/assets/css/main-c3ad5d1905d52a37cbde869d17bae3f4.css" rel="stylesheet" />
   </head>
   <body>
-    <div align="center" class="p-3 mb-5" style="background: #e4e4e4;">
+    <header>
       <a href="/"><img src="/assets/img/github.png" style="width: 100%; max-width:300px;" /></a>
-      <h1 class="f1-light">
+      <h1>
         Open Source Projects by <a href="https://github.com/dannyben">@DannyBen</a>
       </h1>
-    </div>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <h1 class="f1-light">
+    </header>
+    <div>
+      <h1>
         DevOps
       </h1>
-      <div class="container-lg gutter-condensed clearfix">
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docker-borg-client">Docker Borg Client</a>
+      <style>
+        .card { 
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .shrink { flex-shrink: 3; }
+        .grow { flex-grow: 3; padding-bottom: 20px }
+      </style>
+      <div class="grid">
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docker-borg-client">Docker Borg Client</a>
+            </h2>
             <p>
               Docker image with Borg Backup client
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docker-fallback">Docker Fallback</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docker-fallback">Docker Fallback</a>
+            </h2>
             <p>
               Default ingress backend
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/web-server/">Web Server</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/web-server/">Web Server</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docker-redirector">Docker Redirector</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docker-redirector">Docker Redirector</a>
+            </h2>
             <p>
               Docker image to handle domain redirects
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/web-server/">Web Server</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/web-server/">Web Server</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/docker-sshd">Docker SSHD</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/docker-sshd">Docker SSHD</a>
+            </h2>
             <p>
               Alpine SSH Client and Server
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/alpine/">Alpine Linux</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ssh/">SSH</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/alpine/">Alpine Linux</a>
+            <a class="tag grey" href="/ssh/">SSH</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/jossh">Jossh</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/jossh">Jossh</a>
+            </h2>
             <p>
               Run local scripts remotely by SSH
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ssh/">SSH</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/ssh/">SSH</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/loadrunner">LoadRunner</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/loadrunner">LoadRunner</a>
+            </h2>
             <p>
               GitHub webhook server and event simulator
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/web-server/">Web Server</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/github/">GitHub</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cicd/">CI/CD</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/web-server/">Web Server</a>
+            <a class="tag grey" href="/github/">GitHub</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
+            <a class="tag grey" href="/cicd/">CI/CD</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/redirectly">Redirectly</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/redirectly">Redirectly</a>
+            </h2>
             <p>
               Redirect server with dynamic URL and hostname support
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/web-server/">Web Server</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/web-server/">Web Server</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/rush-cli">Rush</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/rush-cli">Rush</a>
+            </h2>
             <p>
               Personal package manager
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/bash/">Bash</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/shell-productivity/">Shell Productivity</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/package-management/">Package Management</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/bash/">Bash</a>
+            <a class="tag grey" href="/shell-productivity/">Shell Productivity</a>
+            <a class="tag grey" href="/package-management/">Package Management</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/slacktail">Slacktail</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/slacktail">Slacktail</a>
+            </h2>
             <p>
               Follow your Slack chats from the terminal
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/gem/">Ruby Gem</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/cli/">CLI</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/gem/">Ruby Gem</a>
+            <a class="tag grey" href="/cli/">CLI</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="col-12 col-md-4 float-left mb-3">
-          <div class="border pt-3 pl-3 pr-3 rounded-2">
-            <a class="f3-light" href="https://github.com/DannyBen/stress-server">Stress Server</a>
+        <div class="card" style="--shadow:4">
+          <div class="grow">
+            <h2>
+              <a href="https://github.com/DannyBen/stress-server">Stress Server</a>
+            </h2>
             <p>
               Docker image for simulating server resource stress
             </p>
-            <p>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/ruby/">Ruby</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/docker/">Docker</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/devops/">DevOps</a>
-              <a class="text-small text-gray pr-3 pb-1 d-inline-block" href="/web-server/">Web Server</a>
-            </p>
+          </div>
+          <div class="shrink">
+            <a class="tag grey" href="/ruby/">Ruby</a>
+            <a class="tag grey" href="/docker/">Docker</a>
+            <a class="tag grey" href="/devops/">DevOps</a>
+            <a class="tag grey" href="/web-server/">Web Server</a>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
     </div>
   </body>

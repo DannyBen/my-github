@@ -9,16 +9,17 @@ html
         = "#{@tag_name}: Open Source Projects by @DannyBen"
       - else
         = "Open Source Projects by @DannyBen"
-    link rel="stylesheet" href="/assets/css/style.css"
+    link href="https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css" rel="stylesheet"
+    link href="/assets/css/main-#{css_fingerprint}.css" rel="stylesheet"
 
   body
-    div.p-3.mb-5 align="center" style='background: #e4e4e4;'
+    header
       a href='/'
         img src="/assets/img/github.png" style='width: 100%; max-width:300px;'
 
-      h1.f1-light
+      h1
         ' Open Source Projects by
         a href="https://github.com/dannyben" @DannyBen
 
-    div.container-lg.px-3.my-5.markdown-body == yield
+    div == yield
 

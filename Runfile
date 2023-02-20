@@ -15,3 +15,15 @@ action :generate, :g do
   site.generate_pages
   site.generate_index
 end
+
+help   "Only copy assets to the output folder"
+action :assets do
+  site = Site.new
+  site.copy_assets
+end
+
+help   "Only generate index"
+action :index do
+  site = Site.new
+  site.generate_index
+end
