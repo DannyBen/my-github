@@ -319,6 +319,15 @@ docker-ubuntu:
   - docker
   - ubuntu
 
+docopt_ng:
+  name: Docopt NG
+  summary: docopt fork with bug fixes
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli-tools
+
 docspec:
   name: Docspec
   summary: Inline tests in Markdown documents
