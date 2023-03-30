@@ -15,7 +15,6 @@ configuration-tools: Configuration Tools
 crystal: Crystal
 cucumber: Cucumber
 data-processing: Data Processing
-data-service: Data Service
 devops: DevOps
 docker-compose: Docker Compose
 docker: Docker
@@ -23,6 +22,7 @@ documentation-server: Documentation Server
 domain-utilities: Domain Utilities
 encryption: Encryption
 file-server: File Server
+financial-data: Financial Data
 gem: Ruby Gem
 gherkin: Gherkin
 git: Git

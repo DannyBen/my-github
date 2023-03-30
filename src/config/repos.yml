@@ -375,7 +375,7 @@ eod:
   - gem
   - cli
   - api
-  - data-service
+  - financial-data
 
 erbx:
   name: ERBX
@@ -422,7 +422,7 @@ fredric:
   - gem
   - cli
   - api
-  - data-service
+  - financial-data
 
 fuzzycd: 
   name: Fuzzy CD
@@ -459,7 +459,7 @@ gondl:
   - go
   - cli
   - api
-  - data-service
+  - financial-data
 
 Gridy:
   name: Gridy
@@ -526,7 +526,7 @@ intrinio:
   - gem
   - cli
   - api
-  - data-service
+  - financial-data
 
 ismine:
   name: IsMine
@@ -664,6 +664,17 @@ mister_bin:
   - ruby-developer-utilities
   - cli-tools
 
+nasdaq:
+  name: Nasdaq Data Link API
+  summary: Lightweight API library and command line interface for Nasdaq Data Link
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - cli
+  - api
+  - financial-data
+
 opcode: 
   name: Opcode
   summary: Local command shortcuts
@@ -680,7 +691,7 @@ php-quandl:
   tags:
   - php
   - api
-  - data-service
+  - financial-data
 
 pobject:
   name: Persistent Object
@@ -717,17 +728,6 @@ quandl:
   tags:
   - go
   - api
-
-quata:
-  name: Quata
-  summary: Lightweight Quandl API library and command line interface
-  lang: Ruby
-  tags:
-  - ruby
-  - gem
-  - cli
-  - api
-  - data-service
 
 recode:
   name: Recode
