@@ -1,3 +1,4 @@
+accessibility: Accessibility
 alias-management: Shell Alias Management
 alpine: Alpine Linux
 api-wrapper: API Wrapper
@@ -5,6 +6,7 @@ api: API
 audio-tools: Audio Tools
 authorization: Authorization
 autohotkey: AutoHotkey
+autoit: AutoIt
 background-jobs: Background Jobs
 bash: Bash
 cache: Cache Management
@@ -49,5 +51,7 @@ ssh: SSH
 svg: SVG
 templating: Templating
 testing-tools: Testing Tools
+tts: Text-to-Speech
 ubuntu: Ubuntu
 web-server: Web Server
+windows: Windows

@@ -356,6 +356,7 @@ eclipse:
   tags:
   - autohotkey
   - encryption
+  - windows
 
 enforce:
   name: Enforce
@@ -412,6 +413,7 @@ FlicFlac:
   tags:
   - autohotkey
   - audio-tools
+  - windows
 
 fredric:
   name: Fredric
@@ -467,6 +469,8 @@ Gridy:
   lang: AutoHotkey
   tags:
   - autohotkey
+  - accessibility
+  - windows
 
 gtx:
   name: GTX
@@ -906,6 +910,16 @@ super_docopt:
   - gem
   - cli-tools
 
+TinySpeech:
+  name: TinySpeech
+  summary: Windows tray utility for speaking selected text
+  lang: AutoIt
+  tags:
+  - autoit
+  - accessibility
+  - windows
+  - tts
+
 victor:
   name: Victor
   summary: Genearte SVG images by writing Ruby code
@@ -935,6 +949,7 @@ voicemaker:
   - cli
   - api
   - audio-tools
+  - tts
 
 WallpaperRandomizer:
   name: Wallpaper Randomizer
@@ -942,6 +957,7 @@ WallpaperRandomizer:
   lang: AutoHotkey
   tags:
   - autohotkey
+  - windows
 
 webcache:
   name: Webcache
