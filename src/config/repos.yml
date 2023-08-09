@@ -198,6 +198,13 @@ docker-alpine-ruby-mongo:
   - ruby
   - mongo
 
+docker-archlinux:
+  name: Docker Arch Linux
+  summary: Arch linux sandbox with non-root user
+  lang: Dockerfile
+  tags:
+  - docker
+
 docker-borg-client:
   name: Docker Borg Client
   summary: Docker image with Borg Backup client
@@ -214,6 +221,13 @@ docker-fallback:
   - docker
   - web-server
   - devops
+
+docker-fedora:
+  name: Docker Fedora
+  summary: Fedora sandbox with non-root user
+  lang: Dockerfile
+  tags:
+  - docker
 
 docker-git-compose:
   name: Docker Git Compose

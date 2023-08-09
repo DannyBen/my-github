@@ -17,14 +17,14 @@ GEM
       docopt_ng (~> 0.7, >= 0.7.1)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.8)
-    puma (6.1.1)
+    nio4r (2.5.9)
+    puma (6.3.0)
       nio4r (~> 2.0)
-    rack (2.2.6.4)
+    rack (2.2.8)
     rack-contrib (2.3.0)
       rack (~> 2.0)
-    rack-protection (3.0.5)
-      rack
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
     requires (1.0.1)
     ruby2_keywords (0.0.5)
     runfile (1.0.1)
@@ -32,16 +32,16 @@ GEM
       docopt_ng (~> 0.7)
       gtx (~> 0.1)
       requires (>= 0.2, < 2.0)
-    sinatra (3.0.5)
+    sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.5)
+      rack-protection (= 3.1.0)
       tilt (~> 2.0)
-    slim (5.1.0)
+    slim (5.1.1)
       temple (~> 0.10.0)
-      tilt (>= 2.0.6, < 2.2)
-    temple (0.10.0)
-    tilt (2.1.0)
+      tilt (>= 2.1.0)
+    temple (0.10.2)
+    tilt (2.2.0)
 
 PLATFORMS
   x86_64-linux
@@ -54,4 +54,4 @@ DEPENDENCIES
   slim
 
 BUNDLED WITH
-   2.4.8
+   2.4.18
