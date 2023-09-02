@@ -213,6 +213,13 @@ docker-borg-client:
   - docker
   - devops
 
+docker-debian:
+  name: Docker Debian
+  summary: Debian sandbox with non-root user
+  lang: Dockerfile
+  tags:
+  - docker
+
 docker-fallback:
   name: Docker Fallback
   summary: Default ingress backend
