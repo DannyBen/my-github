@@ -1,0 +1,3 @@
+[codespell]
+skip = Gemfile.lock,sublime*,*.map
+ignore-words-list = softwares

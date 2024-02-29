@@ -296,15 +296,6 @@ docker-rabbit:
   - docker
   - rabbit
 
-docker-redirector:
-  name: Docker Redirector
-  summary: Docker image to handle domain redirects
-  lang: Dockerfile
-  tags:
-  - docker
-  - web-server
-  - devops
-
 docker-ruby-python:
   name: Docker Ruby Python
   summary: Docker image with Ruby and Python 2+3 on Alpine

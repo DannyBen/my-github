@@ -1,4 +1,4 @@
-require 'byebug'
+require 'debug' if ENV['DEBUGGER']
 require 'colsole'
 require 'digest/md5'
 require 'lp'
