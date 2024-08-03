@@ -114,7 +114,7 @@ completely:
 
 concode:
   name: Concode
-  summary: Generate consistent-codenames from any string (Heroku style, aka Haiku).
+  summary: Generate consistent-codenames from any string (Heroku style, aka Haiku)
   lang: Ruby
   tags:
   - ruby
@@ -125,7 +125,7 @@ concode:
 
 configly:
   name: Configly
-  summary: Minimal, lightweight, multi-YAML settings library with dot notation.
+  summary: Minimal, lightweight, multi-YAML settings library with dot notation
   lang: Ruby
   tags:
   - ruby
@@ -349,6 +349,16 @@ docspec:
   - gem
   - cli
   - testing-tools
+  - ruby-developer-utilities
+
+dot_options:
+  name: DotOptions
+  summary: Options object with dot-notation access
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - configuration-tools
   - ruby-developer-utilities
 
 echo-webserver:
