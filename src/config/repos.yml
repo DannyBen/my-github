@@ -841,7 +841,7 @@ runfile:
   - ruby-developer-utilities
   - shell-productivity
 
-rush-cli:
+rush:
   name: Rush
   summary: Personal package manager
   lang: Bash
