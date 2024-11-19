@@ -2,15 +2,20 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.2.0)
+    cgi (0.4.1)
     colsole (1.0.0)
     docopt_ng (0.7.1)
-    gtx (0.1.0)
+    erb (4.0.4)
+      cgi (>= 0.3.3)
+    gtx (0.1.1)
+      erb (~> 4.0)
     httpme (0.2.2)
       colsole (>= 0.8.1, < 2)
       mister_bin (~> 0.7)
       puma (>= 5.6, < 7.0)
       rack-contrib (~> 2.3)
       sinatra (>= 3.0, < 5)
+    logger (1.6.1)
     lp (0.2.1)
     mister_bin (0.7.6)
       colsole (>= 0.8.1, < 2)
@@ -23,8 +28,9 @@ GEM
     rack (3.1.8)
     rack-contrib (2.5.0)
       rack (< 4)
-    rack-protection (4.0.0)
+    rack-protection (4.1.0)
       base64 (>= 0.1.0)
+      logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
@@ -35,10 +41,11 @@ GEM
       docopt_ng (~> 0.7, >= 0.7.1)
       gtx (~> 0.1)
       requires (>= 0.2, < 2.0)
-    sinatra (4.0.0)
+    sinatra (4.1.0)
+      logger (>= 1.6.0)
       mustermann (~> 3.0)
       rack (>= 3.0.0, < 4)
-      rack-protection (= 4.0.0)
+      rack-protection (= 4.1.0)
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
     slim (5.2.1)
@@ -57,4 +64,4 @@ DEPENDENCIES
   slim
 
 BUNDLED WITH
-   2.5.22
+   2.5.23
