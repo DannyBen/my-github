@@ -3,7 +3,7 @@ require './src/site'
 title   "My GitHub"
 summary "Generate HTML code for github.dannyben.com"
 
-help   "Start a local preview server"
+help   "Start a local static preview server"
 action :serve, :s do
   exec "httpme site"
 end

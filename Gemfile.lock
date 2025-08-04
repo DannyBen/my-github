@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    base64 (0.2.0)
-    cgi (0.4.1)
+    base64 (0.3.0)
+    cgi (0.5.0)
     colsole (1.0.0)
     docopt_ng (0.7.1)
     erb (4.0.4)
@@ -15,26 +15,28 @@ GEM
       puma (>= 5.6, < 7.0)
       rack-contrib (~> 2.3)
       sinatra (>= 3.0, < 5)
-    logger (1.6.5)
+    logger (1.7.0)
     lp (0.2.1)
     mister_bin (0.8.1)
       colsole (>= 0.8.1, < 2)
       docopt_ng (~> 0.7, >= 0.7.1)
-    mustermann (3.0.3)
+    mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.7.4)
-    puma (6.6.0)
+    puma (6.6.1)
       nio4r (~> 2.0)
-    rack (3.1.10)
+    rack (3.2.0)
     rack-contrib (2.5.0)
       rack (< 4)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)
-    rack-session (2.1.0)
+    rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
+    rackup (2.2.1)
+      rack (>= 3)
     requires (1.1.0)
     ruby2_keywords (0.0.5)
     runfile (1.0.2)
@@ -52,8 +54,8 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    temple (0.10.3)
-    tilt (2.6.0)
+    temple (0.10.4)
+    tilt (2.6.1)
 
 PLATFORMS
   x86_64-linux
@@ -61,8 +63,10 @@ PLATFORMS
 DEPENDENCIES
   httpme
   lp
+  puma (~> 6.6)
+  rackup (~> 2.2)
   runfile
   slim
 
 BUNDLED WITH
-   2.6.2
+   2.6.9

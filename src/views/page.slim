@@ -11,9 +11,10 @@ h1 = @tag_name
 
 .grid
   - @repos.each do |repo|
+    - repo['org'] ||= "DannyBen"
     .card style="--shadow:4"
       .grow
-        a href="https://github.com/DannyBen/#{repo['key']}"
+        a href="https://github.com/#{repo['org']}/#{repo['key']}"
           h2 = repo['name']
         p = repo['summary']
 

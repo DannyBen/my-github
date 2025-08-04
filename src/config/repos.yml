@@ -46,6 +46,7 @@ audio_addict:
 
 bashly:
   name: Bashly
+  org: bashly-framework
   summary: Bash command line framework and CLI Generator
   lang: Ruby
   tags:
@@ -102,6 +103,7 @@ colsole:
 
 completely:
   name: Completely
+  org: bashly-framework
   summary: Generate bash completion scripts using a simple configuration file
   lang: Ruby
   tags:
@@ -496,6 +498,7 @@ Gridy:
 
 gtx:
   name: GTX
+  org: bashly-framework
   summary: Minimal Template Engine
   lang: Ruby
   tags:
