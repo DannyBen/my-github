@@ -896,6 +896,16 @@ slacktail:
   - cli
   - devops
 
+slimview:
+  name: Slimview
+  summary: Instant slim template server
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - html
+  - web-server
+
 snapcrawl:
   name: Snapcrawl
   summary: Crawl a website and take screenshots
