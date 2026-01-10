@@ -8,5 +8,5 @@ gem 'runfile'
 gem 'slim'
 gem 'lp'
 
-gem "rackup", "~> 2.2"
-gem "puma", "~> 6.6"
+gem "rackup"
+gem "puma"

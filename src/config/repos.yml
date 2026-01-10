@@ -1013,6 +1013,25 @@ wordscan:
   - cli
   - name-utilities
 
+watchly:
+  name: Watchly
+  summary: File system watcher
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
+
+watchly-cli:
+  name: Watchly CLI
+  summary: File system watcher CLI
+  lang: Ruby
+  tags:
+  - ruby
+  - cli
+  - gem
+  - ruby-developer-utilities
+
 yamlcon:
   name: YAMLCon
   summary: YAML configuration file loader with dot notation support
