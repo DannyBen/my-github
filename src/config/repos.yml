@@ -704,6 +704,16 @@ nasdaq:
   - api
   - financial-data
 
+nlc: 
+  name: nlc
+  summary: Natural Language → Command
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - ai
+  - shell-productivity
+
 opcode: 
   name: Opcode
   summary: Local command shortcuts
