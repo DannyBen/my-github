@@ -700,6 +700,7 @@ mockly:
   tags:
   - ruby
   - gem
+  - cli
   - web-server
   - docker
   - api
