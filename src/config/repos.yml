@@ -693,6 +693,17 @@ mister_bin:
   - ruby-developer-utilities
   - cli-tools
 
+mockly:
+  name: Mockly
+  summary: File based API mock server
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - web-server
+  - docker
+  - api
+
 nasdaq:
   name: Nasdaq Data Link API
   summary: Lightweight API library and command line interface for Nasdaq Data Link
