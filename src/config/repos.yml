@@ -674,6 +674,15 @@ menu_commander:
   - cli
   - shell-productivity
 
+mdview:
+  name: mdview
+  summary: Instant markdown preview
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - markdown
+
 minichart:
   name: Minichart
   summary: Genearte SVG charts with Ruby
@@ -734,6 +743,16 @@ opcode:
   - bash
   - alias-management
   - shell-productivity
+
+packer-arch-vbox:
+  name: Arch Linux Packer Build
+  summary: Virtual development environment
+  lang: HCL
+  tags:
+  - hcl
+  - virtualization
+  - devops
+  - packer
 
 php-quandl:
   name: PHP Quandl
@@ -812,6 +831,17 @@ rentacop:
   - rubocop
   - ruby-developer-utilities
   - testing-tools
+
+repocard:
+  name: Repo Card
+  summary: SVG repo cards for summarizing repository metadata
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - github
+  - markdown
+  - svg
 
 requires:
   name: Requires

@@ -31,12 +31,14 @@ gherkin: Gherkin
 git: Git
 github: GitHub
 go: Go
+hcl: HCL
 html: HTML
 jekyll: Jekyll
 markdown: Markdown
 mongo: MongoDB
 name-utilities: Name Utilities
 package-management: Package Management
+packer: Packer
 php: PHP
 rabbit: RabbitMQ
 rails: Rails
@@ -54,5 +56,6 @@ templating: Templating
 testing-tools: Testing Tools
 tts: Text-to-Speech
 ubuntu: Ubuntu
+virtualization: Virtualization
 web-server: Web Server
 windows: Windows
