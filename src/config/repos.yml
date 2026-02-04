@@ -682,6 +682,7 @@ mdview:
   - bash
   - cli
   - markdown
+  - web-server
 
 minichart:
   name: Minichart
