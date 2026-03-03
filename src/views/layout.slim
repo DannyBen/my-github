@@ -1,7 +1,6 @@
 doctype html
 html
   head
-    == slim :analytics
     meta charset="UTF-8"
     meta name="viewport" content="width=device-width, initial-scale=1"
     title 
@@ -11,6 +10,7 @@ html
         = "Open Source Projects by @DannyBen"
     link href="/assets/css/bonsai.min.css" rel="stylesheet"
     link href="/assets/css/main-#{css_fingerprint}.css" rel="stylesheet"
+    script defer=true src="https://analytics.dannyb.co/script.js" data-website-id="5bb5b1d9-aef1-459c-962e-f8f5a4384814"
 
   body
     header
