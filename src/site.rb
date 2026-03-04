@@ -17,12 +17,14 @@ class Site
     system 'rm -rf site'
     system 'mkdir -p site/assets/img'
     system 'mkdir -p site/assets/css'
+    system 'mkdir -p site/assets/js'
     copy_assets
   end
 
   def copy_assets
     say 'b`copying assets`'
     system 'cp -r src/assets/img/*.png site/assets/img/'
+    system 'cp -r src/assets/js/*.js site/assets/js/'
     system "cp -r src/assets/css/main.css site/assets/css/main-#{css_fingerprint}.css"
     system 'cp -r src/assets/css/bonsai.min.css site/assets/css/'
     system 'cp src/files/* site/'

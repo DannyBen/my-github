@@ -4,7 +4,7 @@ GEM
     base64 (0.3.0)
     colsole (1.0.0)
     docopt_ng (0.7.1)
-    erb (6.0.1)
+    erb (6.0.2)
     gtx (0.1.2)
       erb (>= 4.0, < 7)
     httpme (0.2.3)
@@ -26,7 +26,7 @@ GEM
     nio4r (2.7.5)
     puma (6.6.1)
       nio4r (~> 2.0)
-    rack (3.2.4)
+    rack (3.2.5)
     rack-contrib (2.5.0)
       rack (< 4)
     rack-protection (4.2.1)
@@ -72,4 +72,4 @@ DEPENDENCIES
   slim
 
 BUNDLED WITH
-  4.0.3
+  4.0.6
