@@ -1,7 +1,7 @@
 - name: Bashly
   image: bashly.png
   summary: Bash command line framework and CLI generator
-  link: https://bashly.dannyb.co/
+  link: https://bashly.dev/
 
 # - name: Jobly
 #   image: jobly.png
