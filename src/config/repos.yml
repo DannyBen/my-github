@@ -969,6 +969,15 @@ snapcrawl:
   - cli
   - site-analyzers
 
+ssi: 
+  name: Simple Script Installer
+  summary: Installer tookit for scripts
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - cli-tools
+
 sting:
   name: Sting
   summary: Minimal, lightweight, multi-YAML settings library
