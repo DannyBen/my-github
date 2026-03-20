@@ -929,6 +929,17 @@ sasstool:
   - site-building
   - ruby-developer-utilities
 
+shellkin:
+  name: Shellkin
+  summary: Gherkin-style BDD test framework for Bash scripts
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - gherkin
+  - cucumber
+  - testing-tools
+
 sla:
   name: Site Link Analyzer
   summary: Command line broken links checker
