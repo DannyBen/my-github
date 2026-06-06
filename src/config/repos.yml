@@ -125,6 +125,15 @@ concode:
   - ruby-developer-utilities
   - name-utilities
 
+config:
+  name: Config
+  summary: Source-preserving CLI for reading and editing config files
+  lang: Go
+  tags:
+  - go
+  - cli
+  - configuration-tools
+
 configly:
   name: Configly
   summary: Minimal, lightweight, multi-YAML settings library with dot notation
@@ -438,6 +447,16 @@ FlicFlac:
   - autohotkey
   - audio-tools
   - windows
+
+fontview:
+  name: Fontview
+  summary: CLI for viewing fonts with a local web server or generated HTML
+  lang: Go
+  tags:
+  - go
+  - cli
+  - web-server
+  - font-tools
 
 fredric:
   name: Fredric
