@@ -916,6 +916,17 @@ runfile:
   - ruby-developer-utilities
   - shell-productivity
 
+runpage:
+  name: Runpage
+  summary: Interactive command pages
+  lang: go
+  tags:
+  - go
+  - cli
+  - markdown
+  - devops
+  - shell-productivity
+
 rush:
   name: Rush
   summary: Personal package manager
