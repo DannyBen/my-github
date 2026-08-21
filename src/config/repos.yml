@@ -478,6 +478,15 @@ fuzzycd:
   - cli
   - shell-productivity
 
+gembrew:
+  name: Gembrew
+  summary: Generate Homebrew formulae for Ruby command-line gems.
+  lang: Ruby
+  tags:
+  - ruby
+  - gem
+  - ruby-developer-utilities
+
 getcomments:
   name: GetComments
   summary: Extract comments from Ruby code
