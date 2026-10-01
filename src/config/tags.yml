@@ -11,6 +11,7 @@ autoit: AutoIt
 background-jobs: Background Jobs
 bash: Bash
 cache: Cache Management
+chrome-extension: Chrome Extension
 cicd: CI/CD
 cli-tools: CLI Tools
 cli: CLI
@@ -34,6 +35,7 @@ github: GitHub
 go: Go
 hcl: HCL
 html: HTML
+javascript: Javascript
 jekyll: Jekyll
 markdown: Markdown
 mongo: MongoDB

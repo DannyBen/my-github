@@ -979,6 +979,14 @@ shellkin:
   - cucumber
   - testing-tools
 
+site-command-palette:
+  name: Site Command Palette
+  summary: Chrome extension that brings a fast command palette to any website
+  lang: Javascript
+  tags:
+  - javascript
+  - chrome-extension
+
 sla:
   name: Site Link Analyzer
   summary: Command line broken links checker
@@ -1066,6 +1074,14 @@ TinySpeech:
   - accessibility
   - windows
   - tts
+
+todo:
+  name: Todo
+  summary: Todo list shared by humans and coding agents
+  lang: Go
+  tags:
+  - go
+  - cli
 
 victor:
   name: Victor
