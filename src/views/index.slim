@@ -1,9 +1,21 @@
-== slim 'featured'
+section aria-labelledby="selected-title"
+  .section-heading
+    h1 id="selected-title" Selected projects
+    a.section-link href="#categories" Browse categories ↓
+  == slim 'featured'
 
-.grid
-  - index_data.each_slice 3 do |slice|
-    - slice.each do |tag, count|
-      .card style="--shadow:4;"
-        a href="/#{tag}/"
-          h2 = tags[tag]
-        = "#{count} #{count == 1 ? 'repository' : 'repositories'}"
+section.categories id="categories" aria-labelledby="categories-title"
+  .section-heading
+    .section-title
+      h2 id="categories-title" Browse by category
+      p id="category-results" role="status" = "#{index_data.size} categories"
+    .category-filter hidden=true
+      label.sr-only for="category-filter" Filter categories
+      input id="category-filter" type="search" placeholder="Filter categories…" autocomplete="off" spellcheck="false" aria-controls="category-grid"
+      kbd aria-hidden="true" = '/'
+  .grid.category-grid id="category-grid"
+    - index_data.each do |tag, count|
+      a.category-card href="/#{tag}/" data-category=tags[tag]
+        span.category-name = tags[tag]
+        span.category-count aria-label="#{count} #{count == 1 ? 'repository' : 'repositories'}" = count
+  p.empty-state hidden=true No matching categories.

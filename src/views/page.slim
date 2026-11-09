@@ -1,23 +1,16 @@
-css:
-  .card { 
-    display: flex;
-    flex-direction: column;
-  }
+.category-heading
+  a.back-link href="/#categories" ← All categories
+  .category-heading-line
+    h1 = @tag_name
+    p = "#{@category_repos.size} #{@category_repos.size == 1 ? 'repository' : 'repositories'}"
 
-  .shrink { flex-shrink: 3; }
-  .grow { flex-grow: 3; padding-bottom: 20px }
-
-h1 = @tag_name
-
-.grid
-  - @repos.each do |repo|
-    - repo['org'] ||= "DannyBen"
-    .card style="--shadow:4"
-      .grow
-        a href="https://github.com/#{repo['org']}/#{repo['key']}"
-          h2 = repo['name']
+.grid.repository-grid
+  - @category_repos.each do |repo|
+    article.card.repository-card
+      .repository-copy
+        h2
+          a href="https://github.com/#{repo['org'] || 'DannyBen'}/#{repo['key']}" = repo['name']
         p = repo['summary']
-
-      .shrink
+      nav.repository-tags aria-label="Categories for #{repo['name']}"
         - repo['tags'].each do |tag|
-          a.tag.grey href="/#{tag}/" = @tags[tag]
+          a.tag href="/#{tag}/" aria-current=('page' if tag == @tag) = tags[tag]

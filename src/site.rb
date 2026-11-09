@@ -40,7 +40,7 @@ class Site
 
       @tag = tag
       @tag_name = tag_name
-      @repos = repos
+      @category_repos = repos
       output = slim 'page', layout: true
       File.deep_write filename, output
     end
@@ -102,5 +102,10 @@ class Site
 
   def css_fingerprint
     @css_fingerprint ||= Digest::MD5.hexdigest(File.read('src/assets/css/main.css'))
+  end
+
+  def asset_url(path)
+    fingerprint = Digest::MD5.file("src#{path}").hexdigest
+    "#{path}?v=#{fingerprint}"
   end
 end
