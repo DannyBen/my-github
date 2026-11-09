@@ -1,3 +1,22 @@
+- name: Commando
+  image: commando.svg
+  icon: true
+  summary: Multi-panel file terminal for Windows
+  link: https://commando.sector-seven.com/
+
+- name: Mockout
+  image: mockout.svg
+  dark_image: mockout-dark.svg
+  icon: true
+  summary: 'Think inside the box: rapid UI mockups.'
+  link: https://mockout.sector-seven.com/
+
+- name: Site Command Palette
+  image: site-command-palette.svg
+  icon: true
+  summary: A keyboard-first command palette for any website
+  link: https://chromewebstore.google.com/detail/site-command-palette/mggaoklidiacgmndlioocigolndokdfm
+
 - name: Bashly
   image: bashly.png
   summary: Bash command line framework and CLI generator

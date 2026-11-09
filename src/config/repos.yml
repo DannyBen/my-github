@@ -101,6 +101,15 @@ colsole:
   - gem
   - cli-tools
 
+commando:
+  name: Commando
+  summary: Multi-panel file terminal for Windows
+  lang: Go
+  tags:
+  - go
+  - windows
+  - file-management
+
 completely:
   name: Completely
   org: bashly-framework
@@ -152,6 +161,16 @@ datamix:
   - ruby
   - gem
   - data-processing
+
+devsocket:
+  name: DevSocket
+  summary: HTTP → WebSocket Server for Development
+  lang: Python
+  tags:
+  - python
+  - web-server
+  - docker
+  - devops
 
 docker-alpine-adsf:
   name: Docker Alpine ADSF
@@ -545,6 +564,14 @@ hash_cabinet:
   - cache
   - ruby-developer-utilities
 
+homebrew-tap:
+  name: Homebrew Tap
+  summary: Homebrew formulae for my command-line tools
+  lang: Ruby
+  tags:
+  - ruby
+  - package-management
+
 httpme:
   name: HTTPMe
   summary: Static files web server with basic authentication
@@ -584,6 +611,15 @@ intrinio:
   - cli
   - api
   - financial-data
+
+invert-image:
+  name: invert-image
+  summary: Invert the colors of a PNG or JPEG image
+  lang: Go
+  tags:
+  - go
+  - cli
+  - image-tools
 
 ismine:
   name: IsMine
@@ -731,6 +767,14 @@ mister_bin:
   - ruby-developer-utilities
   - cli-tools
 
+mockout:
+  name: Mockout
+  summary: A lightweight and minimal web based mockup editor
+  lang: JavaScript
+  tags:
+  - javascript
+  - design-tools
+
 mockly:
   name: Mockly
   summary: File based API mock server
@@ -791,6 +835,15 @@ php-quandl:
   - php
   - api
   - financial-data
+
+pm:
+  name: pm
+  summary: Friendly Pacman Wrapper for Arch Linux
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - package-management
 
 pobject:
   name: Persistent Object
@@ -860,6 +913,16 @@ rentacop:
   - rubocop
   - ruby-developer-utilities
   - testing-tools
+
+repli:
+  name: repli
+  summary: Replicate AI Workspace Tool
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - ai
+  - api
 
 repocard:
   name: Repo Card
@@ -1082,6 +1145,15 @@ todo:
   tags:
   - go
   - cli
+
+umagick:
+  name: µmagick
+  summary: ImageMagick command line wrapper for running scripts with arguments
+  lang: Bash
+  tags:
+  - bash
+  - cli
+  - image-tools
 
 victor:
   name: Victor

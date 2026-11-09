@@ -23,7 +23,7 @@ class Site
 
   def copy_assets
     say 'b`copying assets`'
-    system 'cp -r src/assets/img/*.png site/assets/img/'
+    FileUtils.cp Dir['src/assets/img/*.{png,svg}'], 'site/assets/img/'
     system 'cp -r src/assets/js/*.js site/assets/js/'
     system "cp -r src/assets/css/main.css site/assets/css/main-#{css_fingerprint}.css"
     system 'cp -r src/assets/css/bonsai.min.css site/assets/css/'
@@ -50,6 +50,7 @@ class Site
     say 'g`site/index.html`'
     @tag_name = nil
     File.deep_write 'site/index.html', slim('index', layout: true)
+    true
   end
 
   # Internal

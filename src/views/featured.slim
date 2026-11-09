@@ -1,6 +1,11 @@
 
-.grid style="--py:30px;"
+.grid.featured aria-label="Featured projects"
   - featured.each do |item|
-    .card style="--shadow:4;"
-      a title="#{item['name']} - #{item['summary']}" href="#{item['link']}"
-        img src="/assets/img/#{item['image']}"
+    a.card.featured-card class=('app-feature' if item['icon']) title="#{item['name']} - #{item['summary']}" href=item['link']
+      picture
+        - if item['dark_image']
+          source data-theme-image=true media="(prefers-color-scheme: dark)" srcset="/assets/img/#{item['dark_image']}"
+        img src="/assets/img/#{item['image']}" alt=(item['icon'] ? '' : item['name'])
+      - if item['icon']
+        h2 = item['name']
+        p = item['summary']

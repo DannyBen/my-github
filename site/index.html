@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="light dark" name="color-scheme" />
     <title>Open Source Projects by @DannyBen</title>
     <link href="/assets/css/bonsai.min.css" rel="stylesheet" />
-    <link href="/assets/css/main-5faf665fbbb8486885ec45a043f7285c.css" rel="stylesheet" />
+    <link href="/assets/css/main-a020ac3921ed7b2d27160763446af707.css" rel="stylesheet" />
+    <script src="/assets/js/theme.js"></script>
     <script data-website-id="5bb5b1d9-aef1-459c-962e-f8f5a4384814" defer="" src="https://analytics.dannyb.co/script.js"></script>
   </head>
   <body>
+    <div class="site-tools">
+      <div aria-keyshortcuts="Alt+t" aria-label="Theme" class="theme-selector" hidden="" role="group">
+        <button aria-label="System theme" aria-pressed="true" data-theme="system" title="System theme" type="button"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 4a8 8 0 0 0 0 16Z" fill="currentColor" stroke="none"></path></svg></button><button aria-label="Light theme" aria-pressed="false" data-theme="light" title="Light theme · Alt+T to toggle" type="button"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button><button aria-label="Dark theme" aria-pressed="false" data-theme="dark" title="Dark theme · Alt+T to toggle" type="button"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.75" viewBox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"></path></svg></button>
+      </div>
+    </div>
     <header>
-      <a href="/"><img src="/assets/img/github.png" style="width: 100%; max-width:300px;" /></a>
+      <a href="/"><img alt="GitHub" class="github-logo" height="300" src="/assets/img/github.png" width="1200" /></a>
       <h1>
         Open Source Projects by <a href="https://github.com/dannyben">@DannyBen</a>
       </h1>
     </header>
-    <div>
-      <div class="grid" style="--py:30px;">
-        <div class="card" style="--shadow:4;">
-          <a href="https://bashly.dev/" title="Bashly - Bash command line framework and CLI generator"><img src="/assets/img/bashly.png" /></a>
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="https://github.com/dannyben/fuzzycd#readme" title="Fuzzy CD - Change directories with fuzzy search"><img src="/assets/img/fuzzycd.png" /></a>
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="https://github.com/dannyben/opcode#readme" title="Opcode - Local Command Shortcuts"><img src="/assets/img/opcode.png" /></a>
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="https://madness.dannyb.co/" title="Madness - Instant Markdown Server"><img src="/assets/img/madness.png" /></a>
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="https://victor.dannyb.co/" title="Victor - Ruby to SVG"><img src="/assets/img/victor.png" /></a>
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="https://github.com/dannyben/alf#readme" title="Alf - Bash Alias Manager"><img src="/assets/img/alf.png" /></a>
-        </div>
+    <main><div aria-label="Featured projects" class="grid featured">
+        <a class="card featured-card app-feature" href="https://commando.sector-seven.com/" title="Commando - Multi-panel file terminal for Windows"><picture><img alt="" src="/assets/img/commando.svg" /></picture>
+          <h2>
+            Commando
+          </h2>
+          <p>
+            Multi-panel file terminal for Windows
+          </p>
+        </a>
+        <a class="card featured-card app-feature" href="https://mockout.sector-seven.com/" title="Mockout - Think inside the box: rapid UI mockups."><picture><source data-theme-image="" media="(prefers-color-scheme: dark)" srcset="/assets/img/mockout-dark.svg" /><img alt="" src="/assets/img/mockout.svg" /></picture>
+          <h2>
+            Mockout
+          </h2>
+          <p>
+            Think inside the box: rapid UI mockups.
+          </p>
+        </a>
+        <a class="card featured-card app-feature" href="https://chromewebstore.google.com/detail/site-command-palette/mggaoklidiacgmndlioocigolndokdfm" title="Site Command Palette - A keyboard-first command palette for any website"><picture><img alt="" src="/assets/img/site-command-palette.svg" /></picture>
+          <h2>
+            Site Command Palette
+          </h2>
+          <p>
+            A keyboard-first command palette for any website
+          </p>
+        </a>
+        <a class="card featured-card" href="https://bashly.dev/" title="Bashly - Bash command line framework and CLI generator"><picture><img alt="Bashly" src="/assets/img/bashly.png" /></picture>
+        </a>
+        <a class="card featured-card" href="https://github.com/dannyben/fuzzycd#readme" title="Fuzzy CD - Change directories with fuzzy search"><picture><img alt="Fuzzy CD" src="/assets/img/fuzzycd.png" /></picture>
+        </a>
+        <a class="card featured-card" href="https://github.com/dannyben/opcode#readme" title="Opcode - Local Command Shortcuts"><picture><img alt="Opcode" src="/assets/img/opcode.png" /></picture>
+        </a>
+        <a class="card featured-card" href="https://madness.dannyb.co/" title="Madness - Instant Markdown Server"><picture><img alt="Madness" src="/assets/img/madness.png" /></picture>
+        </a>
+        <a class="card featured-card" href="https://victor.dannyb.co/" title="Victor - Ruby to SVG"><picture><img alt="Victor" src="/assets/img/victor.png" /></picture>
+        </a>
+        <a class="card featured-card" href="https://github.com/dannyben/alf#readme" title="Alf - Bash Alias Manager"><picture><img alt="Alf" src="/assets/img/alf.png" /></picture>
+        </a>
       </div>
       <div class="grid">
         <div class="card" style="--shadow:4;">
@@ -42,7 +66,7 @@
             <h2>
               Ruby
             </h2>
-          </a>75 repositories
+          </a>76 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/gem/">
@@ -56,14 +80,14 @@
             <h2>
               CLI
             </h2>
-          </a>46 repositories
+          </a>50 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/docker/">
             <h2>
               Docker
             </h2>
-          </a>27 repositories
+          </a>28 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/ruby-developer-utilities/">
@@ -77,28 +101,28 @@
             <h2>
               Bash
             </h2>
-          </a>14 repositories
+          </a>17 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/web-server/">
             <h2>
               Web Server
             </h2>
-          </a>13 repositories
+          </a>14 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/api/">
             <h2>
               API
             </h2>
-          </a>12 repositories
+          </a>13 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/devops/">
             <h2>
               DevOps
             </h2>
-          </a>10 repositories
+          </a>11 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/shell-productivity/">
@@ -106,6 +130,13 @@
               Shell Productivity
             </h2>
           </a>10 repositories
+        </div>
+        <div class="card" style="--shadow:4;">
+          <a href="/go/">
+            <h2>
+              Go
+            </h2>
+          </a>9 repositories
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/alpine/">
@@ -125,13 +156,6 @@
           <a href="/configuration-tools/">
             <h2>
               Configuration Tools
-            </h2>
-          </a>7 repositories
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="/go/">
-            <h2>
-              Go
             </h2>
           </a>7 repositories
         </div>
@@ -164,6 +188,13 @@
           </a>6 repositories
         </div>
         <div class="card" style="--shadow:4;">
+          <a href="/windows/">
+            <h2>
+              Windows
+            </h2>
+          </a>6 repositories
+        </div>
+        <div class="card" style="--shadow:4;">
           <a href="/cache/">
             <h2>
               Cache Management
@@ -174,13 +205,6 @@
           <a href="/cicd/">
             <h2>
               CI/CD
-            </h2>
-          </a>5 repositories
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="/windows/">
-            <h2>
-              Windows
             </h2>
           </a>5 repositories
         </div>
@@ -227,6 +251,13 @@
           </a>3 repositories
         </div>
         <div class="card" style="--shadow:4;">
+          <a href="/package-management/">
+            <h2>
+              Package Management
+            </h2>
+          </a>3 repositories
+        </div>
+        <div class="card" style="--shadow:4;">
           <a href="/site-analyzers/">
             <h2>
               Site Analyzers
@@ -244,6 +275,13 @@
           <a href="/accessibility/">
             <h2>
               Accessibility
+            </h2>
+          </a>2 repositories
+        </div>
+        <div class="card" style="--shadow:4;">
+          <a href="/ai/">
+            <h2>
+              AI
             </h2>
           </a>2 repositories
         </div>
@@ -297,6 +335,20 @@
           </a>2 repositories
         </div>
         <div class="card" style="--shadow:4;">
+          <a href="/image-tools/">
+            <h2>
+              Image Tools
+            </h2>
+          </a>2 repositories
+        </div>
+        <div class="card" style="--shadow:4;">
+          <a href="/javascript/">
+            <h2>
+              Javascript
+            </h2>
+          </a>2 repositories
+        </div>
+        <div class="card" style="--shadow:4;">
           <a href="/mongo/">
             <h2>
               MongoDB
@@ -323,13 +375,6 @@
               Text-to-Speech
             </h2>
           </a>2 repositories
-        </div>
-        <div class="card" style="--shadow:4;">
-          <a href="/ai/">
-            <h2>
-              AI
-            </h2>
-          </a>1 repository
         </div>
         <div class="card" style="--shadow:4;">
           <a href="/authorization/">
@@ -360,6 +405,13 @@
           </a>1 repository
         </div>
         <div class="card" style="--shadow:4;">
+          <a href="/design-tools/">
+            <h2>
+              Design Tools
+            </h2>
+          </a>1 repository
+        </div>
+        <div class="card" style="--shadow:4;">
           <a href="/domain-utilities/">
             <h2>
               Domain Utilities
@@ -370,6 +422,13 @@
           <a href="/encryption/">
             <h2>
               Encryption
+            </h2>
+          </a>1 repository
+        </div>
+        <div class="card" style="--shadow:4;">
+          <a href="/file-management/">
+            <h2>
+              File Management
             </h2>
           </a>1 repository
         </div>
@@ -388,13 +447,6 @@
           </a>1 repository
         </div>
         <div class="card" style="--shadow:4;">
-          <a href="/javascript/">
-            <h2>
-              Javascript
-            </h2>
-          </a>1 repository
-        </div>
-        <div class="card" style="--shadow:4;">
           <a href="/jekyll/">
             <h2>
               Jekyll
@@ -402,16 +454,16 @@
           </a>1 repository
         </div>
         <div class="card" style="--shadow:4;">
-          <a href="/package-management/">
+          <a href="/packer/">
             <h2>
-              Package Management
+              Packer
             </h2>
           </a>1 repository
         </div>
         <div class="card" style="--shadow:4;">
-          <a href="/packer/">
+          <a href="/python/">
             <h2>
-              Packer
+              Python
             </h2>
           </a>1 repository
         </div>
@@ -464,8 +516,7 @@
             </h2>
           </a>1 repository
         </div>
-      </div>
-    </div>
+      </div></main>
     <script src="/assets/js/outbound-links.js"></script>
   </body>
 </html>
